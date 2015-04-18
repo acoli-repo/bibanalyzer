@@ -145,6 +145,37 @@ public class ReflexicaToCRFFormat {
         replacements.put("&#161;", "¡");
         replacements.put("&#215;", "×");
         replacements.put("&#955;", "λ");
+        
+         replacements.put("&#920;", "Θ");
+        replacements.put("&#353;", "š");
+        replacements.put("&#972;", "ό");
+        replacements.put("&#957;", "ν");
+        replacements.put("&#969;", "ω");
+        replacements.put("&#933;", "Υ");
+        replacements.put("&#963;", "σ");
+        replacements.put("&#942;", "ή");
+        replacements.put("&#917;", "Ε");
+        replacements.put("&#922;", "Κ");
+        replacements.put("&#940;", "ά");
+        replacements.put("&#953;", "ι");
+        replacements.put("&#919;", "Η");
+        replacements.put("&#924;", "Μ");
+        replacements.put("&#949;", "ε");
+        replacements.put("&#952;", "θ");
+        replacements.put("&#948;", "δ");
+        replacements.put("&#961;", "ρ");
+        replacements.put("&#941;", "έ");
+        replacements.put("&#964;", "τ");
+        replacements.put("&#951;", "η");
+        replacements.put("&#962;", "ς");
+        replacements.put("&#928;", "Π");
+        replacements.put("&#943;", "ί");
+        replacements.put("&#959;", "ο");
+        replacements.put("&#965;", "υ");
+        replacements.put("&#8729;", "∙");
+        replacements.put("&#8222;", "„");
+        replacements.put("&#8218;", "‚");
+        
         replacements.put("&#176;", "°");
         replacements.put("&#945;", "α");
         replacements.put("&#946;", "β");

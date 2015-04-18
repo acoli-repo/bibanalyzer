@@ -1,0 +1,900 @@
+Barrett D J 2009a MediaWiki - Wikipedia and beyond. O'Reilly.
+Lutz M 2011 Programming Python - Powerful Object-Oriented Programming: Covers Python 3.x (4. ed.). O'Reilly.
+Montgomery, AY, Juliff, P, Lynch, IJ (1986) Introduction to computer science (2. ed.). Prentice Hall
+A. Martelli, Python - in a nutshell: a desktop quick reference: revised and expanded (2. ed.). O'Reilly, 2006.
+Z. Zlatev, J. Wasniewski, and K. Schaumburg. Y12M - Solution of Large and Sparse Systems of Linear Algebraic Equations, volume 121 of Lecture Notes in Computer Science. Springer, 1981.
+Adam, N. R. & Gangopadhyay, A. (1997), Database Issues in Geographic Information Systems, Vol. 6 of Advances in Database Systems, Kluwer. URL: http://dx.doi.org/10.1007/978-1-4615-6109-5
+Jones, Clifford B., K. D. Jones, Peter Alexander Lindsay & Richard C. Moore (1991), Mural - a formal development support system., Springer.
+R. Maes, Physically Unclonable Functions - Constructions, Properties and Applications. Springer, 2013. [Online]. Available: http://dx.doi.org/10.1007/978-3-642-41395-7
+L. B. Rall. Automatic Differentiation: Techniques and Applications, volume 120 of Lecture Notes in Computer Science. Springer, 1981.
+N. Baba, L. C. Jain, and H. Handa, Eds., Advanced Intelligent Paradigms in Computer Games, ser. Studies in Computational Intelligence. Springer, 2007, vol. 71. [Online]. Available: db/series/sci/sci71.html
+Arthur J. Meadows. Communicating research. Library and information science series. Academic Press, 1997. ISBN 978-0-12-487415-2.
+Stürner G 1995 Oracle 7 - a user's and developer's guide including release 7.1. International Thomson.
+S. Sofield, D. Nielsen, and D. Burchell. PayPal hacks - 100 industrial-strength tips and tools. O'Reilly, 2004.
+Tsihrintzis, G.A., Virvou, M., Howlett, R.J., Jain, L.C. (eds.): New Directions in Intelligent Interactive Multimedia, Studies in Computational Intelligence, vol. 142. Springer (2008). URL db/series/sci/sci142.html
+M. Hörhager and H. Partoll, Problemlösungen mit Mathcad für Windows - für Mathematiker, Physiker, Qualitätstechniker, Maschinenbauer, Elektrotechniker, Chemiker, Biologen. Addison-Wesley, 1995.
+H. Hußmann. Formal Foundations for Software Engineeing Methods, volume 1322 of Lecture Notes in Computer Science. Springer, 1997.
+J. Jürjens. Secure systems development with UML. Springer, 2005.
+P. Perner, editor. Case-Based Reasoning on Images and Signals, volume 73 of Studies in Computational Intelligence. Springer, 2008.
+T. F. Coleman. Large Sparse Numerical Optimization, volume 165 of Lecture Notes in Computer Science. Springer, 1984.
+Sannella, D., Tarlecki, A.: Foundations of Algebraic Specification and Formal Software Development. Monographs in Theoretical Computer Science. An EATCS Series. Springer (2012). URL http://dx.doi.org/10.1007/978-3-642-17336-3
+Ullrich, C.: Pedagogically Founded Courseware Generation for Web-Based Learning, An HTN-Planning-Based Approach Implemented in PAIGOS, Lecture Notes in Computer Science, vol. 5260. Springer (2008). URL http://dx.doi.org/10.1007/978-3-540-88215-2
+J. Cecílio and P. Furtado. Wireless Sensors in Industrial Time-Critical Environments. Computer Communications and Networks. Springer, 2014.
+H. Rinne. Taschenbuch der Statistik - für Wirtschafts- und Sozialwissenschaften. Deutsch, 1995.
+X.-R. Cao. Stochastic Learning and Optimization - A Sensitivity-Based Approach. Springer, 2007.
+R. R. Dumke. Modernes Software Engineering - eine Einführung. Vieweg Lehrbuch Informatik. Vieweg, 1993.
+L. J. Arthur. UNIX shell programming (2. ed.). Wiley, 1990.
+Hadzic, F, Tan, H, Dillon, TS (2010) Mining of Data with Complex Structures, Studies in Computational Intelligence, vol 333. Springer, URL db/series/sci/index.html#2011-333
+Rudd, A.S.: Practical usage of MVS REXX. Springer (1996)
+Quatrani T 1998 Visual modeling with rational Rose and UML. Addison-Wesley object technology series Addison-Wesley-Longman.
+Bock, P.: The emergence of artificial cognition - an introduction to collective learning. World Scientific (1993)
+Frühauf, K., Ludewig, J. and Sandmayr, H.: 1997, Software-Prüfung - eine Anleitung zum Test und zur Inspektion (3. Aufl.)., vdf.
+Alba E, Nakib A & Siarry P, eds 2013 Metaheuristics for Dynamic Optimization Vol. 433 of Studies in Computational Intelligence Springer. URL: db/series/sci/sci433.html
+J. Cowell. Essential Delphi 2.0 fast - how to develop applications in Delphi 2.0. Springer, 1996.
+B. Kemme, R. Jiménez-Peris, and M. Patiño-Martínez. Database Replication. Synthesis Lectures on Data Management. Morgan & Claypool Publishers, 2010.
+Ross J. Anderson. Security engineering - a guide to building dependable distributed systems (2. ed.). Wiley, 2008. ISBN 978-0-470-06852-6.
+Chagrov, A.V., Zakharyaschev, M.: Modal Logic., Oxford logic guides, vol. 35. Oxford University Press (1997)
+V. Geroimenko and C. Chen, editors. Visualizing the Semantic Web. Springer, 2002.
+Sterling, L. & Shapiro, E. Y. (1986), The Art of Prolog - Advanced Programming Techniques, MIT Press.
+Polson M C & Richardson J J 1988 Foundations of intelligent tutoring systems. Lawrence Erlbaum.
+R. M. McKeag en A. M. Macnaughten, redactie, 1980. On the Construction of Programs. Cambridge University Press.
+W. Gerken. Betriebliche Datenverarbeitung - integrierte Dialogverarbeitung in Terminal- und Rechnernetzen. BI-Wissenschaftsverlag, 1991.
+Knuth, D. E.: 1992, Axioms and Hulls, Vol. 606 of Lecture Notes in Computer Science, Springer.
+J. Fox and S. K. Das. Safe and sound - artificial intelligence in hazardous applications. MIT Press, 2000.
+G. Burkert, Repräsentation von lexikalisch-semantischem Wissen in einem System zur Verarbeitung natürlicher Sprache., ser. DISKI. Infix, 1996, vol. 141.
+J. Hein, Linux companion for systems administrators. Addison-Wesley-Longman, 1999.
+Frühauf, K., Ludewig, J., Sandmayr, H.: Software-Projektmanagement und -Qualitätssicherung. VDF (1988)
+J. M. Wood. Desktop magic - electronic publishing, document management, and workgroups. Van Nostrand Reinhold, 1995.
+B. Ewert. Foto-Hexereien mit Photoshop Elements 3 - Tricks, die nicht im Handbuch stehen. dpunkt.verlag, 2005.
+Carter, G., Ts, J. and Eckstein, R.: 2007, Using Samba - a file and print server for Linux, Unix and Mac OS X., O'Reilly.
+M. J. Folk, B. Zoellick, and G. Riccardi. File structures - an object-oriented approach with C++. Addison-Wesley-Longman, 1998.
+Frühauf, K., Ludewig, J. & Sandmayr, H. (1997), Software-Prüfung - eine Anleitung zum Test und zur Inspektion (3. Aufl.)., vdf.
+Elmasri, R. and Navathe, S. B.: 1989, Fundamentals of Database Systems, Benjamin/Cummings.
+U. Steinmüller and J. Gulbins. Die Kunst der RAW-Konvertierung - RAW-Files bearbeiten mit Adobe Camera Raw, RawShooter, Capture One, Aperture, Lightroom und anderen führenden RAW-Konvertern (2. Aufl.). dpunkt.verlag, 2006.
+Floudas C A & Pardalos P M, eds 2009 Encyclopedia of Optimization, Second Edition Springer. URL: db/reference/opt/opt2009.html
+C. J. Hansen and S. D. Kawaler, Stellar interiors - physical principles, structure, and evolution., ser. Astronomy and astrophysics library. Springer, 1999.
+Werner, A. (2000), Site-Promotion - Werbung auf dem WWW (2. Aufl.)., dpunkt.verlag.
+Bernsen, NO, Dybkjær, L (2010) Multimodal Usability. Human-Computer Interaction Series, Springer, URL http://dx.doi.org/10.1007/978-1-84882-553-6
+Schwenk, J. (2010), Sicherheit und Kryptographie im Internet - Von sicherer E-Mail bis zu IP-Verschlüsselung (3. Aufl.)., Vieweg.
+J. Gennick. SQL Pocket Guide - a Guide to SQL Usage: DB2, MySQL, Oracle, PostgreSQL, SQL Server. O'Reilly, 2011.
+Nilsson, N.J.: Principles of Artificial Intelligence. Springer (1982)
+Elferdink, J., Reynolds, D.: AppleWorks 6 - the missing manual: the book that should have been in the box. O'Reilly (2000)
+Chakrabarti, A.: Grid computing security. Springer (2007)
+Harders, M.: 2008, Surgical scene generation for virtual reality-based training in medicine., Springer.
+A. M. Rembovsky, A. V. Ashikhmin, V. A. Kozmin, and S. Smolskiy, Radio Monitoring - Problems, Methods and Equipment, ser. Lecture Notes in Electrical Engineering. Springer, 2009, vol. 43. [Online]. Available: db/series/lnee/index.html#RembovskyAKS09
+B. Sawert. The programmers guide to SCSI. Addison-Wesley-Longman, 1998.
+Kim, W., ed. (1995), Modern Database Systems: The Object Model, Interoperability, and Beyond., ACM Press and Addison-Wesley. URL: db/books/collections/kim95.html
+Reinhardt, B. (2000), Didaktische Strategien in generierten Trainingssystemen zum diagnostischen Problemlösen., Vol. 234 of DISKI, Infix.
+U. Pagallo. The Laws of Robots - Crimes, Contracts, and Torts., volume 10 of Law, Governance and Technology Series. Springer, 2013.
+Pintea, C.M.: Advances in Bio-inspired Computing for Combinatorial Optimization Problems, Intelligent Systems Reference Library, vol. 57. Springer (2014). URL http://dx.doi.org/10.1007/978-3-642-40179-4
+J. Ts, R. Eckstein, and D. Collier-Brown. Samba - pocket reference: a Unix-to-Windows file and print server: covers 2.2. and 3.0 (2. ed.). O'Reilly, 2003.
+Walker, C.: Getting Started with Netduino. O'Reilly (2012)
+Yang, X.-S., ed. (2013), Artificial Intelligence, Evolutionary Computing and Metaheuristics - In the Footsteps of Alan Turing, Vol. 427 of Studies in Computational Intelligence, Springer. URL: db/series/sci/sci427.html
+Greene, J. and Stellman, A.: 2009, Head First PMP - A Brain-Friendly Guide (2. ed.)., O'Reilly.
+M. Raynal. Communication and Agreement Abstractions for Fault-Tolerant Asynchronous Distributed Systems. Synthesis Lectures on Distributed Computing Theory. Morgan & Claypool Publishers, 2010.
+M. Mast. Ein Dialogmodul für ein Spracherkennungs- und Dialogsystem., volume 50 of DISKI. Infix Verlag, St. Augustin, Germany, 1993.
+Gopalakrishnan, G.: Computation engineering - applied automata theory and logic. Springer (2006)
+G. Engels and W. Schäfer. Programmentwicklungsumgebungen - Konzepte und Realisierung. Leitfäden der angewandten Informatik. Teubner, 1989.
+R. Steinmetz. Multibook - Multimedia-Technologie Powerpack. Springer, 2000.
+Fill, C.: Marketing-Kommunikation - Konzepte und Strategien (2. Aufl.). Pearson Studium (2001)
+M. Stede. Discourse Processing. Synthesis Lectures on Human Language Technologies. Morgan & Claypool Publishers, 2011.
+Reinders, J (2007) Intel threading building blocks - outfitting C++ for multi-core processor parallelism. O'Reilly
+D. Robertson, A. Bundy, R. Muetzelfeldt, M. Haggith, and M. Uschold. Eco-Logic - Logic-Based Approaches to Ecological Modeling. Logic programming. MIT Press, 1991.
+J. Dean. LPI Linux certification in a nutshell - a desktop quick reference: covers exams 101 102 for LPI level 1. O'Reilly, 2001.
+Mangard, S., Oswald, E. and Popp, T.: 2007, Power analysis attacks - revealing the secrets of smart cards., Springer.
+Musciano, C. & Kennedy, B. (2000), HTML and XHTML - the definitive guide: creating effective web pages (4. ed.)., O'Reilly.
+H. Abramson and V. Dahl, Logic grammars., ser. Symbolic computation: artificial intelligence. Springer, 1989.
+M. Lutz. Python pocket reference - Python in your pocket: covers Python 2.4. O'Reilly, 2005.
+Dumbill, E. and Bornstein, N. M.: 2004, Mono - a developer's notebook: Gtk#, MonoDevelop, web services, IKVM., O'Reilly. Duzí, M. and Jespersen, B.: 2010, Procedural Semantics for Hyperintensional Logic - Foundations and Applications of Transparent Intensional Logic, Vol. 17 of Logic, Epistemology, and the Unity of Science, Springer. URL: http://dx.doi.org/10.1007/978-90-481-8812-3
+William J. Hutchins en Harold L. Somers, 1992. An introduction to machine translation. Academic Press.
+Atiyah, Michael Francis & I. G. MacDonald (1969), Introduction to commutative algebra., Addison-Wesley-Longman.
+W. Liu. Propositional, Probabilistic and Evidential Reasoning: Integrating Numerical and Symbolic Approaches, volume 77 of Studies in Fuzziness and Soft Computing. Springer, 2001.
+C. Schulz. AutoCAD Praktikum. Teubner, 1992.
+Dudek, G. and Jenkin, M. R. M.: 2000, Computational principles of mobile robotics., Cambridge University Press.
+Stieger H & Halang W A 2003 Eine hochsprachenorientierte Rechnerarchitektur ohne arithmetische Register. IFB Verlag.
+D. Boles, Programmieren spielend gelernt - mit dem Java-Hamster-Modell. Teubner, 1999.
+Siever, E., Figgins, S., Weber, A.: The Linux web server CD bookshelf - version 2.0: 6 bestselling books on CD-ROM: includes a bonus book: Linux in a nutshell, 4th edition. O'Reilly (2003)
+B. D. MacLaughlin. Head rush Ajax - get it in your brain, fast. O'Reilly, 2006.
+Peterson, E.T.: Web site measurement hacks - tips and tools to help optimize your online business. O'Reilly (2005)
+A. A. Ungar. A Gyrovector Space Approach to Hyperbolic Geometry. Synthesis Lectures on Mathematics & Statistics. Morgan & Claypool Publishers, 2009.
+Ivens, K.: Home networking annoyances - how to fix the most annoying things about your home network. O'Reilly (2005)
+Asher, N. & Lascarides, A. (2005), Logics of Conversation., Studies in natural language processing, Cambridge University Press.
+Nolden M 1998 FrontPage 98 - das Buch. Sybex.
+D. A. Karp. Windows XP annoyances for geeks - tips, secrets and solutions: covers service pack 2 (2 ed.). O'Reilly, 2004.
+Olsson, E. J. & Enqvist, S., eds (2011), Belief Revision meets Philosophy of Science, Vol. 21 of Logic, Epistemology, and the Unity of Science, Springer. URL: db/series/leus/leus21.html
+M. Naftalin and P. Wadler. Java generics and collections. O'Reilly, 2006.
+Lowes, M, Paulik, A (1999) Programmieren mit C - Ansi Standard (4. Aufl.). Teubner
+Novaes, C. D. (2007), Formalizing Medieval Logical Theories, Suppositio, Consequentiae and Obligationes, Vol. 7 of Logic, Epistemology, and the Unity of Science, Springer. URL: http://dx.doi.org/10.1007/978-1-4020-5853-0
+G. Rugg and M. Petre, The unwritten rules of PhD research. Open Univ.. Pr., 2006.
+H. Nijmeijer and A. van der Schaft, Non-linear dynamical control systems. Springer, 1990.
+Wódczak M 2012 Autonomic Cooperative Networking. Springer Briefs in Computer Science Springer. URL: http://dx.doi.org/10.1007/978-1-4614-3100-8
+J. H. Schiller and A. Voisard, editors. Location-Based Services. Morgan Kaufmann, 2004.
+I. Parberry. Parallel complexity theory. Research notes in theoretical computer science. Pitman, 1987.
+Frye, C.: 2005, Excel annoyances - how to fix the most annoying things about your favorite spreadsheet., O'Reilly.
+Georg E. Maier. Exceptionbehandlung und Synchronisation - Entwurf und Methode, volume 105 of Informatik-Fachberichte. Springer, 1985. ISBN 3-540-15672-0.
+Gertz, E. & Justo, P. D. (2012), Environmental Monitoring with Arduino - Watching our World with Sensors., O'Reilly.
+P. L. Rosin and J. P. Collomosse, editors. Image and Video-Based Artistic Stylisation. Springer, 2013.
+Frank R. Lehmann. Fachlicher Entwurf von Workflow-Management-Anwendungen. Teubner-Reihe Wirtschaftsinformatik. Teubner, 1999.
+Lawless J A & Miller M M 1991 Understanding CLOS - the common LISP object system. Digital.
+S. P. Midkiff. Automatic Parallelization: An Overview of Fundamental Compiler Techniques. Synthesis Lectures on Computer Architecture. Morgan & Claypool Publishers, 2012.
+D. Pilone and T. Pilone. Head First iPhone Development - a Brain-Friendly Guide: Covers iPhone 3.1 SDK. O'Reilly, 2010.
+J. Bauer, A. Liebscher, and K. Thielking-Riechert. OpenVPN - Grundlagen, Konfiguration, Praxis. dpunkt.verlag, 2006.
+S. Strobel and T. Uhl. Linux - vom PC zur Workstation: Grundlagen, Installation und praktischer Einsatz (2. Aufl.). Springer, 1995.
+J. Rawolle. Content Management integrierter Medienprodukte - ein XML-basierter Ansatz. DUV, 2002.
+Iser, B, Minker, W, Schmidt, G (2008) Bandwidth Extension of Speech Signals, Lecture Notes in Electrical Engineering, vol 13. Springer, URL db/series/lnee/index.html#IserMS08
+M. G. S. Bruno. Sequential Monte Carlo Methods for Nonlinear Discrete-Time Filtering. Synthesis Lectures on Signal Processing. Morgan & Claypool Publishers, 2013.
+T. Adelstein and B. Lubanovic. Linux system administration - solve real-life Linux problems quickly. O'Reilly, 2007.
+A. Tatnall, editor. Encyclopedia of Portal Technologies and Applications (2 Volumes). IGI Global, 2007.
+D. Jurick, A. Stolarz, and D. Stolarz, iPhone Hacks. O'Reilly, 2009.
+Pinz, A.: Bildverstehen. Springers Lehrbücher der Informatik. Springer (1994)
+Roussos, G.: Networked RFID - Systems, Software and Services. Computer Communications and Networks. Springer (2008)
+Y. Fain, V. Rasputnis, and A. Tartakovsky. Enterprise Development with Flex - Best Practices for RIA Developers. O'Reilly, 2010.
+Chang, S. S.: 2012, Exploring Everyday Things with R and Ruby - Discover the World Around You Through Programming., O'Reilly.
+Rothermel, K.: Kommunikationskonzepte für verteilte transaktionsorientierte Systeme, Informatik-Fachberichte, vol. 145. Springer (1987)
+Knuth, D. E. (1999), MMIXware, A RISC Computer for the Third Millennium, Vol. 1750 of Lecture Notes in Computer Science, Springer.
+Patterson, David A. & John L. Hennessy (2007), Computer organization and design - the hardware / software interface (3. ed.)., Morgan Kaufmann.
+G. E. Thaller. Software-Test - Verifikation und Validation. Heise, 2000.
+T. Amtoft, H. R. Nielson, and F. Nielson. Type and effect systems - behaviours for concurrency. Imperial College Press, 1999.
+J. K. Ousterhout, Tcl and the Tk Toolkit. Addison-Wesley, 1994.
+A. Fagot-Largeault, S. Rahman, and J. M. Torres, editors. The Influence of Genetics on Contemporary Thinking, volume 6 of Logic, Epistemology, and the Unity of Science. Springer, 2007.
+Jr., J. A. B., Krogstie, J., Pastor, O., Pernici, B., Rolland, C. & Sølvberg, A., eds (2013), Seminal Contributions to Information Systems Engineering, 25 Years of CAiSE, Springer. URL: db/books/daglib/0031822.html
+L. Ponomarenko, C. S. Kim, and A. Z. Melikov. Performance Analysis and Optimization of Multi-Traffic on Communication Networks. Springer, 2010.
+Maurushat, A.: Disclosure of Security Vulnerabilities - Legal and Ethical Issues. Springer Briefs in Cybersecurity. Springer (2013)
+H.-D. Ebbinghaus, J. Flum, and W. Thomas. Einführung in die mathematische Logik (3. Aufl.). BI-Wissenschaftsverlag, 1992.
+Wolberg, G. (1990), Digital image warping., IEEE.
+Z. Xu, Intuitionistic Preference Modeling and Interactive Decision Making, ser. Studies in Fuzziness and Soft Computing. Springer, 2014, vol. 280. [Online]. Available: http://dx.doi.org/10.1007/978-3-642-28403-8
+Faroult, S, L'Hermite, P (2008) Refactoring SQL applications. O'Reilly
+V. M. Kureichik, S. P. Malioukov, V. V. Kureichik, and A. S. Malioukov. Genetic Algorithms for Applied CAD Problems, volume 212 of Studies in Computational Intelligence. Springer, 2009.
+Cover, TM, Thomas, JA (2006) Elements of information theory (2. ed.). Wiley, URL http://www.elementsofinformationtheory.com/
+Wegener, I.: The complexity of Boolean functions. Wiley-Teubner (1987)
+J. L. Jones. Structured programming logic - a flowcharting approach. Prentice Hall, 1985.
+Schädler, K.: Die Ermittlung struktureller Ähnlichkeit und struktureller Merkmale bei komplexen Objekten - ein konnektionistischer Ansatz und seine Anwendungen., DISKI, vol. 228. Infix (2000)
+J. Recasens. Indistinguishability Operators - Modelling Fuzzy Equalities and Fuzzy Equivalence Relations, volume 260 of Studies in Fuzziness and Soft Computing. Springer, 2011.
+J. C. Setubal and J. Meidanis. Introduction to computational molecular biology. PWS Publishing Company, 1997.
+Darwiche, A.: Modeling and Reasoning with Bayesian Networks. Cambridge University Press (2009)
+H. D. Patel and S. K. Shukla. Ingredients for Successful System Level Design Methodology. Springer, 2008.
+Chen, J., Cranton, W., Fihn, M. (eds.): Handbook of Visual Display Technology. Springer (2012). URL db/reference/vdt/vdt2012.html
+S. L. Kendal and M. Creen. An introduction to knowledge engineering. Springer, 2007.
+Annika Hinze and Alejandro P. Buchmann, editors. Principles and Applications of Distributed Event-Based Systems. IGI Global, 2010. ISBN 9781605666983. URL db/books/collections/HinzeB2010.html.
+S. Brahnam, L. C. Jain, L. Nanni, and A. Lumini, editors. Local Binary Patterns: New Variants and Applications, volume 506 of Studies in Computational Intelligence. Springer, 2014.
+S. Wolfram. Das Mathematica Buch - die offizielle Dokumentation: Mathematica Version 3 (3. Aufl.). Addison-Wesley, 1997.
+Mangard S, Oswald E & Popp T 2007 Power analysis attacks - revealing the secrets of smart cards. Springer.
+L. B. Marinho, A. Hotho, R. Jäschke, S. Rendle, and P. Symeonidis. Recommender Systems for Social Tagging Systems. Springer Briefs in Electrical and Computer Engineering. Springer, 2012.
+A. Malizia. Mobile 3D graphics. Springer, 2006.
+William W. Collier. Reasoning about parallel architectures. Prentice Hall, 1992.
+K. Frühauf, J. Ludewig, and H. Sandmayr, Software-Prüfung - eine Fibel. Verl. d. Fachvereine, 1991.
+A. Singhee and R. A. Rutenbar. Novel Algorithms for Fast Statistical Analysis of Scaled Circuits, volume 46 of Lecture Notes in Electrical Engineering. Springer, 2009.
+John M. Howie. Automata and languages. Clarendon Press, 1991.
+T. Christiansen and N. Torkington. Perl cookbook - solutions and examples for Perl programmers (2. ed.). O'Reilly, 2003.
+Gibson G A 1992 Redundant disk arrays - reliable, parallel secondary storage. ACM distinguished dissertations MIT Press.
+Bennett, B. S.: 1995, Simulation fundamentals., Prenctice Hall International series in systems and control engineering, Prentice Hall.
+Liebig, H.: 2006, Logischer Entwurf digitaler Systeme (4. Aufl.)., Springer.
+Reghbati, H.K., Lee, A.Y.C.: Computer graphics hardware - image generation and display: tutorial. IEEE (1988)
+P. Küng. Datenbanksysteme - Entwicklungsstand, Anforderungen und Bedeutung neuerer Konzepte. vdf, 1994.
+Adámek J 1983 Theory of Mathematical Structures. Reidel.
+de Vico Fallani, F. and Babiloni, F.: 2010, The Graph Theoretical Approach in Brain Functional Networks: Theory and Applications, Synthesis Lectures on Biomedical Engineering, Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00279ED1V01Y201004BME036
+P. Drayton, B. Albahari, and T. Neward. C# in a nutshell - a desktop quick reference: includes bonus Visual Studio .Net add-in (2. ed.). O'Reilly, 2003.
+K. Lewis. Creating effective JavaHelp. The Java series. O'Reilly, 2000.
+Summerville, D. H.: 2009, Embedded Systems Interfacing for Engineers using the Freescale HCS08 Microcontroller II: Digital and Analog Hardware Interfacing, Synthesis Lectures on Digital Circuits and Systems, Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00199ED1V01Y200906DCS022
+J. Arndt and C. Haenel, Pi - Algorithmen, Computer, Arithmetik. Springer, 1997.
+Meyer, B.: 1994, Reusable Software: The Base Object-Oriented Component Libraries, Prentice-Hall.
+Habash N 2010 Introduction to Arabic Natural Language Processing Synthesis Lectures on Human Language Technologies Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00277ED1V01Y201008HLT010
+Knuth D E 1992 Axioms and Hulls Vol. 606 of Lecture Notes in Computer Science Springer.
+Preim, B., Dachselt, R.: Interaktive Systeme - Band 1: Grundlagen, Graphical User Interfaces, Informationsvisualisierung. Springer (2010). URL http://dx.doi.org/10.1007/978-3-642-05402-0
+A. R. King and O. Regev. Physics with answers - 500 problems and solutions. Cambridge University Press, 1997.
+Loeliger, J.: Version Control with Git - Powerful techniques for centralized and distributed project management. O'Reilly (2009)
+Braun, E. L. (1963), Digital computer design - logic, circuitry, and synthesis., Academic Press.
+M. Welsh, M. K. Dalheimer, and L. Kaufman. Running Linux - one-stop shopping guide to Linux (3. ed.). O'Reilly, 1999.
+J. Link, Softwaretests mit JUnit - Techniken der testgetriebenen Entwicklung (2. Aufl.). dpunkt.verlag, 2005.
+S. J. Brams and A. D. Taylor. Fair division - from cake-cutting to dispute resolution. Cambridge University Press, 1996.
+Grefen, P. W. P. J.: 1992, Integrity control in parallel database systems., Universiteit Enschede.
+Barros, MFM, Guilherme, JMC, Horta, NCG (2010) Analog Circuits and Systems Optimization based on Evolutionary Computation Techniques, Studies in Computational Intelligence, vol 294. Springer, URL http://dx.doi.org/10.1007/978-3-642-12346-7
+Mokhtari, M.: MATLAB 5.2 and 5.3 et SIMULINK 2 and 3 pour etudiants et ingenieurs. Springer (2000)
+C. A. Johnson. The Information Diet - A Case for Conscious Consumption. O'Reilly, 2012.
+V. E. Alad'ev. Odnorodnye stryktury - teoreticeskie i prikladnye aspekty. Technika, 1990.
+Klasing, R.: On the Complexity of Broadcast and Gossip in Different Communication Modes. Verlag Shaker, Aachen (1996). URL http://www.shaker.de/Online- Gesamtkatalog/details.asp?ISBN=3-8265-1281-2
+Andrienko G L, Andrienko N V, Bak P, Keim D A & Wrobel S 2013 Visual Analytics of Movement. Springer.
+C. Schlee. Targeted Advertising Technologies in the ICT Space - A Use Case Driven Analysis. Springer, 2013.
+Bhandari, V (2012) Enabling Programmable Self with HealthVault - An Accessible Personal Health Record. O'Reilly
+Preparata, F.P., Shamos, M.I.: Computational Geometry - An Introduction. Springer (1985)
+F. Klawonn. Introduction to Computer Graphics - Using Java 2D and 3D. Undergraduate Topics in Computer Science. Springer, 2008.
+P. S. R. Diniz, W. A. Martins, and M. V. S. Lima. Block Transceivers: OFDM and Beyond. Synthesis Lectures on Communications. Morgan & Claypool Publishers, 2012.
+Goyvaerts, J, Levithan, S (2009) Regular Expressions Cookbook - Detailed Solutions in Eight Programming Languages. O'Reilly
+D. J. Watts. Six Degrees: The Science of a Connected Age. W. W. Norton, New York, 2003.
+Hrycej, T. (1992), Modular learning in neural networks - a modularized approach to neural network classification., Sixth-Generation computer technology series, Wiley.
+P. B. MacIntyre. PHP - The Good Parts: Delivering the Best of PHP: includes PHP 5.3 Good Parts. O'Reilly, 2010.
+Ray E T 2001 Learning XML - creating self-describing data. O'Reilly.
+Kemper, A. and Eickler, A.: 2004, Datenbanksysteme - Eine Einführung, 5. Auflage, Oldenbourg. URL: db/books/dbtext/KemperE01.html
+V. Cortellessa, A. D. Marco, and P. Inverardi. Model-Based Software Performance Analysis. Springer, 2011.
+H. W. Hamacher and K. Klamroth. Lineare und Netzwerk-Optimierung - ein bilinguales Lehrbuch: a bilingual textbook. Vieweg, 2000.
+D. Hofbauer and R.-D. Kutsche. Grundlagen des maschinellen Beweisens - eine Einführung für Informatiker und Mathematiker. Vieweg, 1989.
+Y. Wallach. Alternating Sequential/Parallel Processing, volume 127 of Lecture Notes in Computer Science. Springer, 1982.
+Carroll C. Morgan. Programming from specifications, 2nd Edition. Prentice Hall International series in computer science. Prentice Hall, 1994.
+G. Schmieder. Analysis - eine Einführung für Mathematiker und Informatiker. Mathematische Grundlagen der Informatik. Vieweg, 1994.
+Wang, Xia & Wolfgang A. Halang (2013), Discovery and Selection of Semantic Web Services, Vol. 453 of Studies in Computational Intelligence, Springer. URL: http://dx.doi.org/10.1007/978-3-642-33938-7
+P. J. Denning and R. Metcalfe. Beyond calculation - the next fifty years of computing. Springer, 1997.
+Luca T. Mainardi, Leif Sörnmo, en Sergio Cerutti, 2008. Understanding Atrial Fibrillation: The Signal Processing Contribution, Part I. Synthesis Lectures on Biomedical Engineering. Morgan & Claypool Publishers.
+Uday P. Khedker, Amitabha Sanyal, and Bageshri Sathe. Data Flow Analysis - Theory and Practice. CRC Press, 2009. ISBN 978-0-8493-2880-0.
+T. Hatton, SWT - a developer's notebook. O'Reilly, 2005.
+C. Calude. Information and Randomness - An Algorithmic Perspective. EATCS Monographs on Theoretical Computer Science. Springer, 1994.
+J. Rowe. Webmaster's building internet database servers with CGI. New Riders Publ., 1996.
+D. A. Easley and J. M. Kleinberg. Networks, Crowds, and Markets - Reasoning About a Highly Connected World. Cambridge University Press, 2010.
+Martin, JB, Chapman, KK, Leben, J (1994) Local area networks - architectures and implementations (2. ed.). Prentice Hall
+Eric C. R. Hehner. The logic of programming. Prentice Hall International series in computer science. Prentice Hall, 1985. ISBN 978-0-13-539966-8.
+Astesiano, E., Kreowski, H.-J. & Krieg-Brückner, B., eds (1999), Algebraic Foundations of Systems Specification, IFIP State-of-the-Art Reports, Springer. URL: db/series/ifip/afss1999.html
+L. Lamport. Das LaTeX-Handbuch. Addison-Wesley, 1995.
+Wolovich, WA (1987) Robotics - basic analysis and design. HRW Series in electrical and computer engineering, Holt, Rinehard and Winston
+P. J. Hatcher and M. J. Quinn. Data-parallel programming on MIMD computers. Scientific and engineering computation. MIT Press, 1991.
+A. Silberschatz, H. F. Korth, and S. S. 0001. Database System Concepts, 3rd Edition. McGraw-Hill Book Company, 1997.
+T. Bräunl. Embedded robotics - mobile robot design and applications with embedded systems (3. ed.). Springer, 2008.
+R. Kruse, J. Gebhardt, and F. Klawonn, Foundations of fuzzy systems. Wiley, 1994.
+D. E. Knuth. The TeXbook. Addison-Wesley, 1986.
+Parker, D.B.: Fighting computer crime - a new framework for protecting information. Wiley (1998)
+D. Maurer. Relevanzanalyse: Eine Kombination von Striktheits- und Datenflußanalyse zur effizienten Auswertung funktionaler Programme, volume 190 of Informatik-Fachberichte. Springer, 1988.
+Gary L. Drescher. Made-up minds - a constructivist approach to artificial intelligence. MIT Press, 1991.
+Dompere, KK (2013b) The Theory of the Knowledge Square: The Fuzzy Rational Foundations of the Knowledge-Production Systems, Studies in Fuzziness and Soft Computing, vol 289. Springer, URL http://dx.doi.org/10.1007/978-3-642-31119-2
+Nagle, RK, Saff, EB (1996b) Fundamentals of differential equations and boundary value problems (2. ed.). Addison-Wesley
+Moorhouse, M.J., Barry, P.: Bioinformatics, biocomputing and Perl - an introduction to bioinformatics computing skills and practice. Wiley (2004)
+M. J. Kearns. Computational complexity of machine learning. ACM distinguished dissertations. MIT Press, 1990.
+Liu, L. A., Wei, D.-Q., Li, Y. & Lei, H., eds (2011), Handbook of Research on Computational and Systems Biology - Interdisciplinary Applications., IGI Global. URL: db/books/daglib/0025928.html
+C. Kazoun and J. Lott. Programming Flex 3 - the comprehensive guide to creating rich internet applications with Adobe Flex. O'Reilly, 2008.
+Smith, V. L.: 2006, Papers in experimental economics., Cambridge University Press.
+Nauck, D., Klawonn, F. and Kruse, R.: 1994, Neuronale Netze und Fuzzy-Systeme - Grundlagen des Konnektionismus, neuronaler Fuzzy-Systeme und der Kopplung mit wissensbasierten Methoden., Artificial intelligence - Künstliche Intelligenz, Vieweg.
+Recker, J.: Evaluations of Process Modeling Grammars - Ontological, Qualitative and Quantitative Analyses Using the Example of BPMN, Lecture Notes in Business Information Processing, vol. 71. Springer (2011). URL db/series/lnbip/index.html#Recker11
+M. Friend, N. B. Goethe, and V. S. Harizanov, editors. Induction, Algorithmic Learning Theory, and Philosophy, volume 9 of Logic, Epistemology, and the Unity of Science. Springer, 2007.
+J. Loeckx and K. Sieber. The Foundations of Program Verification, 2nd ed. Wiley-Teubner, 1987.
+F. P. B. Jr., The mythical man-month - essays on software engineering (2. ed.). Addison-Wesley, 1995.
+Gary J. Nutt. Operating systems - a modern perspective. Addison-Wesley-Longman, 1997.
+I. V. Minin and O. V. Minin. Basic Principles of Fresnel Antenna Arrays, volume 19 of Lecture Notes in Electrical Engineering. Springer, 2008.
+Rüdiger W. Brause. Neuronale Netze - eine Einführung in die Neuroinformatik. Leitfäden und Monographien der Informatik. Teubner, 1991.
+Korff F 1997 Internet für Mediziner. Springer.
+M. de Prycker. Asynchronous transfer mode - solution for broadband ISDN (2. ed.). Ellis Horwood series in computers and their applications. Ellis Horwood, 1993.
+D. Vadala. Managing RAID on Linux - fast, scalable, reliable data storage. O'Reilly, 2002.
+P. A. Markowich, Applied partial differential equations - a visual approach. Springer, 2007.
+Mahmoud, H. M. (1992), Evolution of random search trees., Wiley-Interscience series in discrete mathematics and optimization, Wiley.
+Fink, G. A. (2014), Markov Models for Pattern Recognition - From Theory to Applications, Advances in Computer Vision and Pattern Recognition, Springer. URL: http://dx.doi.org/10.1007/978-1-4471-6308-4
+Hunt, C (2004) Sendmail cookbook - administering, securing and spam-fighting. O'Reilly
+Rob H. Bisseling. Parallel scientific computation - a structured approach using BSP and MPI. Oxford University Press, 2004. ISBN 978-0-19-852939-2.
+J. W. Lloyd. Foundations of Logic Programming, 2nd Edition. Springer, 1987.
+Coar K & Bowen R 2007 Apache cookbook - solutions and examples for Apache administrators (2. ed.). O'Reilly.
+Krzysztof A. Sikorski. Optimal solution of nonlinear equations. Clarendon Press, 2001.
+Uyless D. Black. OSI - a model for computer communications standards. Prentice Hall, 1991. ISBN 978-0-13-637133-5.
+Wunderlich, H.J.: Probabilistische Verfahren für den Test hochintegrierter Schaltungen, Informatik-Fachberichte, vol. 140. Springer (1987)
+B. Vowinkel. Maschinen mit Bewusstsein - wohin führt die künstliche Intelligenz? Wiley, 2006.
+G. Bruno. Model-based software engineering. Chapman and Hall, 1994.
+S. Lang and G. Murrow. Geometry (2. ed.). Springer, 1997.
+Apolloni, B., Pedrycz, W., Bassis, S. and Malchiodi, D.: 2008, The Puzzle of Granular Computing, Vol. 138 of Studies in Computational Intelligence, Springer. URL: db/series/sci/index.html#2008-138
+T. Hoppe. Incremental partial deduction., volume 97 of DISKI. Infix, 1995.
+T. Kunert, User-Centered Interaction Design Patterns for Interactive Digital Television Applications, ser. Human-Computer Interaction Series. Springer, 2009. [Online]. Available: http://dx.doi.org/10.1007/978-1-84882-275-7
+Zeller, A. & Krinke, J. (2004), Open-Source-Programmierwerkzeuge - Versionskontrolle, Konstruktion, Testen, Fehlersuche (2. Aufl.)., dpunkt.verlag.
+Cunningham K 2012 Accessibility Handbook - Making 508 Compliant Websites. O'Reilly.
+I. Parberry, Parallel complexity theory., ser. Research notes in theoretical computer science. Pitman, 1987.
+Gralla P 2005a Internet annoyances - how to fix the most annoying things about going online. O'Reilly.
+K. Yank. PHP und MySQL - Schritt für Schritt zur datenbankgestützten Website (2. Aufl.). dpunkt.verlag, 2005.
+Cattell, R. G. G. (1993), The Object Database Standard: ODMG-93, Morgan Kaufmann.
+Crohnen, P.: 1994, Windows 3.1 - leicht gemacht., Lingen PC Bibliothek, Lingen Verlag.
+Elishakoff, IE, Li, Y, Starnes, JH (2005) Non-Classical Problems in the Theory of Elastic Stability. Cambridge University Press
+Kohler, C.: 2005, Retro gaming hacks - tips and tools for playing the classics., O'Reilly.
+R. Greenwald, R. Stackowiak, and J. Stern. Oracle essentials - Oracle 9i, Oracle 8i, and Oracle8 (2. ed.). O'Reilly, 2001.
+A. D. Kulkarni. Artificial neural networks for image understanding. VNR computer library. Van Nostrand Reinhold, 1994.
+Bitzer, F, Brisch, KM (1999) Digitale Signatur - Grundlagen, Funktion und Einsatz. Springer
+Middendorf, S. and Maurer, R.: 1996, LINUX 4U - das professionelle PC-Betriebssystem: komplettes LINUX-System auf 2 CD-ROM., dpunkt.
+Madsen, OL, Møller-Pedersen, B, Nygaard, K (1993) Object-oriented programming in the BETA programming language. ACM
+S. J. Mellor and M. J. Balcer. Executable UML - A Foundation for Model-Driven Architecture. Addison Wesley object technology series. Addison-Wesley, 2002.
+J. Cao and C. Zhang. Seamless and Secure Communications over Heterogeneous Wireless Networks. Springer Briefs in Computer Science. Springer, 2014.
+Nurmi H 2002 Voting procedures under uncertainty. Springer.
+L. M. G. Feijs. A formalisation of design methods - a lambda-calculus approach to systems design with an application to text editing. Ellis Horwood series in computers and their applications. Ellis Horwood, 1993.
+P. Saint-Andre, K. Smith, and R. Troncon. XMPP - The Definitive Guide: Building Real-Time Applications with Jabber Technologies. O'Reilly, 2009.
+V. Milbrandt. Affin-invariante Interpolation auf Dreiecksnetzen. Berichte aus der Mathematik. Shaker, 1999.
+Dagan, I., Roth, D., Sammons, M. & Zanzotto, F. M. (2013), Recognizing Textual Entailment: Models and Applications, Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00509ED1V01Y201305HLT023
+C. Müller. Verwendung von Bildauswertungsmethoden zur Erkennung und Lagebestimmung von generischen polyedrischen Objekten im Raum., volume 2 of DISKI. Infix Verlag, St. Augustin, Germany, 1992.
+Taniar D & Chen L, eds 2011 Integrations of Data Warehousing, Data Mining and Database Technologies - Innovative Approaches. Information Science Reference. URL: db/books/daglib/0026676.html
+A. Partida and D. Andina, IT Security Management - IT Securiteers - Setting up an IT Security Function, ser. Lecture Notes in Electrical Engineering. Springer, 2010, vol. 61.
+G. Karer and I. Skrjanc. Predictive Approaches to Control of Complex Systems, volume 454 of Studies in Computational Intelligence. Springer, 2013.
+Charles F. Goldfarb. SGML handbook. Clarendon Press, 1990.
+Pilato, C.M., Collins-Sussman, B., Fitzpatrick, B.W.: Version control with subversion - the standard in open source version control. O'Reilly (2008)
+Y. Avramenko and A. Kraslawski. Case Based Design: Applications in Process Engineering, volume 87 of Studies in Computational Intelligence. Springer, 2008.
+Edsger W. Dijkstra and Wim H. J. Feijen. Methodik des Programmierens. Internationale Computer-Bibliothek. Addison-Wesley, 1985.
+S. Muroga. Threshold logic and its applications. Wiley, 1971.
+Koenig, E.C.: Knowledge structures for communications in human-computer systems - general automata-based. Wiley (2006)
+S. Kaufmann. Mathematica als Werkzeug - eine Einführung mit Anwendungsbeispielen. Birkhäuser, 1992.
+A. Trendowicz. Software Cost Estimation, Benchmarking, and Risk Assessment. The Fraunhofer IESE Series on Software and Systems Engineering. Springer, 2013.
+A. Osmani. Learning JavaScript Design Patterns - a JavaScript and jQuery Developer's Guide. O'Reilly, 2012.
+G. Vossen and M. Groß-Hardt, Grundlagen der Transaktionsverarbeitung. Addison-Wesley, 1993.
+Flanagan, D.: Java Power Reference. O'Reilly (1999)
+G. Kristen. Object orientation - the KISS method: from information architecture to information system. Addison-Wesley, 1994.
+Welsch N 1997 Multimedia-Entwicklung mit Macromedia Director, 2. Auflage. Edition PAGE Springer.
+Toby J. Teorey, 1998. Database Modeling & Design, Third Edition. Morgan Kaufmann.
+T. Pilone and D. Pilone. Head First Algebra - a brain-friendly guide. O'Reilly, 2009.
+P. Marshall. Quantitative Analysis of Cognitive Radio and Network Performance. Mobile communications series. Artech House, 2010.
+Gerken, W.: 1991, Betriebliche Datenverarbeitung - integrierte Dialogverarbeitung in Terminal- und Rechnernetzen., BI-Wissenschaftsverlag.
+Cheshire S & Steinberg D H 2005 Zero configuration networking - the definitive guide: things that just work: covers Apple's Bonjour APIs. O'Reilly.
+S. Koch. Free / open source software development. Information Science Reference, 2005.
+Amit Vasudevan, Jonathan M. McCune, and James Newsome. Trustworthy Execution on Mobile Devices. Springer Briefs in Computer Science. Springer, 2014. ISBN 978-1-4614-8190-4. URL http://dx.doi.org/10.1007/978-1-4614-8190-4.
+Störrle, H.: 2005, UML 2 für Studenten., Pearson Studium.
+Leibiusky, J., Eisbruch, G. and Simonassi, D.: 2012, Getting Started with Storm - Continuous Streaming Computation with Twitter's Cluster Technology., O'Reilly.
+B. Baginski, Motion planning for manipulators with many degrees of freedom - the BB-method., ser. DISKI. Infix, 1999, vol. 195.
+Craig, ID (1991) Formal specification of advanced AI architectures. Ellis Horwood series in artificial intelligence, Ellis Horwood
+Notomi, Y.: 2004, iPod fan book - go everywhere with iPod., O'Reilly.
+Eskofier, B.: 2008, Verbesserung der objektiven Beurteilung von Videoqualität - Modellierung des zeitlichen Verhaltens des menschlichen visuellen Systems., VDM.
+Gradimir V. Milovanovic, Dragoslav S. Mitrinovic, and Themistocles M. Rassias. Topics in polynomials - extremal problems, inequalities, zeros. World Scientific, 1994. ISBN 978-981-02-0499-0.
+Klas, W., Schrefl, M.: Metaclasses and Their Applications, Data Model Tailoring and Database Integration, Lecture Notes in Computer Science, vol. 943. Springer (1995)
+Giannotti, F. and Pedreschi, D. (eds): 2008, Mobility, Data Mining and Privacy - Geographic Knowledge Discovery, Springer. URL: db/series/springer/mdmp2008.html
+Foster H, Krolnik A & Lacey D 2004 Assertion-based design (2. ed.). Kluwer. Frank L 1992 EDP-security. Elsevier.
+M. G. Negoita and S. Hintea. Bio-Inspired Technologies for the Hardware of Adaptive Systems - Real-World Implementations and Applications, volume 179 of Studies in Computational Intelligence. Springer, 2009.
+A. Lesne, Renormalization Methods - Critical Phenomena, Chaos, Fractal Structures. Wiley, 1998.
+G. M. Seed. An introduction to object-oriented programming in C++ - with applications in computer graphics. Springer, 1996.
+Marinschek, M., Schnabl, A. & Müllan, G. (2007), JSF @ work - JavaServer Faces und Apache MyFaces erfolgreich einsetzen., dpunkt.verlag.
+Sperschneider, V. and Antoniou, G.: 1991, Logic - a foundation for computer science., International Computer Science Series, Addison-Wesley.
+Jill H. Larkin and Ruth W. Chabay. Computer-assisted instruction and intelligent tutoring systems - shared goals and complementary approaches. Technology in education series. Lawrence Erlbaum, 1992.
+Randall J. LeVeque. Numerical methods for conservation laws (2. ed.). Lectures in mathematics. Birkhäuser, 1992.
+T. Weilkiens and B. Oestereich. UML 2 Zertifizierung - Intermediate-Stufe: Test-Vorbereitung zum OMG Certified UML Professional. dpunkt.verlag, 2005.
+Dumas, J.D.: Computer architecture - fundamentals and principles of computer design. CRC Press (2006)
+D. Saffer. Designing gestural interfaces - touchscreens and interactive devices. O'Reilly, 2008.
+Appelt, D. E.: 1992, Planning English sentences., Studies in natural language processing, Cambridge University Press.
+G. Saake, A. Heuer, and K.-U. Sattler. Datenbanken - Implementierungstechniken (2. Aufl.). MITP, 2005.
+S. G. Ögüdücü, Web Page Recommendation Models: Theory and Algorithms, ser. Synthesis Lectures on Data Management. Morgan & Claypool Publishers, 2010. [Online]. Available: http://dx.doi.org/10.2200/S00305ED1V01Y201010DTM010
+C. Peikari and A. Chuvakin. Security warrior - know your enemy. O'Reilly, 2004.
+Chamberlin, D. D. (1996), Using the New DB2: IBM's Object-Relational Database System., Morgan Kaufmann.
+K.-R. Moll. Informatik-Management - Aufgabengebiete, Lösungswege, Controlling. Springer, 1994.
+Eberhart, A. and Fischer, S.: 2002, Java tools - using XML, EJB, Corba, Servlets and SOAP., Wiley-VCH.
+Djeraba, C (ed) (2002) Multimedia Mining: A Highway to Intelligent Multimedia Documents, Multimedia Systems and Applications, vol 22. Kluwer
+Almasi, G.S., Gottlieb, A.: Highly parallel computing (2. ed.). Addison-Wesley (1994)
+M. Debbabi, F. Hassaïne, Y. Jarraya, A. Soeanu, and L. Alawneh. Verification and Validation in Systems Engineering - Assessing UML / SysML Design Models. Springer, 2010.
+D. Shasha. The puzzler's elusion - a tale of fraud, pursuit, and the art of logic. Thunder's Mouth Press, 2006.
+Adams S 1999 Oracle8i internal services - for waits, latches, locks, and memory. O'Reilly.
+Epstein, BA (1998) Lingo in a nutshell - a desktop quick reference, covers Director 5, 6 and 6.5. O'Reilly
+V. Pflug, Graphembasierte On-line-Erkennung fließender Handschrift., ser. DISKI. Infix, 1995, vol. 105.
+von Wangenheim, A. (1997), Cyclops - Wissensbasierte Bildanalyse in der Medizin., Vol. 147 of DISKI, Infix Verlag, St. Augustin, Germany.
+M. Goossens, S. Rahtz, and F. Mittelbach. The Latex graphics companion - illustrating documents with Tex and PostScript. Addison-Wesley series on tools and techniques for computer typesetting. Addison-Wesley, 1997.
+Frixione, M., Gaglio, S. & Spinelli, G. (1992), Representing concepts in semantic nets - in search of the elusive link., Ellis Horwood.
+Löbner, S.: Understanding Semantics, 2nd Edition. Understanding language series. Routledge (2013)
+S. Bozinovski. Consequence driven systems - teaching, learning, and self-learning agents. GOCMAR, 1995.
+A. D. Hall. A Methodology for Systems Engineering. Van Nostrand Reinhold, 1962.
+MacGrath, M.P.: Understanding PaaS - Unleash the Power of Cloud Computing. O'Reilly (2012)
+Benjamin C. Pierce. Types and programming languages. MIT Press, 2002. ISBN 978-0-262-16209-8.
+Chang, KT (2008) Introduction to geographic information systems (4. ed.). McGraw-Hill
+Häßler, U (1997) 3D imaging. Edition PAGE, Springer
+U. Hohenstein and V. Pleßer. Oracle8 - effiziente Anwendungsentwicklung mit objektrelationalen Konzepten. dpunkt, 1998.
+Braun, T.: IPnG - neue Internet-Dienste und virtuelle Netze: Protokolle, Programmierung und Internetworking. dpunkt (1999)
+S. Chaudhuri and A. N. Rajagopalan. Depth from defocus - a real aperture imaging approach. Springer, 1999.
+van der Schaar, M., ed. (2013), Judgement and the Epistemic Foundation of Logic, Vol. 31 of Logic, Epistemology, and the Unity of Science, Springer. URL: db/series/leus/leus31.html
+Bardone, E.: Seeking Chances - From Biased Rationality to Distributed Cognition., Cognitive Systems Monographs, vol. 13. Springer (2011)
+E. T. Ray. Learning XML - creating self-describing data. O'Reilly, 2001.
+H. Kirchner, Bewegungserkennung in Bildfolgen - ein mehrstufiger Ansatz. Deutscher Universitätsverlag, 1993.
+Jens Bennedsen, Michael E. Caspersen, and Michael Kölling, editors. Reflections on the Teaching of Programming, Methods and Implementations, volume 4821 of Lecture Notes in Computer Science. Springer, 2008.
+K. Nökel. Temporally Distributed Symptoms in Technical Diagnosis, volume 517 of Lecture Notes in Computer Science. Springer, 1991.
+Hopcroft, J. E. and Ullman, J. D.: 1994, Einführung in die Automatentheorie, formale Sprachen und Komplexitätstheorie (3. Aufl.)., Internationale Computer-Bibliothek, Addison-Wesley.
+B. Burke and R. Monson-Haefel, Enterprise JavaBeans 3.0 - developing enterprise Java components: covers Java persistence (5. ed.). O'Reilly, 2006.
+M. Lothaire. Applied Combinatorics on Words. Cambridge University Press, 2005.
+Oppliger, R.: 1996, Authentication systems for secure networks., Artech House.
+Koenig, A.: C traps and pitfalls. Addison-Wesley (1988)
+Frühauf, K, Ludewig, J, Sandmayr, H (2004) Software-Prüfung - eine Anleitung zum Test und zur Inspektion (5. Aufl.). vdf
+S. S. Bhattacharyya, E. F. Deprettere, R. Leupers, and J. Takala, Eds., Handbook of Signal Processing Systems. Springer, 2013.
+Kreines D C 2005 Oracle DBA pocket guide - quick reference for database administration: includes Oracle database 10g. O'Reilly.
+Dumitru Potop-Butucaru, Stephen A. Edwards, and Gérard Berry. Compiling Esterel. Springer, 2007.
+Abell, M. L. & Braselton, J. P. (1994), The Maple V handbook., Academic Press.
+K. B. Bruce. Foundations of object-oriented languages - types and semantics. MIT Press, 2002.
+Rauch, J.: Observational Calculi and Association Rules, Studies in Computational Intelligence, vol. 469. Springer (2013). URL http://dx.doi.org/10.1007/978-3-642-11737-4
+P. Abel. IBM PC assembly language and programming (2nd ed.). Prentice Hall, 1991.
+P. A. Bernstein, V. Hadzilacos, and N. Goodman. Concurrency Control and Recovery in Database Systems. Addison-Wesley, 1987.
+S. J. Ahn. Least Squares Orthogonal Distance Fitting of Curves and Surfaces in Space, volume 3151 of Lecture Notes in Computer Science. Springer, 2004.
+Arch C. Luther, 1998. Video camera technology. Digital audio and video series. Artech House.
+J. D. Ullman and J. Widom. A first course in database systems (2. ed.). Prentice Hall, 2002.
+Büning, H. K. & Lettmann, T. (1994), Aussagenlogik - Deduktion und Algorithmen., Leitfäden und Monographien der Informatik, Teubner.
+S. Du and H. Zhu. Security Assessment in Vehicular Networks. Springer Briefs in Computer Science. Springer, 2013.
+Nöldner, D (2003) Palm-OS-Programmierung mit GCC. dpunkt.verlag
+Thies, C. (1995), SITO interaktive, generierbare, sprachspezifische Simulations-Werkzeuge., Berichte aus der Informatik, Shaker.
+Kredel, H., Yoshida, A.: Thread- und Netzwerk-Programmierung mit Java - Praktikum für die Parallele Programmierung (2. Aufl.). dpunkt.verlag (2002)
+Lehner, F. (1991), Softwarewartung - Management, Organisation und methodische Unterstützung., Hanser.
+P.-N. Tan, M. Steinbach, and V. Kumar. Introduction to Data Mining. Addison-Wesley, 2005.
+Ogunsola, A, Mariscotti, A (2013) Electromagnetic Compatibility in Railways - Analysis and Management, Lecture Notes in Electrical Engineering, vol 168. Springer, URL http://dx.doi.org/10.1007/978-3-642-30281-7
+Pan J S, Huang H C, Jain L C & Fang W C, eds 2007 Intelligent Multimedia Data Hiding: New Directions Vol. 58 of Studies in Computational Intelligence Springer. URL: db/series/sci/sci58.html
+Haindl, M., Filip, J.: Visual Texture - Accurate Material Appearance Measurement, Representation and Modeling. Advances in Computer Vision and Pattern Recognition. Springer (2013)
+Hursch, J. L. and Hursch, C. J.: 1989, dBase IV SQL - ein Leitfaden zum effektiven Einsatz von SQL unter dBase., Markt und Technik.
+L. Baresi and E. D. Nitto, editors. Test and Analysis of Web Services. Springer, 2007.
+Cozens, S.: Advanced Perl programming - tools and techniques for Perl developers (2. ed.). O'Reilly (2005)
+Marsland, S. (2009), Machine Learning - An Algorithmic Perspective., Chapman and Hall / CRC machine learning and pattern recognition series, CRC Press.
+J. Browne, J. Harhen, and J. Shivnan. Production management systems - a CIM perspective. Addison-Wesley, 1988.
+A. Nucci and K. Papagiannaki. Design, Measurement and Management of Large-Scale IP Networks - Bridging the Gap between Theory and Practice. Cambridge University Press, 2008.
+Jonathan M. Borwein, Igor Shparlinski, and Wadim Zudilin, editors. Number Theory and Related Fields, In Memory of Alf van der Poorten. Springer, 2013. ISBN 978-1-4614-6642-0. URL db/books/daglib/0031436.html.
+Beyer H R 2010 User-Centered Agile Methods Synthesis Lectures on Human-Centered Informatics Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00286ED1V01Y201002HCI010
+B. Wirtz. Segmentorientierte Analyse und nichtlineare Auswertung für die dynamische Unterschriftsverifikation., volume 182 of DISKI. Infix, 1998.
+Mikes, S (1992) X Window system program design and development. Addison-Wesley
+D. G. Luenberger. Introduction to Linear and Nonlinear Programming. Addison-Wesley, 1973.
+A. Frisch, Essential Windows NT system administration - effective and painless NT management. O'Reilly, 1998.
+Coy, W, Nake, F, Pflüger, JM, Rolf, A, Seetzen, J (1992) Sichtweisen der Informatik. Theorie der Informatik, Vieweg
+Trillas E, Bonissone P P, Magdalena L & Kacprzyk J, eds 2012 Combining Experimentation and Theory - A Hommage to Abe Mamdani Vol. 271 of Studies in Fuzziness and Soft Computing Springer. URL: db/series/sfsc/TrillasBMK12.html
+Y.-H. Pao, Adaptive pattern recognition and neural networks. Addison-Wesley, 1989.
+Schmeh, K (2007) Kryptografie - Verfahren, Protokolle, Infrastrukturen (3. Aufl.). dpunkt.verlag
+K. E. Kline, L. Gould, and A. Zanevsky. Transact-SQL programming - Microsoft SQL server 6.5 / 7.0 and Sybase adaptive server 11.5. O'Reilly, 1999.
+Günther, K. (1996), Einführung in Latex 2e - Lehrbuch und Referenz., dpunkt.
+J. Angele, Operationalisierung des Modells der Expertise mit KARL., ser. DISKI. Infix Verlag, St. Augustin, Germany, 1993, vol. 53.
+John D. Enderle and Wei Zhou. Models of Horizontal Eye Movements, Part II: A 3rd Order Linear Saccade Model. Synthesis Lectures on Biomedical Engineering. Morgan & Claypool Publishers, 2010. URL http://dx.doi.org/10.2200/S00264ED1V01Y201003BME035.
+McBurney P & Ohsawa Y, eds 2003 Chance Discovery Advanced Information Processing Springer. URL: db/books/collections/OhsawaM2003.html
+T. Grosche. Computational Intelligence in Integrated Airline Scheduling, volume 173 of Studies in Computational Intelligence. Springer, 2009.
+Meyer, E.A.: Cascading style sheets - the definitive guide: visual styles for HTML. O'Reilly (2000)
+Arthur M. Langer. Analysis and design of information systems (2. ed.). Springer, 2001.
+Witten, I. H., Gori, M. and Numerico, T.: 2007, Web dragons - inside the myths of search engine technology., Morgan Kaufmann.
+Sabot G 1989 Paralation LISP - software for the Macintosh ; version 4.1 (Reference Manual ; introduction ; Diskette). MIT Press.
+M. Hagen. Algorithmic and Computational Complexity Issues of MONET. Cuvillier, 2008.
+Baber, R.L.: Softwarereflexionen - Ideen und Konzepte für die Praxis. Springer Compass. Springer (1986)
+Lapointe, S, Wolenski, J, Marion, M, Miskiewicz, W (eds) (2009) The Golden Age of Polish Philosophy - Kazimierz Twardowski's Philosophical Legacy, Logic, Epistemology, and the Unity of Science, vol 16. Springer, URL db/series/leus/leus16.html
+Schöning, U. (2001), Algorithmik., Spektrum Akadem. Verl.
+Sadun, E (2004) Modding Mac OS X - extreme makeovers for your Mac. O'Reilly
+S. Mangard, E. Oswald, and T. Popp, Power analysis attacks - revealing the secrets of smart cards. Springer, 2007.
+M. P. Schellekens. A modular calculus for the average cost of data structuring. Springer, 2008.
+Klasing, R.: 1996, On the Complexity of Broadcast and Gossip in Different Communication Modes., Verlag Shaker, Aachen. URL: http://www.shaker.de/Online-Gesamtkatalog/details.asp?ISBN=3-8265-1281-2
+A. Petcu. A Class of Algorithms for Distributed Constraint Optimization, volume 194 of Frontiers in Artificial Intelligence and Applications. IOS Press, 2009.
+Yourdon, E (1994) Object-oriented systems design - an integrated approach. Yourdon Press Computing series, Prentice Hall
+Karvinen, K., Karvinen, T.: Make - Arduino Bots and Gadgets: Learning by Discovery: Six Embedded Projects with Open Source Hardware and Software. O'Reilly (2011)
+C. A. Zehnder. Informationssysteme und Datenbanken (8. Aufl.). vdf Lehrbuch. vdf, 2005.
+L. D. Gardner and J. Grigsby. Head First Mobile Web - a Brain-Friendly Guide. O'Reilly, 2012.
+H. Dölfel, Kommunikation unter UNIX - Grundlagen, Techniken und Anwendungen der seriellen Datenverarbeitung. Hanser, 1990.
+Schmidt, G.: Relational Mathematics, Encyclopedia of Mathematics and its Applications, vol. 132. Cambridge University Press (2011)
+Fettig, A.: 2005, Twisted network programming essentials - event-driven network programming with Python., O'Reilly.
+Lano, K., Fiadeiro, J. L. and Andrade, L. F.: 2002, Software design using Java 2., Palgrave Macmillan.
+L. Böszörményi and C. Weich. Programmieren mit Modula-3 - eine Einführung in stilvolle Programmierung. Springer, 1995.
+U. Heller. Process-oriented consistency-based diagnosis - theory, implementation and applications., volume 252 of DISKI. Infix Akademische Verlagsgesellschaft, 2001.
+R. Bembenik, L. Skonieczny, H. Rybinski, and M. Niezgódka, editors. Intelligent Tools for Building a Scientific Information Platform, volume 390 of Studies in Computational Intelligence. Springer, 2012.
+E. Hajnicz. Time Structures - Formal Description and Algorithmic Representation, volume 1047 of Lecture Notes in Computer Science. Springer, 1996.
+T. Dokken and B. Jüttler. Computational methods for algebraic spline surfaces - ESF exploratory workshop. Springer, 2005.
+Bernhard J. Frommherz. Ein Roboteraktionsplanungssystem, volume 260 of Informatik-Fachberichte. Springer, 1990. ISBN 3-540-53401-6.
+R. A. Baeza-Yates and B. A. Ribeiro-Neto. Modern Information Retrieval. ACM Press / Addison-Wesley, 1999.
+Fuhr, T.: 1997, Modellierung von und mit Relationen - Integration qualitativer Modellierungstechniken in ein semantisches Netzwerksystem., Vol. 164 of DISKI, Infix.
+L. C. Jain, V. Palade, and D. Srinivasan, editors. Advances in Evolutionary Computing for System Design, volume 66 of Studies in Computational Intelligence. Springer, 2007.
+Cox, G., MacLean, A.: Speaking Code - Coding as Aesthetic and Political Expression. Software Studies. MIT Press (2012)
+D. M. Miller and M. A. Thornton, Multiple Valued Logic - Concepts and Representations., ser. Synthesis lectures on digital circuits and systems. Morgan & Claypool Publishers, 2008, vol. 12.
+Gervae, N. and Clark, P.: 1997, Developing business applications with OpenStep., Springer.
+Breuer, Lothar & Dieter Baum (2005), An introduction to queueing theory and matrix-analytic methods., Springer. Briand, Loïc & Daniel M. Roy (1999), Meeting deadlines in hard real-time systems - the rate monotonic approach., IEEE.
+V. G. Fischer. Parallelverarbeitung in einem semantischen Netzwerk für die wissensbasierte Musteranalyse., volume 95 of DISKI. Infix, 1995.
+Bhattacharyya, S.S., Deprettere, E.F., Leupers, R., Takala, J. (eds.): Handbook of Signal Processing Systems. Springer (2013). URL db/reference/sps/sps2013.html
+E. Tapp, Photoshop workflow setups - on digital photography. O'Reilly, 2006.
+C. J. Date. Database in depth - relational theory for practitioners. O'Reilly, 2005.
+Flanagan, D.: JavaScript - The Definitive Guide: Activate Your Web Pages: Covers ECMAScript 5 and HTML5 (6. ed.). O'Reilly (2011)
+Gregg, JR (1998) Ones and zeros - understanding Boolean algebra, digital circuits, and the logic of sets. IEEE
+G. Cederbaum, I. E. Elishakoff, J. Aboudi, and L. Librescu. Random Vibration and Reliability of Composite Structures. Technomic Publishing Co. Inc., 1992.
+Thimbleby H W 1990 User interface design. ACM Press Frontier Series ACM.
+Große, D., Drechsler, R.: Quality-Driven SystemC Design. Springer (2010)
+C. Kaner, J. Falk, and H. Q. Nguyen. Testing computer software (2. ed.). Van Nostrand Reinhold, 1993.
+Weintraub, SH (2009) Jordan Canonical Form: Theory and Practice. Synthesis Lectures on Mathematics & Statistics, Morgan & Claypool Publishers, URL http://dx.doi.org/10.2200/S00218ED1V01Y200908MAS006
+Nissanke N 1997 Realtime systems. Prentice Hall series in computer science Prentice Hall.
+Ehricke, H.H.: Medical imaging - digitale Bildanalyse und -kommunikation in der Medizin. Vieweg (1997)
+B. G. Blundell. An introduction to computer graphics and creative 3-D environments. Springer, 2008.
+Stefanov, S. (2010), JavaScript Patterns - Build Better Applications with Coding and Design Patterns., O'Reilly.
+Möller, JU (1999) DIA-MOLE - Modellierung gesprochen-sprachlicher Dialoge unter Zuhilfenahme eines maschinellen Lernverfahrens., DISKI, vol 221. Infix
+Rogers, Y, Sharp, H, Preece, J (2012) Interaction Design - Beyond Human-Computer Interaction, 3rd Edition. Wiley
+M. H. Schulz. Testmustergenerierung und Fehlersimulation in digitalen Schaltungen mit hoher Komplexität, volume 173 of Informatik-Fachberichte. Springer, 1988.
+Kristen, G.: Object orientation - the KISS method: from information architecture to information system. Addison-Wesley (1994)
+Du, S., Zhu, H.: Security Assessment in Vehicular Networks. Springer Briefs in Computer Science. Springer (2013). URL http://dx.doi.org/10.1007/978-1-4614-9357-0
+Hughes J M 2011 Real World Instrumentation with Python - Automated Data Acquisition and Control Systems. O'Reilly.
+Yasdi, R (1997) Logic and programming in logic. Morgan Kaufmann
+Golbeck, J. (ed.): Computing with Social Trust. Human-Computer Interaction Series. Springer (2009). URL db/series/hci/Golbeck09.html
+A. Wedel and D. Cremers. Stereo Scene Flow for 3D Motion Analysis. Springer, 2011.
+Crawford, W, Kaplan, J (2003) J2EE design patterns - patterns in the real world. O'Reilly
+Sheldon M. Ross, 2000. Introduction to probability and statistics for engineers and scientists (2. ed.). Academic Press.
+H. Yoshida, A. Jain, A. Ichalkaranje, L. C. Jain, and N. Ichalkaranje, editors. Advanced Computational Intelligence Paradigms in Healthcare - 1, volume 48 of Studies in Computational Intelligence. Springer, 2007.
+Nagl, M. (1992), ADA - eine Einführung in die Programmiersprache der Softwaretechnik (4. Aufl.)., Vieweg.
+Bandyopadhyay, S., Maulik, U. & Wang, J. T.-L., eds (2007), Analysis of Biological Data: A Soft Computing Approach, World Scientific. URL: db/books/collections/bmw07.html
+G. Antonelli. Underwater Robots, volume 96 of Springer Tracts in Advanced Robotics. Springer, 2014.
+M. J. Roberts. Underground Maps Unravelled - Explorations in Information Design. Roberts, Maxwell J., 2012.
+Bonnet, A (1985) Artificial intelligence - promise and performance. Prentice Hall
+J. E. F. Friedl. Mastering regular expressions - powerful techniques for Perl and other tools. Powerful techniques for Perl and other tools. O'Reilly, 1997.
+V. Sperschneider and B. Hammer, Theoretische Informatik - eine problemorientierte Einführung., ser. Springer-Lehrbuch. Springer, 1996.
+H. Müller, Konsistenzbasierte Handlungsplanung., ser. DISKI. Infix, 1995, vol. 110.
+J. Hooman. Specification and Compositional Verification of Real-Time Systems, volume 558 of Lecture Notes in Computer Science. Springer, 1991.
+Zielesny A 2011 From Curve Fitting to Machine Learning - An Illustrative Guide to Scientific Data Analysis and Computational Intelligence Vol. 18 of Intelligent Systems Reference Library Springer. URL: http://dx.doi.org/10.1007/978-3-642-21280-2
+Michael F. Worboys en Matt Duckham, 2004. GIS - a computing perspective (2. ed.). Taylor & Francis.
+L. Baker. VHDL Programming - with advanced topics. Wiley professional computing. Wiley, 1993.
+J. D. Ullman. Principles of Database Systems, 1st Edition. Computer Science Press, 1980.
+Pramode K. Verma and Ling Wang. Voice over IP Networks - Quality of Service, Pricing and Security, volume 71 of Lecture Notes in Electrical Engineering. Springer, 2011.
+R. E. Ziemer. Fundamentals of Spread Spectrum Modulation. Synthesis Lectures on Communications. Morgan & Claypool Publishers, 2007.
+E. H. Satterthwaite. Source Language Debugging Tools. Outstanding Dissertations in the Computer Sciences. Garland Publishing, New York, 1975.
+Turek S 1999 Efficient Solvers for Incompressible Flow Problems - An Algorithmic and Computational Approach. Vol. 6 of Lecture Notes in Computational Science and Engineering Springer. URL: http://dx.doi.org/10.1007/978-3-642-58393-3
+Piotrowski, M.: 2012, Natural Language Processing for Historical Texts, Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00436ED1V01Y201207HLT017
+M. Reiser and N. Wirth. Programming in Oberon - steps beyond Pascal and Modula. ACM, 1992.
+Krogh, P.: The DAM book - digital asset management for photographers: sorting and archiving your photography collection using photoshop CS2 bridge and digital asset management software. O'Reilly (2005)
+Weck, G.: Datensicherheit - Methoden, Maßnahmen und Auswirkungen des Schutzes von Informationen. Leitfäden der angewandten Informatik. Teubner (1984)
+Pilone D 2003 UML - pocket reference: UML syntax and usage. O'Reilly.
+Wang, R.Y., Ziad, M., Lee, Y.W.: Data Quality, Advances in Database Systems, vol. 23. Kluwer (2001). URL db/series/ads/index.html#WangZL01
+D. A. Curry, Using C on the UNIX system - a guide to system programming., ser. Nutshell handbooks. O'Reilly, 1988.
+Ghezzi, C., Jazayeri, M.: Programming language concepts (2. ed.). Wiley (1987)
+Robbins, J. N.: 2010, HTML and XHTML - Pocket Reference: Covers HTML5 (4. ed.)., O'Reilly.
+K. L. Clarkson and M. Sharir. Combinatorial Complexity Bounds for Arrangements of Curves and Surfaces (reprint). General Books, 2010.
+W.-H. Zhu. Virtual Decomposition Control - Toward Hyper Degrees of Freedom Robots, volume 60 of Springer Tracts in Advanced Robotics. Springer, 2010.
+Dorsey, J., Rushmeier, H. E. and Sillion, F. X.: 2007, Digital Modeling of Appearance., Morgan Kaufmann.
+Latoschik M E 2001 Multimodale Interaktion in virtueller Realität am Beispiel der virtuellen Konstruktion. Vol. 251 of Dissertationen zur künstlichen Intelligenz Infix Akademische Verlagsgesellschaft.
+C. E. Spurgeon. Ethernet - the definitive guide: designing and managing local area networks. O'Reilly, 2000.
+Rai, S., Agrawal, D.P.: Advances in distributed system reliability. IEEE Computer Society Press Tutorial. IEEE (1990)
+Matthew A. Russell. Mining the Social Web - Analyzing Data from Facebook, Twitter, LinkedIn, and Other Social Media Sites. O'Reilly, 2011.
+P. Mertens and H. W. Wieczorrek, Data X Strategien - Data Warehouse, Data Mining und operationale Systeme für die Praxis. Springer, 2000.
+G. T. Herman. Fundamentals of Computerized Tomography: Image Reconstruction from Projections. Advances in Pattern Recognition. Springer, 2009.
+Kutzler, B.: 1995, Mathematik unterrichten mit DERIVE - ein Leitfaden für Lehrer., Addison-Wesley.
+Zhu, X., Goldberg, A.B.: Introduction to Semi-Supervised Learning. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers (2009). URL http://dx.doi.org/10.2200/S00196ED1V01Y200906AIM006
+Max K. Agoston, 2005. Computer graphics and geometric modeling - Mathematics. Springer.
+Richard E. Crandall. Projects in scientific computation. Springer, 1994. ISBN 978-0-387-97808-6.
+Kurose, J.F., Ross, K.W.: Computernetze - ein Top-Down-Ansatz mit Schwerpunkt Internet. Pearson Studium (2001)
+Arthur J. Meadows. Communicating research. Library and information science series. Academic Press, 1997.
+R. Orsini. Rails cookbook - recipes for rapid web development with Ruby: covers Rails 1.2. O'Reilly, 2007.
+Ceri, S. and Pelagatti, G.: 1984, Distributed Databases: Principles and Systems, McGraw-Hill Book Company.
+Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman. Concurrency Control and Recovery in Database Systems. Addison-Wesley, 1987.
+Welch, B. B.: 1997, Practical programming in Tcl and TK (2. ed.)., Prentice Hall.
+Linda Lamb and Jerry D. Peek. What you need to know using email effectively. O'Reilly, 1995.
+J. E. Simpson. XPath and XPointer - locating content in XML documents. O'Reilly, 2002.
+C. Toporek. Mac OS X - pocket reference: a user's guide to Mac OS X. O'Reilly, 2002.
+Hindley, J.R., Lerdorf, R., Seldin, J.P.: Introduction to combinatory logic. Cambridge University Press (1972)
+J. Wang, editor. Encyclopedia of Data Warehousing and Mining, Second Edition (4 Volumes). IGI Global, 2009.
+Rumbaugh, J. E., Blaha, M. R., Premerlani, W. J., Eddy, F. and Lorensen, W. E.: 1991, Object-Oriented Modeling and Design, Prentice-Hall.
+Glaeser, G. (2005), Geometrie und ihre Anwendungen - in Kunst, Natur und Technik., Spektrum Akademischer Verlag.
+Troy R & Helmke M 2010 VMware Cookbook - A Real-World Guide to Effective VMware Use: Covers ESX and ESXi. O'Reilly.
+C. C. Schotanus. TestFrame - An Approach to Structured Testing. Springer, 2009.
+Berkun, S.: 2010, Confessions of a Public Speaker., O'Reilly.
+Douglas A. Young, 1989. X window systems - programming and applications with Xt. Prentice Hall.
+Mechler, B. (1995), Intelligente Informationssysteme., Addison-Wesley.
+Zhou, Q., Gao, L., Liu, R. and Cui, S.: 2013, Network Robustness under Large-Scale Attacks., Springer Briefs in Computer Science, Springer. URL: http://dx.doi.org/10.1007/978-1-4614-4860-0
+Schichl, H., Steinbauer, R.: Einführung in das mathematische Arbeiten. Springer (2009)
+Perry, W.E.: Effective methods for software testing. Wiley (1995)
+M. Frixione, S. Gaglio, and G. Spinelli, Representing concepts in semantic nets - in search of the elusive link. Ellis Horwood, 1992.
+Sorin, D. J. (2009), Fault Tolerant Computer Architecture, Synthesis Lectures on Computer Architecture, Morgan & Claypool Publishers. URL: http://dx.doi.org/10.2200/S00192ED1V01Y200904CAC005
+Gary McGraw and Edward W. Felten. Java security - hostile applets, holes and antidotes: what every netscape and internet explorer user needs to know. Wiley, 1997. ISBN 978-0-471-17842-2.
+L. Perrochon. School goes Internet - das Buch für alle Lehrerinnen und Lehrer (2. Aufl.). dpunkt, 1999.
+Roch, A. (2010), Claude E. Shannon - Spielzeug, Leben und die geheime Geschichte seiner Theorie der Information., gegenstalt Verlag.
+Yu, T., Davis, L., Baydar, C. M. and Roy, R. (eds): 2008, Evolutionary Computation in Practice, Vol. 88 of Studies in Computational Intelligence, Springer. URL: db/series/sci/sci88.html
+Kenneth C. Budka, Jayant G. Deshpande, and Marina Thottan. Communication Networks for Smart Grids - Making Smart Grid Real. Computer Communications and Networks. Springer, 2014.
+Mausam and A. Kolobov. Planning with Markov Decision Processes: An AI Perspective. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers, 2012.
+Victor W. Marek and Miroslaw Truszczynski. Nonmonotonic logic - context-dependent reasoning. Artificial intelligence. Springer, 1993. ISBN 978-3-540-56448-5.
+S. Neumann. GIMP pocket reference - image creation and manipulation: covers Gimp 1.2. O'Reilly, 2000.
+G. Üçoluk and S. Kalkan. Introduction to Programming Concepts with Case Studies in Python. Springer, 2012.
+Goodman, D.: 2011, Learning the iOS 4 SDK for JavaScript Programmers - Create Native Apps with Objective-C and Xcode: Covers iOS SDK 4.2., O'Reilly.
+A. Platzer. Logical Analysis of Hybrid Systems - Proving Theorems for Complex Dynamics. Springer, 2010.
+C. Newham. Learning the bash shell - UNIX shell programming (2. ed.). O'Reilly, 1998.
+Norman E. Fenton. Software metrics - a rigorous approach. Chapman and Hall, 1991.
+P. Knee. Sparse Representations for Radar with MATLAB Examples. Synthesis Lectures on Algorithms and Software in Engineering. Morgan & Claypool Publishers, 2012.
+D. Flanagan. Java in a nutshell - a desktop quick reference: covers Java 5.0 (5. ed.). O'Reilly, 2005.
+Pohl, W.: 1998, Logic-based representation and reasoning for user modeling shell systems., Vol. 188 of DISKI, Infix.
+Masani P R 1990 Norbert Wiener - 1894-1964. Birkhäuser.
+M. Lopp. Being Geek - The Software Developer's Career Handbook. O'Reilly, 2010.
+Kütz M 2006 IT-Steuerung mit Kennzahlensystemen. dpunkt.verlag.
+Merz, T.: 1998, Web publishing with Acrobat/PDF., Springer.
+van Melkebeek, D.: Randomness and Completeness in Computational Complexity, Lecture Notes in Computer Science, vol. 1950. Springer (2000)
+Flanagan, D. (1999), Introducing the Java 2 platform - a complete searchable resource on CD-ROM: covers Java 2 and Jini., O'Reilly.
+Mark Last, Piotr S. Szczepaniak, Zeev Volkovich, and Abraham Kandel, editors. Advances in Web Intelligence and Data Mining, volume 23 of Studies in Computational Intelligence. Springer, 2006.
+Leva, A., Maggio, M., Papadopoulos, A.V., Terraneo, F.: Control-Based Operating System Design., IET Control Engineering Series, vol. 89. Institution of Engineering and Technology IET (2013)
+E. Quintarelli, Model-Checking Based Data Retrieval, An Application to Semistructured and Temporal Data, ser. Lecture Notes in Computer Science. Springer, 2004, vol. 2917.
+Bhasker, J (1996) Die VHDL-Syntax. Markt und Technik
+D. Gelernter. Mirror worlds - or the day software puts the universe in a shoebox: how it will happen and what it will mean. Oxford University Press, 1992.
+Giannotti, F., Pedreschi, D. (eds.): Mobility, Data Mining and Privacy - Geographic Knowledge Discovery. Springer (2008). URL db/series/springer/mdmp2008.html
+Cho, G.: Geographic information science - mastering the legal issues. Wiley (2005)
+M. Nyman. 4 Farben, ein Bild - Grundwissen für die Farbbildbearbeitung mit Photoshop und QuarkXPress, 3. Auflage. Edition PAGE. Springer, 1999.
+Goldschlager, L. & Lister, A. M. (1990), Informatik - eine moderne Einführung (3. Aufl.)., Hanser Studienbücher, Hanser.
+N. M. Mattos, An Approach to Knowledge Base Management, ser. Lecture Notes in Computer Science. Springer, 1991, vol. 513.
+Tobias H. Strömer. Online-Recht - Rechtsfragen im Internet (3. Aufl.). dpunkt.verlag, 2002. ISBN 978-3-89864-146-3.
+Wartmann, C (2007) Das Blender-Buch - 3D-Grafik und Animation mit freier Software (3. Aufl.). dpunkt.verlag
+Turner, R (2009) Computable Models. Springer
+Zhang, Z., Zhang, C.: Agent-Based Hybrid Intelligent Systems: An Agent-Based Framework for Complex Problem Solving, Lecture Notes in Computer Science, vol. 2938. Springer (2004)
+J. Niggl. Die Entstehung von Electronic Data Interchange Standards. Gabler Edition Wissenschaft. Deutscher Universitätsverlag, 1994.
+Lang, J.: Adaptive Multilevel Solution of Nonlinear Parabolic PDE Systems - Theory, Algorithm, and Applications., Lecture Notes in Computational Science and Engineering, vol. 16. Springer (2001). URL http://dx.doi.org/10.1007/978-3-662-04484-1
+Gordon Russell and Ian L. Sayers. Advanced simulation and test methodologies for VLSI design. Van Nostrand Reinhold, 1989. ISBN 978-0-7476-0001-5.
+Steven H. Kim. Designing intelligence - a framework for smart systems. Oxford University Press, 1991. ISBN 978-0-19-506016-4.
+Nedjah, N., dos Santos Coelho, L., Mariani, V. C. and de Macedo Mourelle, L. (eds): 2011, Innovative Computing Methods and Their Applications to Engineering Problems, Vol. 357 of Studies in Computational Intelligence, Springer. URL: db/series/sci/sci357.html
+W. Keller. IT-Unternehmensarchitektur - von der Geschäftsstrategie zur optimalen IT-Unterstützung. dpunkt.verlag, 2007.
+Segaran T, Evans C & Taylor J 2009 Programming the Semantic Web - Build Flexible Applications with Graph Data. O'Reilly.
+John Fulcher and Lakhmi C. Jain, editors. Computational Intelligence: A Compendium, volume 115 of Studies in Computational Intelligence. Springer, 2008. ISBN 978-3-540-78292-6. URL db/series/sci/sci115.html.
+Popp, G.: Konfigurationsmanagement mit Subversion, Ant und Maven - ein Praxishandbuch für Softwarearchitekten und Entwickler. dpunkt.verlag (2006)
+Sheldon M. Ross, 1997. Simulation (2. ed.). Statistical modeling and decision science. Academic Press.
+H. Lorin. Aspects of distributed computer systems (2. ed.). Wiley, 1988.
+Martinez, M.V., Molinaro, C., Subrahmanian, V.S., Amgoud, L.: A General Framework for Reasoning On Inconsistency. Springer Briefs in Computer Science. Springer (2013). URL http://dx.doi.org/10.1007/978-1-4614-6750-2
+S. Cozens. Advanced Perl programming - tools and techniques for Perl developers (2. ed.). O'Reilly, 2005.
+Gordon M J C, Milner R & Wadsworth C P 1979 Edinburgh LCF Vol. 78 of Lecture Notes in Computer Science Springer.
+Martin Anthony and Peter L. Bartlett. Neural Network Learning - Theoretical Foundations. Cambridge University Press, 2002. ISBN 978-0-521-57353-5.
+J. Diederich, editor. Rule Extraction from Support Vector Machines, volume 80 of Studies in Computational Intelligence. Springer, 2008.
+A. P. Engelbrecht, Fundamentals of Computational Swarm Intelligence. Wiley, 2005.
+J. Padberg. Abstract Petri nets - uniform approach and rule-based refinement. Berichte aus der Informatik. Shaker, 1996.
+Bengal, Bouvier, N., Carre, B., Darmont, J. & Fructus, N. (2005), Illustrations with Photoshop - a designer's notebook., O'Reilly.
+Bertino, E., Ooi, B. C., Sacks-Davis, R., Tan, K.-L., Zobel, J., Shidlovsky, B. and Catania, B.: 1997, Indexing Techniques for Advanced Database Systems, Vol. 8 of Advances in Database Systems, Kluwer. URL: db/series/ads/index.html#Bertino97
+Greene, J. & Stellman, A. (2009), Head First PMP - A Brain-Friendly Guide (2. ed.)., O'Reilly.
+Hentenryck, PV, Michel, L (2005) Constraint-based local search. MIT Press
+U. O. Pabrai and H. T. Shah. X window system user's guide. Artech House, 1994.
+James M. Feagin, 1994. Quantum methods with Mathematica. Springer.
+JáJá, J.: An Introduction to Parallel Algorithms. Addison-Wesley (1992)
+Hans F. de Groote, 1987. Lectures on the Complexity of Bilinear Problems, Lecture Notes in Computer Science, deel 245. Springer.
+Nancy Blachman en Michael J. Mossinghoff, 1995. Maple griffbereit - alle Versionen bis Maple V3. Vieweg.
+J. L. Hennessy and D. A. Patterson. Rechnerarchitektur - Analyse, Entwurf, Implementierung, Bewertung. Vieweg Lehrbuch Informatik. Vieweg, 1994.
+K. Sridharan and P. R. Kumar. Robotic Exploration and Landmark Determination: Hardware-Efficient Algorithms and FPGA Implementations., volume 81 of Studies in Computational Intelligence. Springer, 2008.
+U. Kastens, B. Hutt, and E. Zimmermann. GAG: A Practical Compiler Generator, volume 141 of Lecture Notes in Computer Science. Springer, 1982.
+R. Cartwright. A Practical Formal Semantic Definition and Verification System for TYPED LISP. Outstanding Dissertations in the Computer Sciences. Garland Publishing, New York, 1976.
+Z. W. Pylyshyn, Computation and cognition - toward a foundation for cognitive science. MIT Press, 1986.
+Rhodes, N. & MacKeehan, J. (1999), Palm programming - the developer's guide: creating programs and conduits for the palm computing platform., O'Reilly.
+J. S. Poulin. Measuring software reuse - principles, practices, and economic models. Addison-Wesley-Longman, 1997.
+M. Narasimha Murty and V. Susheela Devi. Pattern Recognition - An Algorithmic Approach. Undergraduate Topics in Computer Science. Springer, 2011.
+Verbarg, K.: 1997, Spatial data structures and motion planning in sparse geometric scences., Berichte aus der Informatik, Shaker.
+Y.-T. S. Li and S. Malik. Performance analysis of real-time embedded software. Springer, 1999.
+T. Linke. New foundations for automation of default reasoning., volume 237 of DISKI. Infix, 2000.
+Oppliger, R (1996) Authentication systems for secure networks. Artech House
+S. K. O'Brien. Turbo Pascal 5.5 - the complete reference. Borland Osborne / McGraw-Hill programming series. McGraw-Hill, 1989.
+Tizhoosh, H. R. & Ventresca, M., eds (2008), Oppositional Concepts in Computational Intelligence, Vol. 155 of Studies in Computational Intelligence, Springer. URL: db/series/sci/sci155.html
+A. Hopper, S. Temple, and R. Williamson. Local area network design. International computer science series. Addison-Wesley, 1986.
+Geoffrey R. Taylor and Lindsay Kleeman. Visual Perception and Robotic Manipulation - 3D Object Recognition, Tracking and Hand-Eye Coordination, volume 26 of Springer Tracts in Advanced Robotics. Springer, 2006.
+Epstein B A 1999 Director in a nutshell - a desktop quick reference: covers Director 6, 6,5 and 7.0.1. O'Reilly.
+E. Fogel, D. Halperin, and R. Wein, CGAL Arrangements and Their Applications - A Step-by-Step Guide., ser. Geometry and computing. Springer, 2012, vol. 7.
+M. Reichert and B. Weber, Enabling Flexibility in Process-Aware Information Systems - Challenges, Methods, Technologies. Springer, 2012.
+T. P. Layton. Information security - design, implementation, measurement, and compliance. Auerbach Publ., 2006.
+Goldschmidt, H.M.J., Cox, M.J.T., Grouls, R.J.E., van de Laar, W.A.J.H., van Merode, F.: Reference Information Model for Clinical Laboratories - RILA as Laboratory Management Toolbox, Studies in Health Technology and Informatics, vol. 55. IOS Press (1998). URL http://www.booksonline.iospress.nl/Content/View.aspx?piid=24707
+A. A. Goshtasby. Image Registration - Principles, Tools and Methods. Advances in Computer Vision and Pattern Recognition. Springer, 2012.
+Natalia V. Andrienko and Gennady L. Andrienko. Exploratory analysis of spatial and temporal data - a systematic approach. Springer, 2006. ISBN 978-3-540-25994-7.
+Lowes, M., Paulik, A.: Programmieren mit C - Ansi standard (3. Aufl.). Teubner (1995)
+H. P. Zima. Compilerbau II: Synthese und Optimierung, volume 37 of Reihe Informatik. Bibliographisches Institut, 1983.
+Alan Burns, Andrew M. Lister, and Andy J. Wellings. A Review of Ada Tasking, volume 262 of Lecture Notes in Computer Science. Springer, 1987.
+W. Fulton. Algebraic curves - an introduction to algebraic geometry (reprint vrom 1969). Advanced book classics. Addison-Wesley, 1989.
+Glenn W 2003b Word - pocket guide: a compact reference for Microsoft Word. O'Reilly.
+Steven F. Barrett and Daniel J. Pack. Microcontroller Programming and Interfacing Texas Instruments MSP430, Part II. Synthesis Lectures on Digital Circuits and Systems. Morgan & Claypool Publishers, 2011. URL http://dx.doi.org/10.2200/S00340ED1V01Y201105DCS033.
+Nagle, RK, Saff, EB (1996a) Fundamentals of differential equations (4.ed.). Addison-Wesley
+G. Meyer. Smart home hacks - tips and tools for automating your house. O'Reilly, 2004.
+Kern-Isberner G 2001 Conditionals in Nonmonotonic Reasoning and Belief Revision - Considering Conditionals as Agents Vol. 2087 of Lecture Notes in Computer Science Springer.
+B. J. MacLennan. Principles of programming languages - design, evaluation, and implementation. Holt, Rinehart and Winston, 1987.
+Jeri R. Hanly, Elliot B. Koffman, and Joan C. Horvath. C program design for engineers. Addison-Wesley, 1995. ISBN 978-0-201-59064-7.
+H.-D. Wuttke and K. Henke. Schaltsysteme - eine automatenorientierte Einführung. Pearson Studium, 2003.
+Koop, R., Muris, E.: Successfully implementing Microsoft Dynamics - by using the Regatta approach for Microsoft Dynamics. Springer (2007)
+R. Manis, E. Schaffer, and R. Joergensen. UNIX relational database management - application development in the UNIX environment. Prentice Hall, 1988.
+Jerger, NDE, Peh, LS (2009) On-Chip Networks. Synthesis Lectures on Computer Architecture, Morgan & Claypool Publishers, URL http://dx.doi.org/10.2200/S00209ED1V01Y200907CAC008
+O. Pombo, J. M. Torres, J. Symons, and S. Rahman, editors. Special Sciences and the Unity of Science, volume 24 of Logic, Epistemology, and the Unity of Science. Springer, 2012.
+Teetor, P.: 2011, R Cookbook - Proven Recipes for Data Analysis, Statistics, and Graphics., O'Reilly.
+Woodwark, J. R.: 1992, G-words - keywords for geometric computing and its applications., Information Geometers Ltd.
+Clay A. Johnson. The Information Diet - A Case for Conscious Consumption. O'Reilly, 2012. ISBN 978-1-449-30468-3.
+M. A. Jackson and G. Twaddle. Business Process Implementation - Building Workflow Systems. Pearson Education, 1997.
+Slade, R.M.: Guide to computer viruses - how to avoid them, how to get rid of them, and how to get help (2. ed.). Springer (1996)
+Rausch A 2004 Componentware - Methodik des evolutionären Architekturentwurfs. Herbert Utz Verlag.
+Soergel, D.: Organizing information - principles of data base and retrieval systems. Academic Press (1985)
+Sebastian, L (1995) Electronic design and publishing - business practices (2. ed.). Allworth Press
+P. Hope and B. Walther. Web security testing cookbook - systematic techniques to find problems fast. O'Reilly, 2008.
+W. Rucklidge. Efficient Visual Recognition Using the Hausdorff Distance, volume 1173 of Lecture Notes in Computer Science. Springer, 1996.
+Schäuffele, J., Zurawka, T.: Automotive Software Engineering - Grundlagen, Prozesse, Methoden und Werkzeuge effizient einsetzen (3. Aufl.). Vieweg (2006)
+J. I. Jerkovic. SEO warrior. O'Reilly, 2010.
+Walton, C.D.: Agency and the semantic web. Oxford University Press (2007)
+Melin, P., Kacprzyk, J., Pedrycz, W. (eds.): Soft Computing for Recognition Based on Biometrics, Studies in Computational Intelligence, vol. 312. Springer (2010). URL db/series/sci/sci312.html
+Ruf, T. (1991), Featurebasierte Integration von CAD/CAM-Systemen, Vol. 297 of Informatik-Fachberichte, Springer.
+S. Mitra and T. Acharya. Data mining - multimedia, soft computing, and bioinformatics. Wiley, 2003.
+W. M. Newman and M. Lamming. Interactive system design. Addison-Wesley, 1995.
+T. H. Strömer. Online-Recht - Rechtsfragen im Internet (2. Aufl.). dpunkt, 1999.
+Gaylord, R. J., Kamin, S. N. & Wellin, P. R. (1993), Introduction to programming with Mathematica., Springer.
+Daum, B.: Java-Entwicklung mit Eclipse 3.3 - Anwendungen, Plugins und Rich Clients (5. Aufl.). dpunkt.verlag (2008)
+S. J. Payne and A. Howes, Adaptive Interaction: A Utility Maximization Approach to Understanding Human Interaction with Technology, ser. Synthesis Lectures on Human-Centered Informatics. Morgan & Claypool Publishers, 2013. [Online]. Available: http://dx.doi.org/10.2200/S00479ED1V01Y201302HCI016
+G. Gazdar and C. Mellish. Natural Language Processing in PROLOG. Addison-Wesley, 1989.
+Gutwirth, S, Poullet, Y, Hert, PD (eds) (2010) Data Protection in a Profiled World. Springer, URL db/db/books/collections/dppw2010.html
+Lloyd J W 1984 Foundations of Logic Programming, 1st Edition Springer.
+Keith R. Pursall. Computer risk manager - a manual for EDP contigency planning (3. ed.). Elsevier, 1992.
+Göttler, H.: Graphgrammatiken in der Softwaretechnik: Theorie und Anwendungen, Informatik-Fachberichte, vol. 178. Springer (1988)
+Traub, S.: Verteilte PC-Betriebssysteme. Informatik und Praxis. Teubner (1997)
+Nancy G. Leveson, 1995. Safeware - system safety and computers: a guide to preventing accidents and losses caused by technology. Addison-Wesley.
+G. Strang and T. Q. Nguyen. Wavelets and filter banks. Wellesley-Cambridge Press, 1997.
+W. A. Carnielli and C. Pizzi. Modalities and Multimodalities - With the assistance and collaboration of Juliana Bueno-Soler, volume 12 of Logic, Epistemology, and the Unity of Science. Springer, 2008.
+C. Scholl. Functional decomposition with applications to FPGA synthesis. Kluwer, 2001.
+C.-H. Tzeng. A theory of heuristic information game-tree search. Symbolic computation: artificial intelligence. Springer, 1988.
+David J. Duke, Ivan Herman, and M. Scott Marshall. PREMO: A Framework for Multimedia Middleware - Specification, Rationale, and Java Binding, volume 1591 of Lecture Notes in Computer Science. Springer, 1999.
+Bluttman, Ken & Wayne S. Freeze (2007), Access data analysis cookbook - slicing and dicing to find the results you need., O'Reilly.
+Lukasz Golab en M. Tamer Özsu, 2010. Data Stream Management. Synthesis Lectures on Data Management. Morgan & Claypool Publishers.
+van Leeuwen, J. (ed.): Computer Science Today: Recent Trends and Developments, Lecture Notes in Computer Science, vol. 1000. Springer (1995). URL db/books/collections/CStoday.html
+A. Cheese. Parallel Execution of Parlog, volume 586 of Lecture Notes in Computer Science. Springer, 1992.
+Stanley-Marbell, P (2003) Inferno programming with Limbo. Wiley
+Fensel, D., Facca, F.M., Simperl, E.P.B., Toma, I.: Semantic Web Services. Springer (2011)
+Peterson L L & Davie B S 2000 Computernetze - ein modernes Lehrbuch. dpunkt.verlag.
+J. Bennedsen, M. E. Caspersen, and M. Kölling, editors. Reflections on the Teaching of Programming, Methods and Implementations, volume 4821 of Lecture Notes in Computer Science. Springer, 2008.
+A. Salomaa and M. Soittola. Automata-theoretic aspects of formal power series. Texts and monographs in computer science. Springer, 1978.
+Schwartz R L & Phoenix T 2003 Learning Perl objects, references, and modules - beyond the basics of learning Perl. O'Reilly.
+K. L. McGraw. Designing and evaluating user interfaces for knowledge-based systems. Ellis Horwood, 1992.
+Osis J & Asnina E, eds 2011 Model-Driven Domain Analysis and Software Development - Architectures and Functions. IGI Global. URL: db/books/daglib/0025251.html
+Bifet, A.: 2010, Adaptive Stream Mining: Pattern Learning and Mining from Evolving Data Streams, Vol. 207 of Frontiers in Artificial Intelligence and Applications, IOS Press. URL: http://www.booksonline.iospress.nl/Content/View.aspx?piid=14470
+Eggersglüß, S., Drechsler, R.: High Quality Test Pattern Generation and Boolean Satisfiability. Springer (2012)
+Stanley B. Lippman and Josee Lajoie. C++ primer - reflects the ANSI/ISO standard (3. ed.). Addison-Wesley, 1999.
+D. K. Pratihar and L. C. Jain, editors. Intelligent Autonomous Systems: Foundations and Applications, volume 275 of Studies in Computational Intelligence. Springer, 2010.
+C. L. Hall. Building client/server applications using TUXEDO. Wiley, 1996.
+Castillo, O., Melin, P. and Kacprzyk, J. (eds): 2013, Recent Advances on Hybrid Intelligent Systems, Vol. 451 of Studies in Computational Intelligence, Springer. URL: db/series/sci/sci451.html
+Maozhen Li and Mark A. Baker. The grid - core technologies. Wiley, 2005. ISBN 978-0-470-09417-4.
+M. Schaffner. Methoden zur automatischen Generierung von Simulationsmodellen für ASIC-Bibliotheken. Mainz, 1996.
+B. Thalheim. Entity-relationship modeling - foundations of database technology. Springer, 2000.
+G. Glaeser and H. Stachel. Open geometry - OpenGL and advanced geometry. Springer, 1999.
+Cesare S & Xiang Y 2012 Software Similarity and Classification. Springer Briefs in Computer Science Springer.
+F. Korff. Internet für Mediziner. Springer, 1997.
+Carlos Dualibe, Michel Verleysen, and Paul G. A. Jespers. Design of analog fuzzy logic controllers in CMOS technologies - implementation, test and application. Kluwer, 2003.
+R. Klette, K. Schlüns, and A. Koschan. Computer vision - three-dimensional data from images. Springer, 1998.
+H. Langendörfer. Leistungsanalyse von Rechensystemen - Messen, Modellieren, Simulation. Hanser, 1992.
+Tomek, I.: 1990, Foundations of computer architecture and organization., Computer Science Press.
+Deussen, O.: Computergenerierte Pflanzen - Technik und Design digitaler Pflanzenwelten. X.media.press. Springer (2002)
+Greenberg, M. J. & Harper, J. R. (1981), Algebraic topology - a first course., Mathematical lecture note series, Addison-Wesley.
+E. R. Harold. Java network programming - developing networked applications: covers Java 5.0 (3. ed.). O'Reilly, 2005.
+José L. Encarnação and Christian Kirk. The colourful world of computer-generated images, visual interaction and visual communication - computer graphics in practice. Europäischer Wirtschaftsverlag, 2004.
+Pustejovsky J & Stubbs A 2012 Natural Language Annotation for Machine Learning - a Guide to Corpus-Building for Applications. O'Reilly.
+S. Wiak and E. Napieralska-Juszczak, Eds., Computational Methods for the Innovative Design of Electrical Devices, ser. Studies in Computational Intelligence, 2011, vol. 327.
+Herrmann, J (1997) Maschinelles Lernen und wissensbasierte Systeme - systematische Einführung mit praxisorientierten Fallstudien. Springer 38
+Karer, G. and Skrjanc, I.: 2013, Predictive Approaches to Control of Complex Systems, Vol. 454 of Studies in Computational Intelligence, Springer. URL: http://dx.doi.org/10.1007/978-3-642-33947-9
+Flanagan, D (1998) JavaScript - the definitive guide: activate your Web pages: covers JavaScript 1.2 (3. ed.). O'Reilly
+Guo, P., Pedrycz, W. (eds.): Human-Centric Decision-Making Models for Social Sciences, Studies in Computational Intelligence, vol. 502. Springer (2014). URL db/series/sci/sci502.html
+Silva, C. and Ribeiro, B.: 2010, Inductive Inference for Large Scale Text Classification: Kernel Approaches and Techniques, Vol. 255 of Studies in Computational Intelligence, Springer. URL: http://dx.doi.org/10.1007/978-3-642-04533-2
+R. Mukundan, Advanced Methods in Computer Graphics - With examples in OpenGL. Springer, 2012.
+Hans W. Barz. Kommunikation und Computernetze - Konzepte, Protokolle und Standards (2. Aufl.). Reihe Informationstechnik/Nachrichtentechnik. Hanser, 1995.
+M. Elad. Sparse and Redundant Representations - From Theory to Applications in Signal and Image Processing. Springer, 2010.
+B. J. Dorr. Machine translation - a view from the lexicon. MIT Press, 1993.
+Salomon, D.: Data Compression: The Complete Reference, 3rd Edition. Springer (2004). URL http://www.davidsalomon.name/DC3advertis/DComp3Ad.html
+T. S. Frank. Introduction to VAX-11 - architecture and assembly language. Prentice Hall, 1987.
+Lorenz, M. & Kidd, J. (1994), Object-oriented software metrics - a practical guide., Prentice Hall.
+Casanova, M.A.: The Concurrency Control Problem for Database Systems, Lecture Notes in Computer Science, vol. 116. Springer (1981)
+T. W. Gray and J. Glynn. Exploring mathematics with Mathematica. Addison-Wesley, 1991.
+J. Motil. Instructor's guide to accompany Programming principles - an introduction. Allyn and Bacon, Inc., 1984.
+Schmalz, M.: 2005, Integrating Excel and Access - combining applications to solve business problems., O'Reilly.
+Bauer, F. L. (2002), Decrypted secrets - methods and maxims of cryptology (3. ed.)., Springer.
+M. E. Mortenson. Geometric modeling. Wiley, 1985.
+Gupta, A.: Java EE 6 - Pocket Guide: a Quick Reference for Simplified Enterprise Java Development. O'Reilly (2012)
+Il-Chul Moon, Kathleen M. Carley, and Tag Gon Kim. Modeling and Simulating Command and Control - For Organizations Under Extreme Situations. Springer Briefs in Computer Science. Springer, 2013. ISBN 978-1-4471-5037-4. URL http://dx.doi.org/10.1007/978-1-4471-5037-4.
+Simon, A. R.: 1993a, The integrated CASE tools handbook., VNR computer library, Van Nostrand Reinhold.
+T. A. Mück and M. L. Polaschek, Index data structures in object-oriented databases., ser. Advances in Database Systems. Kluwer, 1997, vol. 7.
+Santi P 2005 Topology control in wireless ad hoc and sensor networks. Wiley.
+M. R. Genesereth and N. J. Nilsson. Logische Grundlagen der künstlichen Intelligenz. Artificial intelligence. Vieweg, 1989.
+Zipf, G.K.: Human Behaviour and the Principle of Least Effort: an Introduction to Human Ecology. Addison-Wesley (1949)
+Koza, JR (1994) Genetic programming 2 - automatic discovery of reusable programs. Complex adaptive systems, MIT Press
+J. Zwiers, Compositionality, Concurrency and Partial Correctness - Proof Theories for Networks of Processes, and Their Relationship, ser. Lecture Notes in Computer Science. Springer, 1989, vol. 321.
+D. A. Karp. Windows XP annoyances - tips, secrets and solutions. O'Reilly, 2002.
+D. Bhandarkar. Alpha implementations and architecture - complete reference and guide. Digital Press, 1996.
+B. Meyer. Eiffel: The Language. Prentice-Hall, 1991.
+Graham M. Seed, 1996. An introduction to object-oriented programming in C++ - with applications in computer graphics. Springer.
+Grieser, G.: Selbsteinschätzende Lernverfahren - Möglichkeiten und Grenzen., DISKI, vol. 259. Infix Akademische Verlagsgesellschaft (2002)
+Graham, R.L., Knuth, D.E., Patashnik, O.: Concrete mathematics - a foundation for computer science. Addison-Wesley (1989)
+Zhou, X. S., Rui, Y. & Huang, T. S. (2003), Exploration of Visual Data., Vol. 7 of The International Series in Video Computing, Springer. URL: http://dx.doi.org/10.1007/978-1-4615-0497-9
+Julius B. Barbanel, 2005. The geometry of efficient fair division. Cambridge University Press.
+J. F. Smart. Java power tools. O'Reilly, 2008.
+W. Stallings. Computer organization and architecture - designing for performance (6. ed.). Prentice Hall, 2003.
+H. C. Purchase, Experimental Human-Computer Interaction - A Practical Guide with Visual Examples. Cambridge University Press, 2012.
+A. Orebaugh. Ethereal packet sniffing. Syngress Publishing, 2004.
+Alefeld, G., Lenhardt, I. and Obermaier, H.: 2002, Parallele numerische Verfahren., Springer.
+J. Henshall and S. Shaw. OSI explained - end-to-end computer communication standards (2. ed.). Ellis Horwood Series in Computers and their applications. Ellis Horwood, 1990.
+J. Huang and L. Gao. Wireless Network Pricing. Synthesis Lectures on Communication Networks. Morgan & Claypool Publishers, 2013.
+Harold Abelson and Gerald J. Sussman. Structure and Interpretation of Computer Programs, Second Edition. MIT Press, 1996.
+W. Hodges. A Shorter Model Theory. Cambridge University Press, 1997.
+D. J. Rogers. Broadband Quantum Cryptography. Synthesis Lectures on Quantum Computing. Morgan & Claypool Publishers, 2010.
+G. K. Krulee. Computer processing of natural language. Prentice Hall, 1991.
+N. Willis. Computer architecture and communications. TAB Books, 1987.
+P. Pirsch. Architectures for digital signal processing. Wiley, 1998.
+Lam, TL, Xu, Y (2012) Tree Climbing Robot - Design, Kinematics and Motion Planning, Springer Tracts in Advanced Robotics, vol 78. Springer, URL db/series/star/index.html#LamX12
+Reese, G. (1997), Database Programming with JDBC and Java - Java 1.1., Java series, O'Reilly.
+Burger, C.: Groupware - Kooperationsunterstützung für verteilte Anwendungen. dpunkt (1997)
+Michael A. Jackson, 2000. Problem Frames - Analysing and Structuring Software Development Problems. Pearson Education.
+G. J. Nutt. Operating system projects using Windows NT. Addison-Wesley-Longman, 1999.
+Morrill, G.: Type logical grammar - categorial logic of signs. Kluwer (1994)
+Skillicorn, DB (2012) Understanding High-Dimensional Spaces. Springer Briefs in Computer Science, Springer
+Scherer, E., Schönsleben, P., Ulich, E.: Werkstattmanagent, Organisation und Informatik - im Spannungsfeld zentraler und dezentraler Strukturen. vdf (1996)
+M. Welsh and L. Kaufman. Linux - Wegweiser zur Installation und Konfiguration. O'Reilly, 1996.
+Aho, AV, Ullman, JD (1996) Informatik - Datenstrukturen und Konzepte der Abstraktion. Informatik Lehrbuchreihe, International Thomson
+B. Jenny. Projektmanagement in der Wirtschaftsinformatik (5. Aufl.). Wirtschaftsinformatik. vdf, 2001.
+Debbabi, M., Hassaïne, F., Jarraya, Y., Soeanu, A., Alawneh, L.: Verification and Validation in Systems Engineering - Assessing UML / SysML Design Models. Springer (2010)
+Crnkovic, I., Asklund, U., Dahlqvist, A.P.: Implementing and integrating product data management and software configuration management. Artech House (2003)
+Warren A. Hunt Jr. FM8501: A Verified Microprocessor, volume 795 of Lecture Notes in Computer Science. Springer, 1994.
+M. Bidjan-Irani. Qualität und Testbarkeit hochintegrierter Schaltungen: Qualitätssicherung durch regelbasierte Systeme, volume 215 of Informatik-Fachberichte. Springer, 1989.
+K. E. Merrick and M. L. Maher, Motivated Reinforcement Learning - Curious Characters for Multiuser Games. Springer, 2009.
+G. Tomas and C. W. Ueberhuber. Visualization of Scientific Parallel Programs, volume 771 of Lecture Notes in Computer Science. Springer, 1994.
+C. W. Chen, Z. Li, and S. Lian, editors. Intelligent Multimedia Communication: Techniques and Applications, volume 280 of Studies in Computational Intelligence. Springer, 2010.
+A. Kandel, H. Bunke, and M. Last, editors. Applied Graph Theory in Computer Vision and Pattern Recognition, volume 52 of Studies in Computational Intelligence. Springer, 2007.
+Socher-Ambrosius, R, Johann, P (1997) Deduction systems. Graduate Texts in Computer Science, Springer
+Jong K A D 2006 Evolutionary computation - a unified approach. MIT Press.
+R. H. Perrott. Parallel programming. International computer science series. Addison-Wesley, 1988.
+Hilgendorf, E. & Valerius, B. (2012), Computer- und Internetstrafrecht - ein Grundriss, 2. Auflage., Springer.
+Anthony Y. Montgomery, Peter Juliff, and Ian Joseph Lynch. Introduction to computer science (2. ed.). Prentice Hall, 1986.
+Gegov A 2010 Fuzzy Networks for Complex Systems - A Modular Rule Base Approach Vol. 259 of Studies in Fuzziness and Soft Computing Springer. URL: http://dx.doi.org/10.1007/978-3-642-15600-7
+A. Hirose. Complex-Valued Neural Networks, volume 32 of Studies in Computational Intelligence. Springer, 2006.
+Gosling, J., Joy, W. N. and Jr., G. L. S.: 1996, The Java Language Specification., Addison-Wesley.
+Kaufman, L., Rousseeuw, P.J.: Finding Groups in Data: An Introduction to Cluster Analysis. John Wiley (1990)
+Bidoit, M, Mosses, PD (2004) Casl User Manual - Introduction to Using the Common Algebraic Specification Language, Lecture Notes in Computer Science, vol 2900. Springer
+Christian, K.: 1986, A Guide to Modula-2, Springer.
+Karp, D.A., O'Reilly, T.: Windows XP in a nutshell - a desktop quick reference: home and professional versions. O'Reilly (2002)
+J. Farley. Java distributed computing. O'Reilly, 1998.
+A. Ford. Apache pocket reference - for Apache programmers and administrators: covers Apache 1.3.12. O'Reilly, 2000.
+R. Klein. Algorithmische Geometrie. Addison-Wesley-Longman, 1997.
+T. Wallingford. VoIP hacks - tips and tools for internet telephony. O'Reilly, 2005.
+December J 1995 Presenting Java. Sams.net.
+C. J. Date. Database Design and Relational Theory - Normal Forms and All That Jazz. O'Reilly, 2012.
+G. Lamprecht. Einführung in die Programmiersprache FORTRAN 77 - Skriptum für Hörer aller Fachrichtungen ab 1. Semester. Vieweg, 1981.
+Lohmann, B.: Ansätze zur Unterstützung des Arbeitsablaufes bei der rechnerbasierten Modellierung verfahrenstechnischer Prozesse., Fortschritt-Berichte VDI Reihe 3: Ver-fahrenstechnik, vol. 531. VDI-Verlag (1998)
+Dong, T. (2012), Recognizing Variable Environments - The Theory of Cognitive Prism, Vol. 388 of Studies in Computational Intelligence, Springer. URL: http://dx.doi.org/10.1007/978-3-642-24058-4
+R. Barker, CASE method - entity relationship modelling., ser. Computer aided systems engineering. Addison-Wesley, 1990.
+David L. Farquhar. Optimizing Windows for games, graphics and multimedia - soup up your PC. O'Reilly, 2000.
+Shabtai, A., Elovici, Y. & Rokach, L. (2012), A Survey of Data Leakage Detection and Prevention Solutions., Springer Briefs in Computer Science, Springer. URL: http://dx.doi.org/10.1007/978-1-4614-2053-8
+Horster P & Isselhorst H 1989 Approximative Public-Key-Kryptosysteme Vol. 206 of Informatik-Fachberichte Springer.
+Adam, N.R., Gangopadhyay, A.: Database Issues in Geographic Information Systems, Advances in Database Systems, vol. 6. Kluwer (1997). URL http://dx.doi.org/10.1007/978-1-4615-6109-5
+M. Lorenz and J. Kidd, Object-oriented software metrics - a practical guide. Prentice Hall, 1994.
+S. Cunningham and R. J. Hubbold, editors. Interactive Learning Through Visualization, The Impact of Computer Graphics in Education. IFIP Series on Computer Graphics. Springer, 1992.
+S. Oaks and H. Wong. Java threads - understanding and mastering concurrent programming: covers J2SE 5.o (3. ed.). O'Reilly, 2004.
+P. Rózewski, E. Kusztina, R. Tadeusiewicz, and O. Zaikin. Intelligent Open Learning Systems - Concepts, Models and Algorithms, volume 22 of Intelligent Systems Reference Library. Springer, 2011.
+M. R. Williams. A history of computing technology (2. ed.). IEEE, 1997.
+Uday M. Apte and Uday S. Karmarkar, editors. Managing in the Information Economy - Current Research Issues, volume 1 of Annals of Information Systems. Springer, 2007.
+B. N. Malinovskij. Istorija bycislitel'noj techniki v licach - kniga pervaja: akademik S. Lebedev. Naukova Dumka, 1992.
+W. J. Schroeder, M. Kenneth, and W. E. Lorensen. Visualization toolkit (2. ed.). Prentice Hall, 1998.
+Hußmann, H (1997) Formal Foundations for Software Engineeing Methods, Lecture Notes in Computer Science, vol 1322. Springer
+M. Weyerer and G. Goldemund. Testability of electronic circuits. Hanser, 1992.
+M. M. Fokkinga. Law and order in algorithmics. Univ. Twente, 1992.
+Czurda, H (1998) Core processes for securing information and communication systems - analysis of the British Standard BS 7799: 1995, code of practice for information security management, from the perspective of implementation. Wirtschaftsinformatik, vdf
+Matthes F 1993 Persistente Objektsysteme - integrierte Datenbankentwicklung und Programmerstellung. Springer.
+Z. Ma, F. Zhang, L. Yan, and J. Cheng. Fuzzy Knowledge Management for the Semantic Web, volume 306 of Studies in Fuzziness and Soft Computing. Springer, 2014.
+L. A. Segel and L. Edelstein-Keshet, A Primer on Mathematical Models in Biology. SIAM, 2013.
+Skiena, S.: Implementing discrete mathematics - combinatorics and graph theory with Mathematica. Addison-Wesley (1990)
+R. Zurawski, editor. The Industrial Information Technology Handbook. CRC Press, 2005.
+J. K. Tsotsos. A Computational Perspective on Visual Attention. MIT Press, 2011.
+Rahm, E.: Hochleistungs-Transaktionssysteme. Konzepte und Entwicklungen moderner Datenbankarchitekturen. Vieweg (1993). URL http://dbs.uni- leipzig.de/en/buecher/hltas.html
+Jack L. Hursch and Carolyn J. Hursch. dBase IV SQL - ein Leitfaden zum effektiven Einsatz von SQL unter dBase. Markt und Technik, 1989. ISBN 978-3-89090-246-3.
+Böhm, R, Wenger, S (1999) Methoden und Techniken der System-Entwicklung (3. Aufl.). Wirtschaftsinformatik, vdf
+Webb, J.: SharePoint office - pocket guide: document collaboration in action. O'Reilly (2005)
+M. Steedman. Taking Scope - The Natural Semantics of Quantifiers. MIT Press, 2012.
+Peter Freeman and Anthony I. Wasserman. Tutorial on software design techniques (4. ed.). IEEE, 1983.
+Rzempoluck, EJ (1998) Neural network data analysis using Simulnet. Springer
+Katsaggelos, AK, Molina, R, Mateos, J (2007) Super Resolution of Images and Video. Synthesis Lectures on Image, Video, and Multimedia Processing, Morgan & Claypool Publishers, URL http://dx.doi.org/10.2200/S00036ED1V01Y200606IVM007
+R. Scitovski. Analysis of a parameter identification problem. Applied mathematics and computation. North-Holland, 1997.
+David C. Kreines. Oracle initialization parameters - pocket reference: Oracle configuration quick reference: includes Oracle database 10g. O'Reilly, 2004. ISBN 978-0-596-00770-6.
+Stutz, C (1999) Anwendungsspezifische Fuzzy-Clustermethoden., DISKI, vol 210. Infix
+Othon Michail, Ioannis Chatzigiannakis, en Paul G. Spirakis, 2011. New Models for Population Protocols. Synthesis Lectures on Distributed Computing Theory. Morgan & Claypool Publishers.
+Gong, Z.-W., Lin, Y. and Yao, T.: 2013, Uncertain Fuzzy Preference Relations and Their Applications, Vol. 281 of Studies in Fuzziness and Soft Computing, Springer. URL: http://dx.doi.org/10.1007/978-3-642-28448-9
+Monk S 2012b Making Android Accessories with IOIO - Going Mobeile with Sensors, Lights, Motors, and Robots. O'Reilly.
+Hugh R. Beyer. User-Centered Agile Methods. Synthesis Lectures on Human-Centered Informatics. Morgan & Claypool Publishers, 2010. URL http://dx.doi.org/10.2200/S00286ED1V01Y201002HCI010.
+H. Obendorf. Minimalism - Designing Simplicity. Human-Computer Interaction Series. Springer, 2009.
+Schlee, C (2013) Targeted Advertising Technologies in the ICT Space - A Use Case Driven Analysis. Springer, URL http://dx.doi.org/10.1007/978-3-8348-2396-0
+Ralf H. Reussner. Parametrisierte Verträge zur Protokolladaption bei Software-Komponenten. Logos, 2001. ISBN 978-3-89722-783-5.
+Heuring, Vincent P. & Harry F. Jordan (1997), Computer systems design and architecture., Addison-Wesley-Longman.
+Law E L C, Hvannberg E T & Cockton G, eds 2008 Maturing Usability - Quality in Software, Interaction and Value Human-Computer Interaction Series Springer. URL: db/series/hci/LawHC08.html
+A. Roscher. NT-Unix-Integration - Intranet / Internet-Vernetzung von Windows NT, Linux und Solaris mit DNS, NFS, Samba, BOOTP und DHCP (2. Aufl.). dpunkt.verlag, 2000.
+Kolman, B. and Busby, R. C.: 1986, Discrete mathematical structures for computer science (2. ed.)., Prentice Hall.
+F. Glover and M. Laguna. TABU search. Kluwer, 1999.
+Eugene D. Fabricius. Modern digital design and switching theory. CRC Press, 1992.
+W. Oberschelp and G. Vossen. Rechneraufbau und Rechnerstrukturen (10. Aufl.). Oldenbourg, 2006.
+Hehl H 2001 Die elektronische Bibliothek - Literatur- und Informationsbeschaffung im Internet (2.Aufl.). Saur.
+Voss, K., Süße, H.: Praktische Bildverarbeitung. Hanser Studienbücher der Informatik. Hanser (1991)
+K. Swingler, Applying neural networks - a practical guide. Academic Press, 1996.
+Moeslund, T.B.: Introduction to Video and Image Processing - Building Real Systems and Applications. Undergraduate Topics in Computer Science. Springer (2012)
+Karow, P.: 1994, Digital typefaces - description and formats., Springer.
+Weilkiens, T., Oestereich, B.: UML 2 certificiation guide - fundamental and intermediate exams. Morgan Kaufmann (2006)
+Desel J, ed. 2001 Das ist Informatik Springer. URL: db/books/collections/informatik2001.html
+N. Gervae and P. Clark. Developing business applications with OpenStep. Springer, 1997.
+Frery, AC, Perciano, T (2013) Introduction to Image Processing Using R - Learning by Examples. Springer Briefs in Computer Science, Springer
+Adamatzky, A (2001) Computing in nonlinear media and automata collectives. IOP Publishing
+M. Pelikan, K. Sastry, and E. Cantú-Paz, editors. Scalable Optimization via Probabilistic Modeling, volume 33 of Studies in Computational Intelligence. Springer, 2006.
+G. N. Purdy, CVS - pocket reference: source code management (2. ed.). O'Reilly, 2003.
+C. F. Goldfarb, SGML handbook. Clarendon Press, 1990.
+Kreines, DC (2004) Oracle initialization parameters - pocket reference: Oracle configuration quick reference: includes Oracle database 10g. O'Reilly 48
+Vogiazou, Y.: Design for Emergence - Collaborative Social Play with Online and Location-Based Media, Frontiers in Artificial Intelligence and Applications, vol. 153. IOS Press (2007). URL http://www.booksonline.iospress.nl/Content/View.aspx?piid=5332
+Lothaire, M.: 2005, Applied Combinatorics on Words., Cambridge University Press.
+Schröder, F.: Visualisierung meterorologischer Daten. Beiträge zur graphischen Datenverarbeitung. Springer (1997)
+Claes Wohlin, Per Runeson, Martin Höst, Magnus C. Ohlsson, and Björn Regnell. Experimentation in Software Engineering. Springer, 2012. ISBN 978-3-642-29043-5.
+Liblit, B.: 2007, Cooperative Bug Isolation (Winning Thesis of the 2005 ACM Doctoral Dissertation Competition)., Vol. 4440 of Lecture Notes in Computer Science, Springer. URL: http://dx.doi.org/10.1007/978-3-540-71878-9
+M. Sonka, V. Hlavác, and R. Boyle. Image processing, analysis and and machine vision (3. ed.). Thomson, 2008.
+Adarsh B. Narasimhamurthy, Mahesh K. Banavar, and Cihan Tepedelenlioglu. OFDM Systems for Wireless Communications. Synthesis Lectures on Algorithms and Software in Engineering. Morgan & Claypool Publishers, 2010.
+S. Roman. Access database design and programming - what you really need to know to develop with access. O'Reilly, 1997.
+B. Matzke, Ant - eine praktische Einführung in das Java-Build-Tool (2. Aufl.). dpunkt.verlag, 2005.
+Jr., F. P. B. and Blaauw, G. A.: 1997, Computer architecture - concepts and evolution., Addison-Wesley-Longman.
+J. F. Traub, G. W. Wasilkowski, and H. Wozniakowski. Information-based complexity. Computer science and scientific computing. Academic Press, 1988.
+W. Remmele. PASCAL systematisch - eine strukturierte Einführung. Springer, 1983.
+Werner A 2000 Site-Promotion - Werbung auf dem WWW (2. Aufl.). dpunkt.verlag.
+Egon Börger and Robert F. Stärk. Abstract State Machines. A Method for High-Level System Design and Analysis. Springer, 2003.
+S. J. Brams. Game Theory and the Humanities - Bridging Two Worlds. MIT Press, 2011.
+Ray, E. T. (2001), Learning XML - creating self-describing data., O'Reilly.
+Rankl, W., Effing, W.: Handbuch der Chipkarten - Aufbau, Funktionsweise, Einsatz von Smart-Cards (2. Aufl.). Hanser (1996)
+E. B. Hyder, K. M. Heston, M. C. Paulk, and W. E. Hefley. eSourcing Capability Model for Service Providers (eSCM-SP). van Haren Publishing, 2009.
+Ramakrishnan, R. (1998), Database Management Systems., WCB/McGraw-Hill.
+M. A. Ould. Strategies for software engineering - the management of risk and quality. Wiley series in software engineering practice. Wiley, 1990.
+Xiang, Y.: Probabilistic reasoning in multiagent systems - a graphical models approach. Cambridge University Press (2002)
+Zimmerman R L & Olness F I 1995 Mathematica for physics. Addison-Wesley.
+Lehner, F., Hildebrand, K., Maier, R.: Wirtschaftsinformatik - theoretische Grundlagen. Hanser (1995)
+Wolter, D.: Spatial Representation and Reasoning for Robot Mapping - A Shape-Based Approach, Springer Tracts in Advanced Robotics, vol. 48. Springer (2008). URL db/series/star/index.html#Wolter08
+P. Pepper. Grundlagen der Informatik. Oldenbourg, 1992.
+S. Mitchell. Inside the Windows 95 file system - IFSMgr, the installable file system manager. O'Reilly, 1997.
+R. Klaus. Der Mikrokontroller C167 (2. Aufl.). vdf, 2005.
+Beutelspacher, A., Schwenk, J. & Wolfenstetter, K.-D. (2006), Moderne Verfahren der Krypotgraphie - von RSA zu Zero-Knowledge (6. Aufl.)., Vieweg.
+Hoffmann, S., Evert, S., Smith, N., Lee, D. & Prytz, Y. B. (2008), Corpus Linguistics with BNCweb - a Practical Guide., Vol. 6 of English corpus linguistics, Lang.
+Uwe Kastens, Anthony M. Sloane, and William M. Waite. Generating software from specifications. Jones and Bartlett Publishers, 2007. ISBN 978-0-7637-4124-2.
+Coulouris, G., Dollimore, J. and Kindberg, T.: 2001, Verteilte Systeme - Konzepte und Design., Pearson Studium.
+Lehey, G.: The complete FreeBSD - documentation from the source: covers version 5.0 (4. ed.). O'Reilly (2003)
+Ertel, W. (1993), Parallele Suche mit randomisiertem Wettbewerb in Inferenzsystemen., Vol. 25 of DISKI, Infix Verlag, St. Augustin, Germany.
+A. M. Lesk. Bioinformatik - eine Einführung. Spektrum Akadem. Verl., 2002.
+J. Bacon, The Art of Community - Building the New Age of Participation. O'Reilly, 2009.
+F. Détienne. Software design cognitive aspects. Practitioner series. Springer, 2001.
+Henrici, D.: 2008, RFID Security and Privacy - Concepts, Protocols, and Architectures, Vol. 17 of Lecture Notes in Electrical Engineering, Springer. URL: db/series/lnee/index.html#Henrici08
+Stoica, I.: Stateless Core: A Scalable Approach for Quality of Service in the Internet, Winning Thesis of the 2001 ACM Doctoral Dissertation Competition, Lecture Notes in Computer Science, vol. 2979. Springer (2004)
+Schwartz R L, Phoenix T & Foy B D 2008 Learning Perl - making easy things easy and hard things possible: covers Perl 5.10 (5. ed.). O'Reilly.
+Michael G. Jenner, 1995. Software quality management and ISO 9001 - how to make them work for you: includes 1994 version of the ISO 9001. Wiley.
+Thomas, A.: Integrated graphic and computer modelling. Springer (2008)
+Devaney, R. L. (1990), Chaos, fractals, and dynamics - computer experiments in mathematics., Addison-Wesley.
+Djeraba, C., ed. (2002), Multimedia Mining: A Highway to Intelligent Multimedia Documents, Vol. 22 of Multimedia Systems and Applications, Kluwer.

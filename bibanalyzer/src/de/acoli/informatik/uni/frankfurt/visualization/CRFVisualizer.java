@@ -150,11 +150,15 @@ public class CRFVisualizer {
                 // which contains the label at the second position.
                 String label = split[0];
 
+                
                 String token = "";
+                
                 if (split[split.length - 1].contains("<") && split[split.length - 1].contains(">")) {
                     token = split[split.length - 2];
+                    //System.out.println(label + "<->" + token);
                 } else {
                     token = split[split.length - 1];
+                    //System.out.println(label + "<->" + token);
                 }
                 //System.out.println(label + "-" + token);
                 String color = colorMap.get(label);
