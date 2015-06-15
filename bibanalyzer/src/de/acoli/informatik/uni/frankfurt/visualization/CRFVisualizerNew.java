@@ -33,12 +33,22 @@ import java.util.Scanner;
  *
  * @author niko
  */
-public class CRFVisualizer {
+public class CRFVisualizerNew {
+    
+    
+    public static String VISUALIZE_WHAT = "CRFPLUSPLUS_CRF_OUTPUT"; 
+    // MALLET_GOLD, MALLET_CRF_OUTPUT, CRFPLUSPLUS_CRF_OUTPUT
 
     // An CRF format input file to be visualized.
+//    public static final String INPUT_CRF_FILE = 
+//            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/"
+//            + "model_output.txt";
+    
     public static final String INPUT_CRF_FILE = 
-            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/"
-            + "out.txt";
+            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
+            + "model_output.txt";
+    
+    
     // The output file name of the HTML visualization.
     public static final String OUTPT_HTML_FILE = INPUT_CRF_FILE + ".vis.html";
 
@@ -148,19 +158,43 @@ public class CRFVisualizer {
 
                 String[] split = aLine.split("\\s");
                 // Set this to "1" if you want to visualize "gold" data
-                // which contains the label at the second position.
-                String label = split[0];
+                // which contains the label at the last position.
+                
+                String label = "";
+                String token = "";
+                switch (VISUALIZE_WHAT) {
+                    case "MALLET_GOLD":
+                        label = split[split.length-1];
+                        token = split[0];
+                        break;
+                    case "MALLET_CRF_OUTPUT":
+                        label = split[0];
+                        for(int i = 0; i < split.length; i++) {
+                            if(!split[i].startsWith("<") && !split[i].endsWith(">")) {
+                                token = split[i];
+                            }
+                        }
+                        break;
+                    case "CRFPLUSPLUS_CRF_OUTPUT":
+                        label = split[split.length - 1];
+                        token = split[0];
+                        break;
+
+                    default:
+                        break;
+                }
 
                 
-                String token = "";
                 
-                if (split[split.length - 1].contains("<") && split[split.length - 1].contains(">")) {
-                    token = split[split.length - 2];
-                    //System.out.println(label + "<->" + token);
-                } else {
-                    token = split[split.length - 1];
-                    //System.out.println(label + "<->" + token);
-                }
+                
+                //if (split[split.length - 1].contains("<") && split[split.length - 1].contains(">")) {
+                //    token = split[split.length - 2];
+                //    //System.out.println(label + "<->" + token);
+                //} else {
+                //    token = split[split.length - 1];
+                //    //System.out.println(label + "<->" + token);
+                //}
+                
                 //System.out.println(label + "-" + token);
                 String color = colorMap.get(label);
                 w.write("<span style='background:#" + color + "'>" + token + "</span>");

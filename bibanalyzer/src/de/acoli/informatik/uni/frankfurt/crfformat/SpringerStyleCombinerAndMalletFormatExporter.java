@@ -47,12 +47,14 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
     
     // That's where the augmented XML files are located.
     // The raw reference annotated "training data".
-    public static final String inputpath = "input/dumps/SPRINGER_dump/raw/";
+    //public static final String inputpath = "input/dumps/SPRINGER_dump/raw/";
     
-    public static final String EXPORT_TO = "input/dumps/SPRINGER_dump/export/11000/bibbooks/";
+    //public static final String EXPORT_TO = "input/dumps/SPRINGER_dump/export/11000/bibbooks/";
     
     
-
+     public static final String inputpath = "/home/niko/Desktop/Springer/springer_demo/Rohdaten/springer_APP/3.filtered/";
+     public static final String EXPORT_TO = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training_2/kapitel/";
+    
     
     
     // Possible parameters:
@@ -61,15 +63,15 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
      * bibbook
      * bibchapter
      */
-    public static final String BIBTYPE = "bibbook";
+    public static final String BIBTYPE = "bibchapter";
     public static final String BIBSTYLE = "all";
 
-    public static final int EXPORT_HOW_MANY_TRAIN = 15000;
-    public static final int EXPORT_HOW_MANY_TEST = 3000;
+    public static final int EXPORT_HOW_MANY_TRAIN = 1500;
+    public static final int EXPORT_HOW_MANY_TEST = 150;
     
     // Set this to 0.7 or 0.8 if you want everything annotated.
     // 0.0 means, we allow references to be exported that have no annotations.
-    public static final double ANNOTATION_THRESHOLD = 0.8;
+    public static final double ANNOTATION_THRESHOLD = 0.85;
 
     
     public static boolean shuffle = true;
@@ -102,9 +104,9 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
                     if (getCondition(aLine)) {
                         references.add(aLine);
 
-                        //if (aLine.contains("FirstName")) {
+                        if (aLine.contains("FirstName")) {
                             numberofFirstnames++;
-                        //}
+                        }
                     }
                 }
                 s.close();
@@ -289,9 +291,9 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
         //else {
         //    return false;
         //}
-        
+        else {
         return true;
-        
+        }
 
     }
 

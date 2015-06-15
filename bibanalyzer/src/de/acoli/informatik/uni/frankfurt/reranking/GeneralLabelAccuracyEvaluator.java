@@ -1,25 +1,19 @@
 /**
  * *****************************************************************************
- * Copyright (c) 2014 
- * Christian Chiarcos, Niko Schenk 
- * Applied Computational Linguistics Lab (ACoLi)
- * Goethe-Universität Frankfurt am Main 
- * http://acoli.cs.uni-frankfurt.de/en.html
- * Robert-Mayer-Straße 10
- * 60325 Frankfurt am Main
- * 
+ * Copyright (c) 2014 Christian Chiarcos, Niko Schenk Applied Computational
+ * Linguistics Lab (ACoLi) Goethe-Universität Frankfurt am Main
+ * http://acoli.cs.uni-frankfurt.de/en.html Robert-Mayer-Straße 10 60325
+ * Frankfurt am Main
+ *
  * All rights reserved.
- * 
+ *
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v1.0 which accompanies this distribution,
  * and is available at http://www.eclipse.org/legal/epl-v10.html
- * 
- * Contributors: Niko Schenk - initial API and
- * implementation.
+ *
+ * Contributors: Niko Schenk - initial API and implementation.
  * *****************************************************************************
  */
-
-
 package de.acoli.informatik.uni.frankfurt.reranking;
 
 import java.io.File;
@@ -29,33 +23,32 @@ import java.util.Scanner;
 
 /**
  *
- * Program which evaluates the label accuracy of a CRF model based on an
- * output tagged text file.
- * 
- * 
+ * Program which evaluates the label accuracy of a CRF model based on an output
+ * tagged text file.
+ *
+ *
  *
  * @author niko
  */
 public class GeneralLabelAccuracyEvaluator {
 
+    static boolean MALLET = false; // false = CRF++;
+
     // Gold--Predicted.
     public static final String TEST_TAGGED = "/home/niko/Desktop/"
-            //+ "abc_smalltraining/chapters/"
-            + "test.tagged.neu.txt";
-           
-    
-    
+            //+ "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/model_output.txt";
+            + "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/model_output.txt";
+
     public static ArrayList<String> labels = new ArrayList<String>();
 
     static {
-        
+
         // General.
         labels.add("<Year>");
         //labels.add("<&comma;>");
         labels.add("<FirstPage>");
         labels.add("<LastPage>");
-        
-        
+
         labels.add("<Initials>");
         labels.add("<FamilyName>");
         labels.add("<FirstName>");
@@ -64,35 +57,29 @@ public class GeneralLabelAccuracyEvaluator {
         labels.add("<Degrees>");
         labels.add("<InstitutionalAuthorName>");
         labels.add("<BibInstitutionalEditorName>");
-        
-        
-        
+
         labels.add("<Handle>");
         labels.add("<BibComments>");
         labels.add("<RefSource>");
         labels.add("<EquationSource>");
-        
-        
+
         // Articles.
         labels.add("<ArticleTitle>");
         labels.add("<JournalTitle>");
-        
+
         labels.add("<VolumeID>");
         labels.add("<IssueID>");
-        
+
         labels.add("<Url>");
         labels.add("<Isbn>");
         labels.add("<ISBN>");
-        
+
         // Books.
         labels.add("<BookTitle>");
         labels.add("<PublisherName>");
         labels.add("<PublisherLocation>");
         labels.add("<SeriesTitle>");
-        
-        
-        
-        
+
     }
 
     // Reads in a predicted output Mallet file and evaluates accuracy.
@@ -107,17 +94,26 @@ public class GeneralLabelAccuracyEvaluator {
             String aLine = sAll.nextLine();
             if (aLine.length() > 0) {
                 String[] items = aLine.split("\\s");
-                
-                String predicted = items[0];
+
+                String predicted = "";
                 String gold = "";
-                //<JournalTitle> &nbsp; <JournalTitle> 
-                if (items[items.length-1].startsWith("<") && items[items.length-1].endsWith(">")) {
-                    gold = items[items.length-1];
-                    
-                } 
-                //<JournalTitle> <JournalTitle> 5th 
+
+                // MALLET format.
+                if (MALLET) {
+                    predicted = items[0];
+                    //<JournalTitle> &nbsp; <JournalTitle> 
+                    if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
+                        gold = items[items.length - 1];
+
+                    } //<JournalTitle> <JournalTitle> 5th 
+                    else {
+                        gold = items[items.length - 2];
+                    }
+
+                } // CRF++ format.
                 else {
-                    gold = items[items.length-2];
+                    predicted = items[items.length - 1];
+                    gold = items[items.length - 2];
                 }
 
                 // Overall computation of accuracy!
@@ -135,14 +131,10 @@ public class GeneralLabelAccuracyEvaluator {
         System.out.print("Radio: " + (double) correct / (correct + wrong) * 100);
         System.out.println("% accuracy.\n\n\n");
 
-        
-        
         //********** 
         // Evaluate accuracy measures for each label.
-        
         for (String LABEL : labels) {
             Scanner s = new Scanner(new File(TEST_TAGGED));
-
 
             int labelPredicted = 0; // all hits by program.
             int labelCorrect = 0; // real hit.
@@ -152,20 +144,28 @@ public class GeneralLabelAccuracyEvaluator {
                 String aLine = s.nextLine();
                 if (aLine.length() > 0) {
                     String[] items = aLine.split("\\s");
-                
-                String predicted = items[0];
-                String gold = "";
-                //<JournalTitle> &nbsp; <JournalTitle> 
-                if (items[items.length-1].startsWith("<") && items[items.length-1].endsWith(">")) {
-                    gold = items[items.length-1];
-                    //System.out.println(gold);
-                } 
-                //<JournalTitle> <JournalTitle> 5th 
-                else {
-                    gold = items[items.length-2];
-                }
-                //   System.out.println("pred: " + predicted + " gold: " + gold + " tok: " + token);
 
+                    String predicted = "";
+                    String gold = "";
+
+                    // MALLET format.
+                    if (MALLET) {
+                        predicted = items[0];
+                        //<JournalTitle> &nbsp; <JournalTitle> 
+                        if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
+                            gold = items[items.length - 1];
+                            //System.out.println(gold);
+                        } //<JournalTitle> <JournalTitle> 5th 
+                        else {
+                            gold = items[items.length - 2];
+                        }
+                    } // CRF++ format.
+                    else {
+                        predicted = items[items.length - 1];
+                        gold = items[items.length - 2];
+                    }
+
+                //   System.out.println("pred: " + predicted + " gold: " + gold + " tok: " + token);
                     // <JournalTitle>.
                     // We have match! (gold equals predicted).
                     if (predicted.equals(gold) && gold.equals(LABEL)) {
@@ -181,17 +181,15 @@ public class GeneralLabelAccuracyEvaluator {
                         //System.out.println(aLine);
                         labelTagCount++;
                     } else {
-                    // Something which does not involve "journaltitle".
+                        // Something which does not involve "journaltitle".
                         // Not relevant for computations.
                         //System.out.println(aLine);
                     }
-
-                    
                 }
+
             }
             s.close();
 
-            
             System.out.println("**** ");
             System.out.println(LABEL);
             double precision = (double) labelCorrect / labelPredicted;
