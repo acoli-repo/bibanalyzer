@@ -82,7 +82,7 @@ public class BibAnalyzer {
     
     //public static final String INPUT_FILE_NAME = "1082_Refs.utf8.htm.oneliners.txt";
     
-    public static final String INPUT_FILE_NAME = "References_7518.txt";
+    public static final String INPUT_FILE_NAME = "450_biball_TEST_raw.txt";
     //public static final String INPUT_FILE_NAME = "input_plaintext_springer2.txt";
     //public static final String INPUT_FILE_NAME = "input_plaintext_dblp.txt";
     

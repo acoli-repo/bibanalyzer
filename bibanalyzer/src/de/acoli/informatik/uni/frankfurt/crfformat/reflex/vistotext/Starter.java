@@ -13,10 +13,25 @@ import org.apache.commons.io.output.TeeOutputStream;
  * @author Bastian_Kaiser
  */
 public class Starter {
+    
+    
+    public static final String DIR = 
+            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/";
+    
+    /**
+     * Determines path and names of files.
+     */
+    public static void main(String[] args) {
 
-    public static final String DIR = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/";
+        Starter myEntry = new Starter();
+        //myEntry.convertFiles(DIR + "in/", "refs_1.txt.html");
+        myEntry.convertFiles(DIR + "in/", "450_biball_TEST_raw.txt.html.utf-8.html");
+
+
+        // myEntry.convertFiles("References_7518_1.html");
+    }
     
-    
+
     String fileInProgres;
 
     public void convertFiles(String pathName, String pattern) {
@@ -71,17 +86,5 @@ public class Starter {
         convertFiles("./", inputFilename);
     }
 
-    /**
-     * Determines path and names of files.
-     */
-    public static void main(String[] args) {
-
-        Starter myEntry = new Starter();
-        //myEntry.convertFiles(DIR + "in/", "refs_1.txt.html");
-        myEntry.convertFiles(DIR + "in/", "References_7518_utf-8.txt.html");
-
-
-        // myEntry.convertFiles("References_7518_1.html");
-    }
 
 }

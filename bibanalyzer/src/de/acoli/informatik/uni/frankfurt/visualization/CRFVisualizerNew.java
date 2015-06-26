@@ -36,18 +36,35 @@ import java.util.Scanner;
 public class CRFVisualizerNew {
     
     
-    public static String VISUALIZE_WHAT = "CRFPLUSPLUS_CRF_OUTPUT"; 
-    // MALLET_GOLD, MALLET_CRF_OUTPUT, CRFPLUSPLUS_CRF_OUTPUT
+    public static String VISUALIZE_WHAT = 
+            //"MALLET_GOLD";
+            "CRFPLUSPLUS_CRF_OUTPUT"; 
+    // 1. MALLET_GOLD, 2. MALLET_CRF_OUTPUT, 3. CRFPLUSPLUS_CRF_OUTPUT
 
     // An CRF format input file to be visualized.
 //    public static final String INPUT_CRF_FILE = 
 //            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/"
 //            + "model_output.txt";
     
-    public static final String INPUT_CRF_FILE = 
-            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
-            + "model_output.txt";
+    //public static final String INPUT_CRF_FILE = 
+    //        "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
+    //        + "model_output.txt";
     
+            
+   //public static final String INPUT_CRF_FILE = 
+   //         "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
+   //        + "total/crf++/4500references/with_font/"
+   //         + "out_model_tokfontfeats.txt";
+   
+   
+    public static final String INPUT_CRF_FILE = 
+            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
+           + "total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
+            + "out_model_fonts_jourtit_dict_pubname_year_c1.txt";
+   
+   
+             
+            
     
     // The output file name of the HTML visualization.
     public static final String OUTPT_HTML_FILE = INPUT_CRF_FILE + ".vis.html";

@@ -38,8 +38,11 @@ public class GeneralLabelAccuracyEvaluator {
     public static final String TEST_TAGGED = "/home/niko/Desktop/"
             //+ "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/model_output.txt";
             + "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
-            + "total/crf++/4500references/with_font_year_journaltitle/out_model_toks_fonts_jourtit_mehrfeats_c1.txt";
-
+            + "total/crf++/4500references/"
+            + ""
+            + ""
+            + "with_font_journaltitle_dict_pubname_year/out_model_fonts_jourtit_dict_pubname_year_c1.txt";
+            
     public static ArrayList<String> labels = new ArrayList<String>();
 
     static {

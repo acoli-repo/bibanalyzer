@@ -21,6 +21,7 @@
 
 package de.acoli.informatik.uni.frankfurt.processing;
 
+import de.acoli.informatik.uni.frankfurt.crfformat.PlaintextReferenceStringToMalletCRFFormatConverter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -280,24 +281,7 @@ public class ReferenceUtil {
         ArrayList<String> rval = new ArrayList<>(100);
 
         String[] split = aReference.split(
-                "(?<=\\s)|(?=\\s)|" +  // space
-                    "(?<=\\.)|(?=\\.)|" +  // period
-                    "(?<=,)|(?=,)|" +       // comma
-                    "(?<=\\))|(?=\\))|" +  // closing bracket 
-                    "(?<=\\()|(?=\\()|" +  // opening bracket
-                    "(?<=:)|(?=:)|" +       // colon
-                    "(?<=;)|(?=;)|" +       // semicolon
-                    "(?<=-)|(?=-)|" +       // hyphen
-                    "(?<=–)|(?=–)|" +       // hyphen
-                    "(?<=“)|(?=“)|" +       //
-                    "(?<=”)|(?=”)|" +        
-                    "(?<=')|(?=')|" +       
-                    "(?<=‘)|(?=‘)|" +       
-                    "(?<=’)|(?=’)|" +       
-                    "(?<=/)|(?=/)|" +       
-                    "(?<=„)|(?=„)|" +       
-                    "(?<=\\[)|(?=\\[)|" +  // opening square bracket
-                    "(?<=\\])|(?=\\])"     // closing square bracket
+                    PlaintextReferenceStringToMalletCRFFormatConverter.SPLIT_REGEX
         );
 
         for (String s : split) {

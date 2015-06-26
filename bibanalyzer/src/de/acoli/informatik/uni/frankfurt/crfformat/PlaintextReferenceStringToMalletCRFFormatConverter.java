@@ -37,17 +37,18 @@ import java.util.regex.Pattern;
  * Description: Reads in automatically annotated XML-format references, such as:
  *
  *
- * T. <editor-lastname>Hey</editor-lastname>, S.
- * <editor-lastname>Tansley</editor-lastname>
- * , and K. M. <editor-lastname>Tolle</editor-lastname>, Eds.,
- * <title>The Fourth Paradigm: Data-Intensive Scientific Discovery</title>.
- * <publisher>Microsoft Research</publisher>, <year>2009</year>. [Online].
- * Available: <url>db/books/collections/4paradigm2009.html</url>
+ * <Initials>W. C.</Initials> <FamilyName>Hawkes</FamilyName>, <Initials>D. S.</Initials> <FamilyName>Kelley</FamilyName>, 
+ * and <Initials>P. C.</Initials> <FamilyName>Taylor</FamilyName>, 
+ * <ArticleTitle>The effects of dietary selenium on the immune system in healthy men</ArticleTitle>, 
+ * <JournalTitle~Italic>Biol. Trace Element Res.</JournalTitle~Italic> <VolumeID~Bold>81</VolumeID~Bold>, 
+ * <FirstPage>189</FirstPage>–<LastPage>213</LastPage> (<Year>2001</Year>)
  *
  *
  * and converts it into line separated Mallet format for CRF training.
  *
  *
+ * 
+ * 
  *
  * @author niko
  *
@@ -56,18 +57,37 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
 
     // Replacement symbols.
     public static final HashMap<String, String> rs = new HashMap<String, String>();
+    
+    // Specifies how plaintext string references should be tokenized.
+    public static final String SPLIT_REGEX = "(?<=\\s)|(?=\\s)|" +  // space
+                    "(?<=\\.)|(?=\\.)|" +  // period
+                    "(?<=,)|(?=,)|" +       // comma
+                    "(?<=\\))|(?=\\))|" +  // closing bracket 
+                    "(?<=\\()|(?=\\()|" +  // opening bracket
+                    "(?<=:)|(?=:)|" +       // colon
+                    "(?<=;)|(?=;)|" +       // semicolon
+                    "(?<=-)|(?=-)|" +       // hyphen
+                    "(?<=–)|(?=–)|" +       // hyphen
+                    "(?<=“)|(?=“)|" +       //
+                    "(?<=”)|(?=”)|" +        
+                    "(?<=')|(?=')|" +       
+                    "(?<=‘)|(?=‘)|" +       
+                    "(?<=’)|(?=’)|" +       
+                    "(?<=/)|(?=/)|" +       
+                    "(?<=„)|(?=„)|" +       
+                    "(?<=\\[)|(?=\\[)|" +  // opening square bracket
+                    "(?<=\\])|(?=\\])";     // closing square bracket
+    
 
     static {
         // cf. http://myhandbook.info/codes_htmlchr.html
 
-        // Example splitting:
-        // Input:  <title>A (really) nice, cool title.</title>
-        // Output: <title>A/(/really/)/nice/,/cool/title/.</title>
+        // Specifies which "dummy" (punctuation) symbols should receive their own labels.
         rs.put(" ", "<&nbsp;>");
         rs.put(".", "<&period;>");
         rs.put(",", "<&comma;>");
         rs.put("(", "<&brackl>");
-        rs.put(")", "<&brackr>");
+        rs.put(")", "<&brackr>"); 
         rs.put(":", "<&colon;>");
         rs.put("-", "<&hypen;>");
         rs.put("–", "<&hypen;>"); // Springer.
@@ -91,7 +111,8 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
     }
 
     /**
-     * Convert a plaintext reference string to Mallet format tokenized new-line
+     * Convert a plaintext reference string with annotations 
+     * to Mallet format tokenized new-line
      * separated format.
      *
      * Non-annotated spans in the text are labeled "dummy" if they don't match a
@@ -101,8 +122,10 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
      * @param w
      * @throws FileNotFoundException
      */
-    public static void convertReferenceString(String aReference, PrintWriter w) throws FileNotFoundException {
+    public static ArrayList<String> convertReferenceString(String aReference, PrintWriter w) throws FileNotFoundException {
 
+        ArrayList<String> rval = new ArrayList<String>();
+        
         // Handle beginning of reference (in case it does not start with a tag right away.)
         if (aReference.charAt(0) != '<') {
             // Add dummy tag to beginning of string.
@@ -252,8 +275,8 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
             currentOccurrenceIdx2 = idx;
         }
 
-        w.write("BOR <BOR>\n");
-        w.write("&nbsp; <&nbsp;>\n"); // Add this space so that an unknown reference
+        w.write("BOR <BOR>\n"); rval.add("BOR <BOR>");
+        w.write("&nbsp; <&nbsp;>\n"); rval.add("&nbsp; <&nbsp;>"); // Add this space so that an unknown reference
         // can be correctly tokenized. BOR_A. Schmidt, B. Schulz...
 
         w.flush();
@@ -273,21 +296,7 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
             // Alles was INNERHALB der spans an delimitern zu finden ist muss hier deklariert werden
             // in der Regex.
             String[] field = string.split(
-                    "(?<=\\s)|(?=\\s)|" + // space
-                    "(?<=\\.)|(?=\\.)|" + // period
-                    "(?<=,)|(?=,)|" + // comma
-                    "(?<=\\))|(?=\\))|" + // closing bracket 
-                    "(?<=\\()|(?=\\()|" + // opening bracket
-                    "(?<=:)|(?=:)|" + // colon
-                    "(?<=-)|(?=-)|" + // hyphen
-                    "(?<=–)|(?=–)|" + // hyphen
-                    "(?<=“)|(?=“)|" + //
-                    "(?<=”)|(?=”)|"
-                    + "(?<=')|(?=')|"
-                    + "(?<=/)|(?=/)|"
-                    + "(?<=„)|(?=„)|"
-                    + "(?<=\\[)|(?=\\[)|" + // opening square bracket
-                    "(?<=\\])|(?=\\])" // closing square bracket
+                    SPLIT_REGEX
             );
 
             String curLab = label;
@@ -306,16 +315,16 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
                     }
 
                     if (label.equals("<dummy>")) {
-                        w.write(piece + " " + curLab + "\n");
+                        w.write(piece + " " + curLab + "\n"); rval.add(piece + " " + curLab);
                     } else {
 
                         if (label.contains("~")) {
                             String raw_label = label.substring(0, label.indexOf("~")) + ">";
                             String fontInfo = label.substring(label.indexOf("~") + 1, label.length() - 1);
                             if (writeFontInfo) {
-                                w.write(piece + " <" + fontInfo + "> " + raw_label + "\n");
+                                w.write(piece + " <" + fontInfo + "> " + raw_label + "\n"); rval.add(piece + " <" + fontInfo + "> " + raw_label);
                             } else {
-                                w.write(piece + " " + raw_label + "\n");
+                                w.write(piece + " " + raw_label + "\n"); rval.add(piece + " " + raw_label);
                             }
 
                         } else {
@@ -323,13 +332,13 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
                             //and has no real label. Should be "dummy" with italics information.
                             if (label.equals("<Italic>") || label.equals("<Bold>")) {
                                 if (writeFontInfo) {
-                                    w.write(piece + " " + label + " " + curLab.replace(label, "<dummy>") + "\n");
+                                    w.write(piece + " " + label + " " + curLab.replace(label, "<dummy>") + "\n"); rval.add(piece + " " + label + " " + curLab.replace(label, "<dummy>"));
                                 } else {
-                                    w.write(piece + " " + curLab.replace(label, "<dummy>") + "\n");
+                                    w.write(piece + " " + curLab.replace(label, "<dummy>") + "\n"); rval.add(piece + " " + curLab.replace(label, "<dummy>"));
                                 }
                             } else {
                                 // normal. only one feature (the 'token'):
-                                w.write(piece + " " + label + "\n");
+                                w.write(piece + " " + label + "\n"); rval.add(piece + " " + label);
                             }
                         }
                     }
@@ -342,41 +351,14 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
 
         }
 
-        w.write("&nbsp; <&nbsp;>\n");
-        w.write("EOR <EOR>\n\n");
+        w.write("&nbsp; <&nbsp;>\n"); rval.add("&nbsp; <&nbsp;>");
+        w.write("EOR <EOR>\n\n"); rval.add("EOR <EOR>");
         w.flush();
         //System.out.println("EOR <eor>");
 
+        return rval;
+        
     }
 
-    /**
-     * Test client.
-     *
-     * @param args
-     * @throws FileNotFoundException
-     */
-    public static void main(String[] args) throws FileNotFoundException {
-        System.out.println("Simple test client.\n\n");
-        //String aRef = "<author-fullname>Sunisa Rimch(aroen</author-fullname>, <author-fullname>Daricha Sutivong</author-fullname>, and <author-fullname>Prabhas Chongstitvatana</author-fullname>. <title>Optimal stopping time of compact genetic algorithm on deceptive problem using real options analysis.</title> In <booktitle>IEEE Congress on Evolutionary Computation</booktitle>, pages <pages>4668-4675</pages>, <year>2007</year>. URL <url>db/conf/cec/cec2007.html#RimcharoenSC07</url>";
-        //String aRef = "M.H. <author-lastname>Kazemi</author-lastname>, M. <author-lastname>Karrari</author-lastname>, M.B. <author-lastname>Menhaj</author-lastname>, <journal>Eur. J. Control,</journal> <volume>9</volume>(<number>5</number>), 474 (<year>2003</year>). URL <url>db/journals/ejcon/ejcon9.html#KazemiKM03</url>";
-        //String aRef = "<author-lastname>Sun</author-lastname>, <Initials>L</Initials>, <author-lastname>Ge</author-lastname>, <Initials>H</Initials>, <author-lastname>Yoshida</author-lastname>, <Initials>S</Initials>, <author-lastname>Liang</author-lastname>, <Initials>Y</Initials>, <author-lastname>Tan</author-lastname>, <Initials>G</Initials> (<year>2014</year>) <title>Support vector description of clusters for content-based image annotation.</title> <journal>Pattern Recognition</journal> <volume>47</volume>(<number>3</number>):<pages>1361-1374</pages>, URL <url>db/journals/pr/pr47.html#SunGYLT14</url>";
-        //String aRef = "<author-fullname>Antonio Dell'Aquila</author-fullname>, <author-fullname>Marco Liserre</author-fullname>, <author-fullname>Vito Giuseppe Monopoli</author-fullname>, and <author-fullname>Paola Rotondo</author-fullname>. <title>An energy-based control for an n-H-bridges multilevel active rectifier.</title> <journal>IEEE Transactions on Industrial Electronics</journal>, <volume>52</volume>(<number>3</number>):<pages>670-678</pages>, <year>2005</year>. URL <url>db/journals/tie/tie52.html#DellAquilaLMR05</url>.";
-        // TODO:
-        String aRef = "<author-lastname>Chae</author-lastname>, <Initials>H.</Initials>, <author-lastname>Kim</author-lastname>, <Initials>K.</Initials>, <author-lastname>Ran</author-lastname>, <Initials>R.</Initials> & <author-lastname>Kim</author-lastname>, <Initials>D. K.</Initials> (<year>2013</year>), ‘<title>A Single Feedback Based Interference Alignment for Three-User MIMO Interference Channels with Limited Feedback.</title>', <journal>TIIS</journal> <volume>7</volume>(<number>4</number>), <pages>692-710</pages>. URL: <url>db/journals/itiis/itiis7.html#ChaeKRK13</url>";
-
-        // New initials.
-        //String aRef = "<Initials>G</Initials>. <Initials>J</Initials>. <Initials>M</Initials>. <author-lastname>Smit</author-lastname>, <Initials>A</Initials>. <Initials>B</Initials>. <Initials>J</Initials>. <author-lastname>Kokkeler</author-lastname>, <Initials>P</Initials>. <Initials>T</Initials>. <author-lastname>Wolkotte</author-lastname>, <Initials>P</Initials>. <Initials>K</Initials>. <Initials>F</Initials>. <author-lastname>Hölzenspies</author-lastname>, <Initials>M</Initials>. <Initials>D</Initials>. <Initials>van</Initials> <author-lastname>Burgwal</author-lastname>, and <Initials>P</Initials>. <Initials>M</Initials>. <author-lastname>Heysters</author-lastname>, “<title>The Chameleon Architecture for Streaming DSP Applications.</title>” <journal>EURASIP J. Emb. Sys.</journal>, vol. <year><volume>2007</volume></year>, 2007. [Online]. Available: <url>db/journals/ejes/ejes2007.html#SmitKWHBH07</url>";
-        //String aRef = "Water, Air, and Soil Pollution";
-
-        System.out.println();
-        System.out.println(aRef);
-
-        // http://stackoverflow.com/questions/15769028/java-regex-to-strip-out-xml-tags-but-not-tag-contents
-        String substituted = aRef.replaceAll("<[^>]+>", "");
-        System.out.println(substituted + "\n");
-
-        PrintWriter w = new PrintWriter(new File("/home/niko/Desktop/out.txt"));
-        convertReferenceString(aRef, w);
-        w.close();
-    }
+    
 }

@@ -35,9 +35,12 @@ import java.util.Scanner;
  */
 public class FeaturesAdderLowLevel {
 
-    static String inputFile = "/home/niko/Desktop/artics/6.withoutfont_dict_year/1000train.txt";
-    static String outputFile = "/home/niko/Desktop/artics/6.withoutfont_dict_year/1000train_yr.txt";
-
+    static String inputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
+            + "4500_TRAIN_font_jourtit_dict_pubname.txt";
+    
+    static String outputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
+            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
+    
     public static void main(String[] args) throws FileNotFoundException {
         addYearFeature(inputFile, outputFile);
     }
@@ -71,7 +74,7 @@ public class FeaturesAdderLowLevel {
 
                         } else {
                             // Add a new feature first.
-                            write = write.concat(isYear(token) + " ");
+                            write = write.concat(isYear(token));
                             // Add the label.
                             write = write.concat(items[i] + " \n");
                             
