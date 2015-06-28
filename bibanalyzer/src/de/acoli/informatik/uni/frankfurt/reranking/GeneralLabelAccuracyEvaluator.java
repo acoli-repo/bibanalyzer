@@ -41,7 +41,8 @@ public class GeneralLabelAccuracyEvaluator {
             + "total/crf++/4500references/"
             + ""
             + ""
-            + "with_font_journaltitle_dict_pubname_year/out_model_fonts_jourtit_dict_pubname_year_c1.txt";
+            + "with_font_journaltitle_dict_pubname_year/"
+            + "out_model_fonts_jourtit_dict_pubname_year_model_6feats_more_01.txt";
             
     public static ArrayList<String> labels = new ArrayList<String>();
 

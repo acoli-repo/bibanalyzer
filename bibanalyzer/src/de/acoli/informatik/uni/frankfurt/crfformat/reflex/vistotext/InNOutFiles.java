@@ -15,10 +15,10 @@ public class InNOutFiles extends ReadFile {
     private int refNum = 0;
     static String dummy = "";
 
-    protected InNOutFiles(String DIR, String filename, String fileType, int charSetId) {
+    protected InNOutFiles(String folder, String filename, String fileType, int charSetId) {
 
         super(filename, fileType, charSetId);
-        out = new WriteOutputFile(DIR + "/out/" + fileName, 1);
+        out = new WriteOutputFile(folder + "/" + fileName + "_refl2xmlaug.txt", 1);
 
 		// colorMap.put("66FF66", "<Year>");
         // colorMap.put("BDBAD6", "<Title?>");
@@ -110,7 +110,10 @@ public class InNOutFiles extends ReadFile {
             if (line.trim().equals("")) {
                 continue; // line.replaceAll("&#8211;", "-").replaceAll("&#224;",
             }													// "à").replaceAll("&#231;", "ç").replaceAll("&#233;", "é")
-            line = line.replaceAll("lang=EN-US>&lt;bib id=&quot;bib.+&quot;&gt;", "style='#000000'>").replaceAll("&lt;/bib&gt;", "")
+            line = line
+                    
+                    .replace("&amp;nbsp;", " ") // seltsame Reflexica nbps
+                    .replaceAll("lang=EN-US>&lt;bib id=&quot;bib.+&quot;&gt;", "style='#000000'>").replaceAll("&lt;/bib&gt;", "")
                     .replaceAll("<.edrg>", "");
             line = StringEscapeUtils.unescapeHtml4(line);
 			// line = line.replaceAll("<", "<");
@@ -133,7 +136,7 @@ public class InNOutFiles extends ReadFile {
         int startIndex = text.indexOf("#") + 1;
         int endIndex = startIndex + 6;
         int textEnd = text.indexOf("<");
-        if (0 < textEnd && textEnd < startIndex) {
+        if (0 < textEnd && (textEnd < startIndex || startIndex == 0)) {
             write(text.substring(0, textEnd));
         }
         String colorNum = text.substring(startIndex, endIndex);

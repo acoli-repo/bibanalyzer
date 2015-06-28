@@ -72,7 +72,7 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
                     "(?<=”)|(?=”)|" +        
                     "(?<=')|(?=')|" +       
                     "(?<=‘)|(?=‘)|" +       
-                    "(?<=’)|(?=’)|" +       
+                //    "(?<=’)|(?=’)|" +       
                     "(?<=/)|(?=/)|" +       
                     "(?<=„)|(?=„)|" +       
                     "(?<=\\[)|(?=\\[)|" +  // opening square bracket

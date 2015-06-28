@@ -7,6 +7,7 @@
 package de.acoli.informatik.uni.frankfurt.crfformat;
 
 import de.acoli.informatik.uni.frankfurt.processing.ReferenceUtil;
+import de.acoli.informatik.uni.frankfurt.visualization.CRFVisualizerNew;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -29,24 +30,52 @@ public class CRFUtility {
      */
     public static void main(String[] args) throws FileNotFoundException {
         
-        String anUnannotatedRef = "W. C. Hawkes, D. S. Kelley, "
-                + "and P. C. Taylor, "
-                + "The effects of dietary selenium on the immune system in healthy men, "
-                + "Biol. Trace Element Res. 81, 189–213 (2001).";
-        tokenizeSinglePlaintextRef(anUnannotatedRef);
-        
-        
-        String anAnnotatedRef = 
-                "<Initials>W. C.</Initials> <FamilyName>Hawkes</FamilyName>, <Initials>D. S.</Initials> <FamilyName>Kelley</FamilyName>, "
-                + "and <Initials>P. C.</Initials> <FamilyName>Taylor</FamilyName>, "
-                + "<ArticleTitle>The effects of dietary selenium on the immune system in healthy men</ArticleTitle>, "
-                + "<JournalTitle~Italic>Biol. Trace Element Res.</JournalTitle~Italic> <VolumeID~Bold>81</VolumeID~Bold>, "
-                + "<FirstPage>189</FirstPage>–<LastPage>213</LastPage> (<Year>2001</Year>).";
+//        String anUnannotatedRef = "W. C. Hawkes, D. S. Kelley, "
+//                + "and P. C. Taylor, "
+//                + "The effects of dietary selenium on the immune system in healthy men, "
+//                + "Biol. Trace Element Res. 81, 189–213 (2001).";
+//        tokenizeSinglePlaintextRef(anUnannotatedRef);
+//        
+//        
+//        String anAnnotatedRef = 
+//                "<Initials>W. C.</Initials> <FamilyName>Hawkes</FamilyName>, <Initials>D. S.</Initials> <FamilyName>Kelley</FamilyName>, "
+//                + "and <Initials>P. C.</Initials> <FamilyName>Taylor</FamilyName>, "
+//                + "<ArticleTitle>The effects of dietary selenium on the immune system in healthy men</ArticleTitle>, "
+//                + "<JournalTitle~Italic>Biol. Trace Element Res.</JournalTitle~Italic> <VolumeID~Bold>81</VolumeID~Bold>, "
+//                + "<FirstPage>189</FirstPage>–<LastPage>213</LastPage> (<Year>2001</Year>).";
+ 
+        String anAnnotatedRef =
+                "<FamilyName>Winkelstein</FamilyName>, <Initials>W.</Initials>, <FamilyName>Lyman</FamilyName>, <Initials>D.</Initials>, <FamilyName>Padian</FamilyName>, <Initials>N.</Initials>, <FamilyName>Grant</FamilyName>, <Initials>R.</Initials>, <FamilyName>Samuel</FamilyName>, <Initials>M.</Initials>, <FamilyName>Wiley</FamilyName>, <Initials>J.</Initials>, <FamilyName>Anderson</FamilyName>, <Initials>R.</Initials>, <FamilyName>Lang</FamilyName>, <Initials>W.</Initials>, <FamilyName>Riggs</FamilyName>, <Initials>J.</Initials>, & <FamilyName>Levy</FamilyName>, <Initials>J.</Initials> (<Year>1987</Year>). <ArticleTitle>Sexual practices and risk of infection by the human immunodeficiency virus: The San Francisco Men’s Health Study</ArticleTitle>. <JournalTitle>Journal of the American Medical Association</JournalTitle>, <VolumeID>257</VolumeID>, <FirstPage>321</FirstPage>–<LastPage>325</LastPage>.";
         tokenizeSingleXMLAug(anAnnotatedRef);
         
         
         
+        
+        
+        tokenizeMultipleXMLAugsFromFile(
+                // Input.
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt", 
+                // Output.
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt"
+                );
+        
+        
+        CRFVisualizerNew.visualizeCRFOutput(
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
+                
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt.vis.html"
+        
+        );
+        
+        
     }
+    
+    
+    
     
     
     /**
@@ -82,6 +111,29 @@ public class CRFUtility {
     
     
     
+    /**
+     * Converts an XML-augmented file to its token(line-)separated output file.
+     * @param inputFile
+     * @param outputFile
+     * @throws FileNotFoundException 
+     */
+    public static void tokenizeMultipleXMLAugsFromFile(String inputFile, String outputFile) throws FileNotFoundException {
+
+        Scanner s = new Scanner(new File(inputFile));
+        PrintWriter w = new PrintWriter(new File(outputFile));
+
+        while (s.hasNextLine()) {
+            String aLine = s.nextLine().trim();
+            PlaintextReferenceStringToMalletCRFFormatConverter.convertReferenceString(aLine, w);
+        }
+        s.close();
+        w.flush();
+        w.close();
+
+    }
+    
+    
+    
     
     /**
      * 
@@ -111,7 +163,7 @@ public class CRFUtility {
      * @param outputFile
      * @throws FileNotFoundException 
      */
-    public static void tokenizePlaintextRefs(String inputFile, String outputFile) throws FileNotFoundException {
+    public static void tokenizeMultiplePlaintextRefsFromFile(String inputFile, String outputFile) throws FileNotFoundException {
 
         Scanner s = new Scanner(new File(inputFile));
         PrintWriter w = new PrintWriter(new File(outputFile));
@@ -130,25 +182,5 @@ public class CRFUtility {
     }
     
     
-    /**
-     * Converts an XML-augmented file to its token(line-)separated output file.
-     * @param inputFile
-     * @param outputFile
-     * @throws FileNotFoundException 
-     */
-    public static void tokenizeXMLAugs(String inputFile, String outputFile) throws FileNotFoundException {
-
-        Scanner s = new Scanner(new File(inputFile));
-        PrintWriter w = new PrintWriter(new File(outputFile));
-
-        while (s.hasNextLine()) {
-            String aLine = s.nextLine().trim();
-            PlaintextReferenceStringToMalletCRFFormatConverter.convertReferenceString(aLine, w);
-        }
-        s.close();
-        w.flush();
-        w.close();
-
-    }
 
 }

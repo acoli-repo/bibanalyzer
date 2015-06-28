@@ -59,8 +59,8 @@ public class CRFVisualizerNew {
    
     public static final String INPUT_CRF_FILE = 
             "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
-           + "total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
-            + "out_model_fonts_jourtit_dict_pubname_year_c1.txt";
+           + "total/crf++/4500references/with_font_journaltitle_dict_pubname_year/best_model/"
+            + "out_model_fonts_jourtit_dict_pubname_year_model_6feats_more.txt";
    
    
              
@@ -98,6 +98,7 @@ public class CRFVisualizerNew {
         colorMap.put("<Initials>", "DDDDDD");
         
         colorMap.put("<FamilyNameEditor>", "FF95CA");
+        // FamilyNameEditor
         colorMap.put("<InitialsEditor>", "FFD1E8");
          
         
