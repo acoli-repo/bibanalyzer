@@ -39,9 +39,11 @@ import java.util.Scanner;
 public class FeaturesAdderDictionaryWords {
     
     
-    static String DIR = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_year_journaltitle_dict/";
+    static String DIR = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
+            + "alignment/reflexica_annotations_journame_dict/";
+            
     static String inputFile = DIR 
-            + "4500_biball_TRAIN.txt.fontfeats.txt.jourtit.txt.fix.txt" ;
+            + "4331_train_aligned.txt.jourtit.txt.fix.txt" ;
     static String outputFile = inputFile 
             + ".dict.txt";
 

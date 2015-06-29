@@ -33,10 +33,10 @@ public class RelfexCRFandOtherCRFMerger {
 
     // Reflex CRF file.
     public static String REFLEX_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/"
-            + "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt";
+            + "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt";
     // Other CRF file.
     public static String OTHER_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/best_model/"
-            + "450_TEST_font_jourtit_dict_pubname_year.txt";
+            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
 
@@ -272,7 +272,7 @@ public class RelfexCRFandOtherCRFMerger {
         
         // Export:
         
-        PrintWriter w = new PrintWriter(new File("/home/niko/Desktop/test_aligned.txt"));
+        PrintWriter w = new PrintWriter(new File("/home/niko/Desktop/train_aligned.txt"));
         for(ArrayList<String> l : annotatedLines) {
             for(String e : l) {
                 w.write(e.trim() + "\n");

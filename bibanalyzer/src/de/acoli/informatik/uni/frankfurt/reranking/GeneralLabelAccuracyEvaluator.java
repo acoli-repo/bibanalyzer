@@ -32,7 +32,7 @@ import java.util.Scanner;
  */
 public class GeneralLabelAccuracyEvaluator {
 
-    static boolean MALLET = false; // false = CRF++;
+    static boolean MALLET = false; // false = CRF++; // 
 
     // Gold--Predicted.
     public static final String TEST_TAGGED = "/home/niko/Desktop/"
@@ -41,8 +41,9 @@ public class GeneralLabelAccuracyEvaluator {
             + "total/crf++/4500references/"
             + ""
             + ""
-            + "with_font_journaltitle_dict_pubname_year/"
-            + "out_model_fonts_jourtit_dict_pubname_year_model_6feats_more_01.txt";
+            + "alignment/"
+            + "no_annotations/"
+            + "output_model_no_annotations.txt";
             
     public static ArrayList<String> labels = new ArrayList<String>();
 
@@ -53,6 +54,7 @@ public class GeneralLabelAccuracyEvaluator {
         //labels.add("<&comma;>");
         labels.add("<FirstPage>");
         labels.add("<LastPage>");
+        labels.add("<Pages>");
 
         labels.add("<Initials>");
         labels.add("<FamilyName>");
@@ -118,15 +120,21 @@ public class GeneralLabelAccuracyEvaluator {
 
                 // MALLET format.
                 if (MALLET) {
-                    predicted = items[0];
-                    //<JournalTitle> &nbsp; <JournalTitle> 
-                    if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
-                        gold = items[items.length - 1];
-
-                    } //<JournalTitle> <JournalTitle> 5th 
-                    else {
-                        gold = items[items.length - 2];
-                    }
+                    
+                    predicted = items[1].replace("<Reflex", "<");
+                    gold = items[2];
+                  //  System.out.println("predicted:" + predicted);
+                  //  System.out.println("gold:" + gold);
+                    
+//                    predicted = items[0];
+//                    //<JournalTitle> &nbsp; <JournalTitle> 
+//                    if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
+//                        gold = items[items.length - 1];
+//
+//                    } //<JournalTitle> <JournalTitle> 5th 
+//                    else {
+//                        gold = items[items.length - 2];
+//                    }
 
                 } // CRF++ format.
                 else {
@@ -173,15 +181,21 @@ public class GeneralLabelAccuracyEvaluator {
 
                     // MALLET format.
                     if (MALLET) {
-                        predicted = items[0];
-                        //<JournalTitle> &nbsp; <JournalTitle> 
-                        if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
-                            gold = items[items.length - 1];
-                            //System.out.println(gold);
-                        } //<JournalTitle> <JournalTitle> 5th 
-                        else {
-                            gold = items[items.length - 2];
-                        }
+                        
+                        
+                    predicted = items[1].replace("<Reflex", "<");
+                    gold = items[2];
+                        
+                        
+//                        predicted = items[0];
+//                        //<JournalTitle> &nbsp; <JournalTitle> 
+//                        if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
+//                            gold = items[items.length - 1];
+//                            //System.out.println(gold);
+//                        } //<JournalTitle> <JournalTitle> 5th 
+//                        else {
+//                            gold = items[items.length - 2];
+//                        }
                     } // CRF++ format.
                     else {
                         predicted = items[items.length - 1];

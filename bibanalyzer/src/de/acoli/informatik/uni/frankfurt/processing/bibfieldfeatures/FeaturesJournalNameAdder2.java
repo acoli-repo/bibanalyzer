@@ -36,12 +36,14 @@ public class FeaturesJournalNameAdder2 {
     // Input file which we want to augment with journal information from RefLexica DB.
     private static final String INPUT_FILE = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/"
             + "einModell3Bibtypes/training/total/crf++/4500references/"
-            + "with_font_journaltitle_dict_pubname_year/4500_TRAIN_font_jourtit_dict.txt";
-
+            + "alignment/"
+            + "reflexica_annotations_journame_dict_pubname_year_ednum/"
+            //+ "4331_train_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt";
+            + "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt";
 
 
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-        addDataBaseFeatures(INPUT_FILE, INPUT_FILE + ".pubname.txt", DictReader.PUBNAMES_SPRINGER, "", true);
+        addDataBaseFeatures(INPUT_FILE, INPUT_FILE + ".ednum.txt", DictReader.EDNUM_SPRINGER, "", true);
     }
     
     
@@ -120,6 +122,13 @@ public class FeaturesJournalNameAdder2 {
             case DictReader.PUBLOCS_SPRINGER:
                 databaseItems = DictReader.getSplittedSpringerPublisherLocations();
                 break;
+                
+            case DictReader.JOURTIT_SPRINGER:
+                databaseItems = DictReader.getSplittedSpringerJournalTitles();
+                break;
+                
+                
+                    
                 
                 
             case DictReader.PUBNAMES_DBLP:

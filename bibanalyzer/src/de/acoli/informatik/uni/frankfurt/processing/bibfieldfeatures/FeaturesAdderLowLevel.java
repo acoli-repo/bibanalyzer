@@ -35,11 +35,11 @@ import java.util.Scanner;
  */
 public class FeaturesAdderLowLevel {
 
-    static String inputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
-            + "4500_TRAIN_font_jourtit_dict_pubname.txt";
+    static String inputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/alignment/reflexica_annotations_journame_dict_pubname_year/"
+            + "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt";
     
-    static String outputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
-            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
+    static String outputFile = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/alignment/reflexica_annotations_journame_dict_pubname_year/"
+            + "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt";
     
     public static void main(String[] args) throws FileNotFoundException {
         addYearFeature(inputFile, outputFile);

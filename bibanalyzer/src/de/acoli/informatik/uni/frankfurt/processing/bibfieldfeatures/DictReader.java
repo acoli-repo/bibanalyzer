@@ -80,7 +80,7 @@ public class DictReader {
     public static final String EDNUM_SPRINGER = PATH_TO_SPRINGER_DICTS + "EditionNumberDB_Springer.txt";
 
     // Conference event names.
-    public static final String CONFEVENTNAMES_SPRINGER = "ConfEventNameDB_Springer.txt";
+    public static final String CONFEVENTNAMES_SPRINGER = PATH_TO_SPRINGER_DICTS + "ConfEventNameDB_Springer.txt";
 
     // Conference event locations.
     public static final String CONFEVENTLOCS_SPRINGER = "ConfEventLocationDB_Springer.txt";

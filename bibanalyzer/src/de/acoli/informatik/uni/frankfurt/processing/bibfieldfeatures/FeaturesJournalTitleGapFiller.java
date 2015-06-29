@@ -20,8 +20,14 @@ public class FeaturesJournalTitleGapFiller {
 //    static String IN = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_year_journaltitle/"
 //            + "4500_biball_TRAIN.txt.fontfeats.txt.jourtit.txt";
 //    
-    static String IN = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
-            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
+//    static String IN = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/"
+//            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
+//    
+    
+    static String IN = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
+            + "alignment/reflexica_annotations_journame_dict_pubname_year_ednum/"
+            //+ "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt.ednum.txt";
+            + "4331_train_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt.ednum.txt";
     
     
     public static void main(String[] args) throws FileNotFoundException {
@@ -33,13 +39,15 @@ public class FeaturesJournalTitleGapFiller {
             //System.out.println(aLine);
             if(aLine.length() > 0) {
                 String[] split = aLine.split("\\s");
+                
+                
 //                if(split.length == 3) {
 //                    w.write(split[0] + " " + split[1] + " <isNotSJT> " + split[2] + "\n");
 //                }
 //                else if(split.length == 4) {
 //                    w.write(aLine + "\n");
 //                }
-                
+//                
                 
 //                
 //                if(split.length == 4) {
@@ -50,9 +58,9 @@ public class FeaturesJournalTitleGapFiller {
 //                }
 //                
 //                
-//                
+                
 //                if(split.length == 5) {
-//                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] +  " <isNotSPB> " + split[4] + "\n");
+//                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] +  " <isNotSPN> " + split[4] + "\n");
 //                }
 //                else if(split.length == 6) {
 //                    w.write(aLine + "\n");
@@ -60,12 +68,22 @@ public class FeaturesJournalTitleGapFiller {
                 
                 
                 
+//                   
+//                
+//                if(split.length == 6) {
+//                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " <isNotYear> " + split[5] + "\n");
+//                }
+//                else if(split.length == 7) {
+//                    w.write(aLine + "\n");
+//                }
+                
+                
                    
                 
-                if(split.length == 6) {
-                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " <isNotYear> " + split[5] + "\n");
+                if(split.length == 7) {
+                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " " + split[5] +  " <isNotSEN> " + split[6] + "\n");
                 }
-                else if(split.length == 7) {
+                else if(split.length == 8) {
                     w.write(aLine + "\n");
                 }
                 
