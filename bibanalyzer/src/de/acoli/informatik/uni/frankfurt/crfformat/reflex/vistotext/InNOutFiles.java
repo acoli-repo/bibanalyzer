@@ -15,21 +15,12 @@ public class InNOutFiles extends ReadFile {
     private int refNum = 0;
     static String dummy = "";
 
-    protected InNOutFiles(String folder, String filename, String fileType, int charSetId) {
+    protected InNOutFiles(String folder, String filename, String outputFilePath, String fileType, int charSetId) {
 
         super(filename, fileType, charSetId);
-        out = new WriteOutputFile(folder + "/" + fileName + "_refl2xmlaug.txt", 1);
+        out = new WriteOutputFile(outputFilePath, 1);
 
-		// colorMap.put("66FF66", "<Year>");
-        // colorMap.put("BDBAD6", "<Title?>");
-        // colorMap.put("FF3300", "<Url>");
-        // colorMap.put("BCBCBC", "<FamilyName>");
-        // colorMap.put("CCCCFF", "<ArticleTitle>");
-        // colorMap.put("DDDDDD", "<Initials>");
-        // colorMap.put("CCFF99", "<JournalTitle>");
-        // colorMap.put("FFCC66", "<VolumeID>");
-        // colorMap.put("D279FF", "<Pages>");
-        // colorMap.put("000000", "<BibComments>");
+	
         // Springer specific
         colorMap.put("BCBCBC", "<FamilyName>");
         colorMap.put("DDDDDD", "<Initials>");
@@ -40,6 +31,12 @@ public class InNOutFiles extends ReadFile {
 
         colorMap.put("FFFF80", "<Prefix>");
         colorMap.put("FFA86D", "<Suffix>");
+        
+        // TODO:!
+        // ("<Particle>");
+        // ("<Degrees>");
+        
+        
         colorMap.put("66FF66", "<Year>");
         colorMap.put("CCCCFF", "<ArticleTitle>");
         colorMap.put("CCFF99", "<JournalTitle>");
@@ -114,7 +111,7 @@ public class InNOutFiles extends ReadFile {
                     
                     .replace("&amp;nbsp;", " ") // seltsame Reflexica nbps
                     .replaceAll("lang=EN-US>&lt;bib id=&quot;bib.+&quot;&gt;", "style='#000000'>").replaceAll("&lt;/bib&gt;", "")
-                    .replaceAll("<.edrg>", "");
+                    .replaceAll("<?edrg>", "");
             line = StringEscapeUtils.unescapeHtml4(line);
 			// line = line.replaceAll("<", "<");
             // newNode(line.substring(beginIndex, endIndex), root);

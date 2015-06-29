@@ -12,32 +12,16 @@ import org.apache.commons.io.output.TeeOutputStream;
  *
  * @author Bastian_Kaiser
  */
-public class Starter {
+public class ReflexHTMLtoXMLAugConverter {
 
-    public void convertFiles(String pathName, String pattern) {
+    public void convertFiles(String pathName, String pattern, String outputFilePath) {
 
         String fileInProgres;
         File path = new File(pathName);
 
-        if (path.isDirectory()) {
-            FileOutputStream fos;
-            TeeOutputStream myOut;
-            PrintStream ps;
-            FileOutputStream fos2;
-            TeeOutputStream myOut2;
-            PrintStream ps2;
-			//File logFile = new File("./Log/Output.log");
-            //File logFile2 = new File("./Log/Error.log");
             try {
-//				fos = new FileOutputStream(logFile);
-//				fos2 = new FileOutputStream(logFile2);
-//				// we will want to print in standard "System.out" and in "file"
-//				myOut = new TeeOutputStream(System.out, fos);
-//				myOut2 = new TeeOutputStream(System.err, fos2);
-//				ps = new PrintStream(myOut);
-//				ps2 = new PrintStream(myOut2);
-//				System.setOut(ps);
-//				System.setErr(ps2);
+
+                
                 File[] listOfFiles = path.listFiles();
                 if (listOfFiles.length == 0) {
                     System.out.println("file not found.");
@@ -47,7 +31,7 @@ public class Starter {
                     if (listOfFiles[i].isFile() && listOfFiles[i].getName().equals(pattern)) {
                         System.out.println(listOfFiles[i].getName());
                         fileInProgres = listOfFiles[i].getName();
-                        InNOutFiles input = new InNOutFiles(pathName, pathName + fileInProgres, "TXT", 0);
+                        InNOutFiles input = new InNOutFiles(pathName, pathName + fileInProgres, outputFilePath,   "TXT", 0);
                         input.convertBiblioFormat();
                         input.scanner.close();
                     }
@@ -57,9 +41,7 @@ public class Starter {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else {
-            System.out.println("Path " + pathName + " is not a directory.");
-        }
+        
     }
 
     /**
@@ -70,9 +52,10 @@ public class Starter {
         String folder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
         String file = "450_biball_TEST_raw.txt.html.utf-8.html";
 
-        Starter myEntry = new Starter();
-
-        myEntry.convertFiles(folder, file);
+        String outputFilePath = "/home/niko/Desktop/outi.txt";
+        
+        ReflexHTMLtoXMLAugConverter myEntry = new ReflexHTMLtoXMLAugConverter();
+        myEntry.convertFiles(folder, file, outputFilePath);
     }
 
 }

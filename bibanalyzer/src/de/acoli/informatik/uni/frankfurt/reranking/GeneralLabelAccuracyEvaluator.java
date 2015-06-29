@@ -62,6 +62,7 @@ public class GeneralLabelAccuracyEvaluator {
         labels.add("<Degrees>");
         labels.add("<InstitutionalAuthorName>");
         labels.add("<BibInstitutionalEditorName>");
+        
 
         labels.add("<Handle>");
         labels.add("<BibComments>");

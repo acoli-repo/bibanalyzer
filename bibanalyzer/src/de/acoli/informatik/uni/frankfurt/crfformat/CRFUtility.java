@@ -6,6 +6,7 @@
 
 package de.acoli.informatik.uni.frankfurt.crfformat;
 
+import de.acoli.informatik.uni.frankfurt.crfformat.reflex.vistotext.ReflexHTMLtoXMLAugConverter;
 import de.acoli.informatik.uni.frankfurt.processing.ReferenceUtil;
 import de.acoli.informatik.uni.frankfurt.visualization.CRFVisualizerNew;
 import java.io.File;
@@ -44,14 +45,28 @@ public class CRFUtility {
 //                + "<JournalTitle~Italic>Biol. Trace Element Res.</JournalTitle~Italic> <VolumeID~Bold>81</VolumeID~Bold>, "
 //                + "<FirstPage>189</FirstPage>–<LastPage>213</LastPage> (<Year>2001</Year>).";
  
-        String anAnnotatedRef =
-                "<FamilyName>Winkelstein</FamilyName>, <Initials>W.</Initials>, <FamilyName>Lyman</FamilyName>, <Initials>D.</Initials>, <FamilyName>Padian</FamilyName>, <Initials>N.</Initials>, <FamilyName>Grant</FamilyName>, <Initials>R.</Initials>, <FamilyName>Samuel</FamilyName>, <Initials>M.</Initials>, <FamilyName>Wiley</FamilyName>, <Initials>J.</Initials>, <FamilyName>Anderson</FamilyName>, <Initials>R.</Initials>, <FamilyName>Lang</FamilyName>, <Initials>W.</Initials>, <FamilyName>Riggs</FamilyName>, <Initials>J.</Initials>, & <FamilyName>Levy</FamilyName>, <Initials>J.</Initials> (<Year>1987</Year>). <ArticleTitle>Sexual practices and risk of infection by the human immunodeficiency virus: The San Francisco Men’s Health Study</ArticleTitle>. <JournalTitle>Journal of the American Medical Association</JournalTitle>, <VolumeID>257</VolumeID>, <FirstPage>321</FirstPage>–<LastPage>325</LastPage>.";
-        tokenizeSingleXMLAug(anAnnotatedRef);
+//        String anAnnotatedRef =
+//                "<FamilyName>Winkelstein</FamilyName>, <Initials>W.</Initials>, <FamilyName>Lyman</FamilyName>, <Initials>D.</Initials>, <FamilyName>Padian</FamilyName>, <Initials>N.</Initials>, <FamilyName>Grant</FamilyName>, <Initials>R.</Initials>, <FamilyName>Samuel</FamilyName>, <Initials>M.</Initials>, <FamilyName>Wiley</FamilyName>, <Initials>J.</Initials>, <FamilyName>Anderson</FamilyName>, <Initials>R.</Initials>, <FamilyName>Lang</FamilyName>, <Initials>W.</Initials>, <FamilyName>Riggs</FamilyName>, <Initials>J.</Initials>, & <FamilyName>Levy</FamilyName>, <Initials>J.</Initials> (<Year>1987</Year>). <ArticleTitle>Sexual practices and risk of infection by the human immunodeficiency virus: The San Francisco Men’s Health Study</ArticleTitle>. <JournalTitle>Journal of the American Medical Association</JournalTitle>, <VolumeID>257</VolumeID>, <FirstPage>321</FirstPage>–<LastPage>325</LastPage>.";
+//        tokenizeSingleXMLAug(anAnnotatedRef);
+//        
         
         
+        // 1. Run Reflexica on plaintext references with -o color option and produce HTML output file.
         
         
+        // 2. Convert Reflexica HTML output file to XML annotated file.
+        // Input file consists of folder + filename.
+        // Reflexica output HTML file has to be UTF-8 encoded !
+        // First, run:
+        // iconv -f ascii -t utf-8//IGNORE References_7518_utf8encoded.txt.html -o utf8file.html
+        String inputfolder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
+        String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
         
+        String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
+        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
+        
+        
+        // 3. Convert XML annotated file to tokenized CRF format.
         tokenizeMultipleXMLAugsFromFile(
                 // Input.
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
@@ -62,6 +77,7 @@ public class CRFUtility {
                 );
         
         
+        // 4. Visualize tokenized CRF format.
         CRFVisualizerNew.visualizeCRFOutput(
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
                 "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
@@ -179,6 +195,13 @@ public class CRFUtility {
         w.flush();
         w.close();
 
+    }
+
+    private static void convertReflexicaHTMLtoXMLAug(String inputfolder, String inputfile, String outputfile) {
+        
+        ReflexHTMLtoXMLAugConverter myEntry = new ReflexHTMLtoXMLAugConverter();
+        myEntry.convertFiles(inputfolder, inputfile, outputfile);
+        
     }
     
     
