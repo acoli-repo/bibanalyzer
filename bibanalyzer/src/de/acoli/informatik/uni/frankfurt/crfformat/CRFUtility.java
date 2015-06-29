@@ -60,7 +60,8 @@ public class CRFUtility {
         // First, run:
         // iconv -f ascii -t utf-8//IGNORE References_7518_utf8encoded.txt.html -o utf8file.html
         String inputfolder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
-        String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
+        //String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
+        String inputfile = "4500_biball_TRAIN_raw.txt.html.utf-8.html";
         
         String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
         convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
@@ -70,20 +71,20 @@ public class CRFUtility {
         tokenizeMultipleXMLAugsFromFile(
                 // Input.
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt", 
+                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt", 
                 // Output.
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt"
+                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt"
                 );
         
         
         // 4. Visualize tokenized CRF format.
         CRFVisualizerNew.visualizeCRFOutput(
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
+                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
                 
                 "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "450_biball_TEST_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt.vis.html"
+                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt.vis.html"
         
         );
         

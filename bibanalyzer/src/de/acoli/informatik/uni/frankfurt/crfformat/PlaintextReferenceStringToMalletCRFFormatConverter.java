@@ -65,9 +65,11 @@ public class PlaintextReferenceStringToMalletCRFFormatConverter {
                     "(?<=\\))|(?=\\))|" +  // closing bracket 
                     "(?<=\\()|(?=\\()|" +  // opening bracket
                     "(?<=:)|(?=:)|" +       // colon
-                    "(?<=;)|(?=;)|" +       // semicolon
+                 //   "(?<=;)|(?=;)|" +       // semicolon
                     "(?<=-)|(?=-)|" +       // hyphen
                     "(?<=–)|(?=–)|" +       // hyphen
+                    "(?<=\")|(?=\")|" +       //
+                    // & fehlt.
                     "(?<=“)|(?=“)|" +       //
                     "(?<=”)|(?=”)|" +        
                     "(?<=')|(?=')|" +       

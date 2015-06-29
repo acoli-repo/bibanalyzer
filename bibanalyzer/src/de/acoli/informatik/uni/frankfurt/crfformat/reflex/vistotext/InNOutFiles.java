@@ -111,7 +111,11 @@ public class InNOutFiles extends ReadFile {
                     
                     .replace("&amp;nbsp;", " ") // seltsame Reflexica nbps
                     .replaceAll("lang=EN-US>&lt;bib id=&quot;bib.+&quot;&gt;", "style='#000000'>").replaceAll("&lt;/bib&gt;", "")
-                    .replaceAll("<?edrg>", "");
+                    .replaceAll("<?edrg>", "")
+                     .replace("</ ", " ")
+                     .replace("</,", ",")
+                     .replace("</.", ".")
+                     .replace("</:", ":");
             line = StringEscapeUtils.unescapeHtml4(line);
 			// line = line.replaceAll("<", "<");
             // newNode(line.substring(beginIndex, endIndex), root);
