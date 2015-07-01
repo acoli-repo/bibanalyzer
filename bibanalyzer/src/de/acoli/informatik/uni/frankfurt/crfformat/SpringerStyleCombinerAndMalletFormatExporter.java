@@ -53,7 +53,8 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
     
     
      public static final String inputpath = "/home/niko/Desktop/Springer/springer_demo/Rohdaten/springer_APP/3.filtered/";
-     public static final String EXPORT_TO = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training_2/kapitel/";
+     public static final String EXPORT_TO = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
+             + "total/crf++/15000references/books/";
     
     
     
@@ -63,11 +64,11 @@ public class SpringerStyleCombinerAndMalletFormatExporter {
      * bibbook
      * bibchapter
      */
-    public static final String BIBTYPE = "bibchapter";
+    public static final String BIBTYPE = "bibbook";
     public static final String BIBSTYLE = "all";
 
-    public static final int EXPORT_HOW_MANY_TRAIN = 1500;
-    public static final int EXPORT_HOW_MANY_TEST = 150;
+    public static final int EXPORT_HOW_MANY_TRAIN = 4300;
+    public static final int EXPORT_HOW_MANY_TEST = 430;
     
     // Set this to 0.7 or 0.8 if you want everything annotated.
     // 0.0 means, we allow references to be exported that have no annotations.

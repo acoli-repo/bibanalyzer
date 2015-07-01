@@ -61,7 +61,7 @@ public class InNOutFiles extends ReadFile {
         colorMap.put("00FFFF", "<SeriesTitle>");
 
         colorMap.put("FF0099", "<ConfEventName>");
-        colorMap.put("FF6666", "<BibComments>");
+        //colorMap.put("FF6666", "<BibComments>");
         colorMap.put("FFFF0F", "<BibComments>"); // from Reference Manager! (looks like PublisherName).
 
         colorMap.put("CC0000", "<NumberInSeries>");

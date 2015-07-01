@@ -37,13 +37,13 @@ public class FeaturesJournalNameAdder2 {
     private static final String INPUT_FILE = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/"
             + "einModell3Bibtypes/training/total/crf++/4500references/"
             + "alignment/"
-            + "reflexica_annotations_journame_dict_pubname_year_ednum/"
-            //+ "4331_train_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt";
-            + "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt";
+            + "reflexica_annotations_journame_dict_pubname_year_ednum_confeventname_seriestitle/"
+            //+ "4331_train.txt";
+            + "437_test.txt";
 
 
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-        addDataBaseFeatures(INPUT_FILE, INPUT_FILE + ".ednum.txt", DictReader.EDNUM_SPRINGER, "", true);
+        addDataBaseFeatures(INPUT_FILE, INPUT_FILE + ".seriestit.txt", DictReader.SERIESTIT_SPRINGER, "", true);
     }
     
     

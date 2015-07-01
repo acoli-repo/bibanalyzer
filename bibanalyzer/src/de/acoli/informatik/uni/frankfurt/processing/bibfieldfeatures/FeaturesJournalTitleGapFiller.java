@@ -25,9 +25,9 @@ public class FeaturesJournalTitleGapFiller {
 //    
     
     static String IN = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/"
-            + "alignment/reflexica_annotations_journame_dict_pubname_year_ednum/"
-            //+ "437_test_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt.ednum.txt";
-            + "4331_train_aligned.txt.jourtit.txt.fix.txt.dict.txt.fix.txt.jourtit.txt.fix.txt.year.txt.fix.txt.ednum.txt";
+            + "alignment/reflexica_annotations_journame_dict_pubname_year_ednum_confeventname_seriestitle/"
+            + "437_test.txt.seriestit.txt";
+            //+ "4331_train.txt.seriestit.txt";
     
     
     public static void main(String[] args) throws FileNotFoundException {
@@ -77,16 +77,35 @@ public class FeaturesJournalTitleGapFiller {
 //                    w.write(aLine + "\n");
 //                }
                 
+//                
+//                   
+//                
+//                if(split.length == 7) {
+//                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " " + split[5] +  " <isNotSEN> " + split[6] + "\n");
+//                }
+//                else if(split.length == 8) {
+//                    w.write(aLine + "\n");
+//                }
                 
-                   
+                 
+//                   
+//                
+//                if(split.length == 8) {
+//                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " " + split[5] + " " + split[6] +  " <isNotSCEN> " + split[7] + "\n");
+//                }
+//                else if(split.length == 9) {
+//                    w.write(aLine + "\n");
+//                }
                 
-                if(split.length == 7) {
-                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " " + split[5] +  " <isNotSEN> " + split[6] + "\n");
+                
+                      
+                
+                if(split.length == 9) {
+                    w.write(split[0] + " " + split[1] + " " + split[2] +  " " + split[3] + " " + split[4] +  " " + split[5] + " " + split[6] + " " + split[7]  + " <isNotSST> " + split[8] + "\n");
                 }
-                else if(split.length == 8) {
+                else if(split.length == 10) {
                     w.write(aLine + "\n");
                 }
-                
                 
                 else {
                     System.out.println("Something wrong with the input:");

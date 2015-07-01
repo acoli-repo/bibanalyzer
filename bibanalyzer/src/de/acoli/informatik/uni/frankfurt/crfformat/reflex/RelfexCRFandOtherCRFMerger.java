@@ -32,12 +32,30 @@ import java.util.Scanner;
 public class RelfexCRFandOtherCRFMerger {
 
     // Reflex CRF file.
-    public static String REFLEX_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/"
-            + "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt";
-    // Other CRF file.
-    public static String OTHER_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/best_model/"
-            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
+//    public static String REFLEX_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/"
+//            + "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt";
+//    // Other CRF file.
+//    public static String OTHER_CRF = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/4500references/with_font_journaltitle_dict_pubname_year/best_model/"
+//            + "4500_TRAIN_font_jourtit_dict_pubname_year.txt";
 
+
+    public static final String REFLEX_DIR = 
+            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/crfformat/";
+    
+    public static final String CRF_DIR = 
+    "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/total/crf/";
+    
+    public static String REFLEX_CRF
+            = REFLEX_DIR
+            + "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt.crf.txt";
+
+    public static String OTHER_CRF
+            = CRF_DIR
+            + "12900_biball_TRAIN.txt";
+
+    
+    
+    
     public static void main(String[] args) throws FileNotFoundException {
 
         if (args.length == 2) {
@@ -272,7 +290,7 @@ public class RelfexCRFandOtherCRFMerger {
         
         // Export:
         
-        PrintWriter w = new PrintWriter(new File("/home/niko/Desktop/train_aligned.txt"));
+        PrintWriter w = new PrintWriter(new File("/home/niko/Desktop/train_big_align.txt"));
         for(ArrayList<String> l : annotatedLines) {
             for(String e : l) {
                 w.write(e.trim() + "\n");

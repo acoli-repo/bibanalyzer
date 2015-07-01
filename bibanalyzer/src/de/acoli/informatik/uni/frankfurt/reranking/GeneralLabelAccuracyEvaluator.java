@@ -42,8 +42,8 @@ public class GeneralLabelAccuracyEvaluator {
             + ""
             + ""
             + "alignment/"
-            + "no_annotations/"
-            + "output_model_no_annotations.txt";
+            + "reflexica_annotations_journame/"
+            + "output_reflexica_journame_c1.txt";
             
     public static ArrayList<String> labels = new ArrayList<String>();
 

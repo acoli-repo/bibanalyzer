@@ -51,42 +51,74 @@ public class CRFUtility {
 //        
         
         
-        // 1. Run Reflexica on plaintext references with -o color option and produce HTML output file.
+//        // 1. Run Reflexica on plaintext references with -o color option and produce HTML output file.
+//        
+//        
+//        // 2. Convert Reflexica HTML output file to XML annotated file.
+//        // Input file consists of folder + filename.
+//        // Reflexica output HTML file has to be UTF-8 encoded !
+//        // First, run:
+//        // iconv -f ascii -t utf-8//IGNORE References_7518_utf8encoded.txt.html -o utf8file.html
+//        String inputfolder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
+//        //String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
+//        String inputfile = "4500_biball_TRAIN_raw.txt.html.utf-8.html";
+//        
+//        String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
+//        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
+//        
+//        
+//        // 3. Convert XML annotated file to tokenized CRF format.
+//        tokenizeMultipleXMLAugsFromFile(
+//                // Input.
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+//                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt", 
+//                // Output.
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+//                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt"
+//                );
+//        
+//        
+//        // 4. Visualize tokenized CRF format.
+//        CRFVisualizerNew.visualizeCRFOutput(
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+//                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
+//                
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
+//                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt.vis.html"
+//        );
+//        
+        
+//          String inputfolder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
+//        //String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
+//        String inputfile = "4500_biball_TRAIN_raw.txt.html.utf-8.html";
+//        
+//        String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
+//        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
+//      
         
         
-        // 2. Convert Reflexica HTML output file to XML annotated file.
-        // Input file consists of folder + filename.
-        // Reflexica output HTML file has to be UTF-8 encoded !
-        // First, run:
-        // iconv -f ascii -t utf-8//IGNORE References_7518_utf8encoded.txt.html -o utf8file.html
-        String inputfolder = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/";
-        //String inputfile = "450_biball_TEST_raw.txt.html.utf-8.html";
-        String inputfile = "4500_biball_TRAIN_raw.txt.html.utf-8.html";
+//          
+//        String inputfolder = "/home/niko/Desktop/"
+//                + "Springer_Reflexica_StatistischeModelle/"
+//                + "einModell3Bibtypes/"
+//                + "training/total/crf++/12900references/analyzed_by_reflexica/html/";
+//            //String inputfile = "1290_biball_TEST_raw.txt.utf8.html";
+//            String inputfile = "12900_biball_TRAIN_raw.txt.utf8.html";
+//        
+//        String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
+//        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
+//      
         
-        String outputfile = inputfolder + inputfile + "_refl2xmlaug.txt";
-        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
         
         
-        // 3. Convert XML annotated file to tokenized CRF format.
         tokenizeMultipleXMLAugsFromFile(
                 // Input.
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt", 
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
+                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt", 
                 // Output.
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt"
+                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
+                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt.crf.txt"
                 );
-        
-        
-        // 4. Visualize tokenized CRF format.
-        CRFVisualizerNew.visualizeCRFOutput(
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt",
-                
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/bibHtml2TokenFormat/in/" +
-                "4500_biball_TRAIN_raw.txt.html.utf-8.html_refl2xmlaug.txt.crf.txt.vis.html"
-        
-        );
         
         
     }
