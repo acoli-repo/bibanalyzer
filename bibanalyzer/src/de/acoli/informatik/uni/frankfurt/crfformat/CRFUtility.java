@@ -31,6 +31,11 @@ public class CRFUtility {
      */
     public static void main(String[] args) throws FileNotFoundException {
         
+                String anUnannotatedRef = "Montgomery DC (1997) Response surface methods and other approaches to process optimization. In: Montogmery DC (ed) Design and analysis of experiments. Wiley, New York, pp 427-510";
+        tokenizeSinglePlaintextRef(anUnannotatedRef);
+        
+        
+        
 //        String anUnannotatedRef = "W. C. Hawkes, D. S. Kelley, "
 //                + "and P. C. Taylor, "
 //                + "The effects of dietary selenium on the immune system in healthy men, "
@@ -109,17 +114,17 @@ public class CRFUtility {
 //        convertReflexicaHTMLtoXMLAug(inputfolder, inputfile, outputfile);
 //      
         
-        
-        
-        tokenizeMultipleXMLAugsFromFile(
-                // Input.
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
-                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt", 
-                // Output.
-                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
-                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt.crf.txt"
-                );
-        
+//        
+//        
+//        tokenizeMultipleXMLAugsFromFile(
+//                // Input.
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
+//                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt", 
+//                // Output.
+//                "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/crf++/12900references/analyzed_by_reflexica/xmlaug/" +
+//                "12900_biball_TRAIN_raw.txt.utf8.html_refl2xmlaug.txt.crf.txt"
+//                );
+//        
         
     }
     

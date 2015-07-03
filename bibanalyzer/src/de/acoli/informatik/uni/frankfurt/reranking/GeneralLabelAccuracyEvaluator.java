@@ -38,13 +38,9 @@ public class GeneralLabelAccuracyEvaluator {
     public static final String TEST_TAGGED = "/home/niko/Desktop/"
             //+ "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/model_output.txt";
             + "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
-            + "total/crf++/4500references/"
-            + ""
-            + ""
-            + "alignment/"
-            + "reflexica_annotations_journame/"
-            + "output_reflexica_journame_c1.txt";
-            
+            + "total/crf++/4500references/alignment/reflexica_annotations/only_reflexica_annotations/"
+            + "output_model_onlyreflexicaannotations_mit12900ermodell.txt";
+
     public static ArrayList<String> labels = new ArrayList<String>();
 
     static {
@@ -64,7 +60,6 @@ public class GeneralLabelAccuracyEvaluator {
         labels.add("<Degrees>");
         labels.add("<InstitutionalAuthorName>");
         labels.add("<BibInstitutionalEditorName>");
-        
 
         labels.add("<Handle>");
         labels.add("<BibComments>");
@@ -80,10 +75,9 @@ public class GeneralLabelAccuracyEvaluator {
 
         labels.add("<Url>");
         labels.add("<URL>");
-        
+
         labels.add("<Isbn>");
         labels.add("<ISBN>");
-        
 
         // Books.
         labels.add("<BookTitle>");
@@ -93,13 +87,12 @@ public class GeneralLabelAccuracyEvaluator {
         labels.add("<EditionNumber>");
         labels.add("<NumberInSeries>");
 
-        
         // Chapters.
         labels.add("<ChapterTitle>");
         labels.add("<ConfEventName>"); // Will most likely be tagged "PublisherLocation".
-        
+
         labels.add("<ConfEventLocation>");
-        
+
     }
 
     // Reads in a predicted output Mallet file and evaluates accuracy.
@@ -120,12 +113,12 @@ public class GeneralLabelAccuracyEvaluator {
 
                 // MALLET format.
                 if (MALLET) {
-                    
+
                     predicted = items[1].replace("<Reflex", "<");
                     gold = items[2];
                   //  System.out.println("predicted:" + predicted);
-                  //  System.out.println("gold:" + gold);
-                    
+                    //  System.out.println("gold:" + gold);
+
 //                    predicted = items[0];
 //                    //<JournalTitle> &nbsp; <JournalTitle> 
 //                    if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
@@ -135,7 +128,6 @@ public class GeneralLabelAccuracyEvaluator {
 //                    else {
 //                        gold = items[items.length - 2];
 //                    }
-
                 } // CRF++ format.
                 else {
                     predicted = items[items.length - 1];
@@ -159,11 +151,10 @@ public class GeneralLabelAccuracyEvaluator {
 
         //********** 
         // Evaluate accuracy measures for each label.
-        
         int allSpecifiedLabelPredicted = 0;
         int allSpecifiedLabelCorrect = 0;
         int allSpecifiedTagCount = 0;
-        
+
         for (String LABEL : labels) {
             Scanner s = new Scanner(new File(TEST_TAGGED));
 
@@ -181,12 +172,10 @@ public class GeneralLabelAccuracyEvaluator {
 
                     // MALLET format.
                     if (MALLET) {
-                        
-                        
-                    predicted = items[1].replace("<Reflex", "<");
-                    gold = items[2];
-                        
-                        
+
+                        predicted = items[1].replace("<Reflex", "<");
+                        gold = items[2];
+
 //                        predicted = items[0];
 //                        //<JournalTitle> &nbsp; <JournalTitle> 
 //                        if (items[items.length - 1].startsWith("<") && items[items.length - 1].endsWith(">")) {
@@ -202,21 +191,26 @@ public class GeneralLabelAccuracyEvaluator {
                         gold = items[items.length - 2];
                     }
 
-                //   System.out.println("pred: " + predicted + " gold: " + gold + " tok: " + token);
+                    //   System.out.println("pred: " + predicted + " gold: " + gold + " tok: " + token);
                     // <JournalTitle>.
                     // We have match! (gold equals predicted).
                     if (predicted.equals(gold) && gold.equals(LABEL)) {
-                        labelPredicted++;   allSpecifiedLabelPredicted++;
-                        labelCorrect++;  allSpecifiedLabelCorrect++;
-                        labelTagCount++;  allSpecifiedTagCount++;
+                        labelPredicted++;
+                        allSpecifiedLabelPredicted++;
+                        labelCorrect++;
+                        allSpecifiedLabelCorrect++;
+                        labelTagCount++;
+                        allSpecifiedTagCount++;
                     } // We predict "journaltitle" but it should not be "journaltitle".
                     else if (predicted.equals(LABEL) && !gold.equals(LABEL)) {
                         //System.out.println(aLine);;
-                        labelPredicted++;    allSpecifiedLabelPredicted++;
+                        labelPredicted++;
+                        allSpecifiedLabelPredicted++;
                     } // Gold is "journaltitle", but we predict something else.
                     else if (gold.equals(LABEL)) {
                         //System.out.println(aLine);
-                        labelTagCount++;   allSpecifiedTagCount++;
+                        labelTagCount++;
+                        allSpecifiedTagCount++;
                     } else {
                         // Something which does not involve "journaltitle".
                         // Not relevant for computations.
@@ -239,25 +233,22 @@ public class GeneralLabelAccuracyEvaluator {
             System.out.println(" precision: " + precision + ", recall: " + recall + ", F1: " + F1);
             System.out.println();
         }
-        
-        
-        
-        
-        // *** ALL.
-            System.out.println("\n");
-        System.out.println("******* ");
-         System.out.println("****** MODEL performance: ");
-         System.out.println("**** ");
-         
-            System.out.println("Prec, Recall, F1 based on specified labels:");
-            double precision = (double) allSpecifiedLabelCorrect / allSpecifiedLabelPredicted;
-            double recall = (double) allSpecifiedLabelCorrect / allSpecifiedTagCount;
-            double F1 = (double) 2 * (precision * recall) / (precision + recall);
-            System.out.println("number of gold labels: \t" + allSpecifiedTagCount);
-            System.out.println("number of predictions: \t" + allSpecifiedLabelPredicted);
-            System.out.println("correct matches: \t" + allSpecifiedLabelCorrect);
 
-            System.out.println(" precision: " + precision + ", recall: " + recall + ", F1: " + F1);
-            System.out.println();
+        // *** ALL.
+        System.out.println("\n");
+        System.out.println("******* ");
+        System.out.println("****** MODEL performance: ");
+        System.out.println("**** ");
+
+        System.out.println("Prec, Recall, F1 based on specified labels:");
+        double precision = (double) allSpecifiedLabelCorrect / allSpecifiedLabelPredicted;
+        double recall = (double) allSpecifiedLabelCorrect / allSpecifiedTagCount;
+        double F1 = (double) 2 * (precision * recall) / (precision + recall);
+        System.out.println("number of gold labels: \t" + allSpecifiedTagCount);
+        System.out.println("number of predictions: \t" + allSpecifiedLabelPredicted);
+        System.out.println("correct matches: \t" + allSpecifiedLabelCorrect);
+
+        System.out.println(" precision: " + precision + ", recall: " + recall + ", F1: " + F1);
+        System.out.println();
     }
 }
