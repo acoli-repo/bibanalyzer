@@ -2,6 +2,15 @@ package de.acoli.informatik.uni.frankfurt.featureengineering;
 
 import java.util.ArrayList;
 
+/**
+ * Class for representation of each token in a reference.
+ * It represents the actual word(token), with its tag or category and
+ * an array of features used for better classification. Also the getters
+ * and setters for them.
+ * 
+ * @author Suman Kumar Chalavadi <Suman.Chalavadi@crest.in>
+ *
+ */
 public class ReferenceToken {
 	String token;
 	String tag;
@@ -26,11 +35,18 @@ public class ReferenceToken {
 		this.features = features;
 	}
 	
+	/**
+	 * Just returns the token and the tag.
+	 * @return
+	 */
 	public String toPrintString() {
 		//return token + " " + features  + " " + tag;
 		return token + " " + tag;
 	}
 	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	public String toString() {
 		//return token + " " + features  + " " + tag;
 		String featureString = "";

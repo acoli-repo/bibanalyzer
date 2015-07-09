@@ -12,67 +12,38 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CrfDataLoader {
 
-	public static void main(String[] args) throws FileNotFoundException {
-		String filePath = "model_optimizations/testing/train450_with_features2.txt";
-		String outFilePath = "model_optimizations/testing/train450_with_features4.txt";
-		List<Reference> references = loadCRFData(filePath);
+/**
+ * For loading, storing, printing CRF Format data with/without features.
+ * 
+ * @author Suman Kumar Chalavadi <Suman.Chalavadi@crest.in>
+ *
+ */
+public class CrfDataHandler {
 
-		//addLowerCaseFeature(references);
-		//addNumericFeatures(references);
-		//addOrthographicFeatures(references);
-		//addTokenPositionFeatures(references);
-		addTokenBasedFeatures(references);
-		
-		
-		printCRFData(references);
-		saveCRFData(outFilePath, references);
 
-	}
-
-	private static void addTokenBasedFeatures(List<Reference> references) {
-		for(Reference reference : references) {
-			reference.addLowerCaseFeatures();
-			reference.addNumericFeatures();
-			reference.addOrthographicFeatures();
-			reference.addTokenPositionFeatures();
-		}
-	}
-
-	private static void addOrthographicFeatures(List<Reference> references) {
-		for(Reference reference : references) {
-			reference.addOrthographicFeatures();
-		}
-	}
-
-	private static void addTokenPositionFeatures(List<Reference> references) {
-		for(Reference reference : references) {
-			reference.addTokenPositionFeatures();
-		}
-	}
-
-	private static void addNumericFeatures(List<Reference> references) {
-		for(Reference reference : references) {
-			reference.addNumericFeatures();
-		}
-	}
-
-	private static void printCRFData(List<Reference> references) {
+	/**
+	 * Prints the references data in print Format to standard out.
+	 * 
+	 * @param references
+	 */
+	static void printCRFData(List<Reference> references) {
 		for(Reference reference : references) {
 			System.out.println(reference.toPrintString());
 			//System.out.println();
 		}
 	}
 
-	private static void addLowerCaseFeature(List<Reference> references) {
-		for(Reference reference : references) {
-			reference.addLowerCaseFeatures();
-		}
-		
-	}
 
-	private static void saveCRFData(String outFilePath,
+
+	/**
+	 * Saves the CRF data in to given file path in CRF++ format.
+	 * 
+	 * @param outFilePath
+	 * @param references
+	 * @throws FileNotFoundException
+	 */
+	static void saveCRFData(String outFilePath,
 			List<Reference> references) throws FileNotFoundException {
 		try (PrintStream out = new PrintStream(new FileOutputStream(outFilePath))) {
 			for(Reference reference : references) {
@@ -84,7 +55,13 @@ public class CrfDataLoader {
 		
 	}
 
-	private static List<Reference> loadCRFData(String filePath) {
+	/**
+	 * Loads Crf++ formatted file and returns references as list.
+	 * 
+	 * @param filePath
+	 * @return
+	 */
+	static List<Reference> loadCRFData(String filePath) {
 		// Training File Path
 		Path path = Paths.get(filePath);
 		Charset charset = Charset.forName("UTF-8");
