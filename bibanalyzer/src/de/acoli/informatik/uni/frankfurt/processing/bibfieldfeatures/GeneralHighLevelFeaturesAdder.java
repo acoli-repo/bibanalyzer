@@ -31,7 +31,7 @@ import java.util.Scanner;
  *
  * @author niko
  */
-public class FeaturesJournalNameAdder2 {
+public class GeneralHighLevelFeaturesAdder {
 
     // Input file which we want to augment with journal information from RefLexica DB.
     private static final String INPUT_FILE = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/"
