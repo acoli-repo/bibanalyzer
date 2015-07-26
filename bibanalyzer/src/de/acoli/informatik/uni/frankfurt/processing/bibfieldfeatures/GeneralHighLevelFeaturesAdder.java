@@ -34,16 +34,26 @@ import java.util.Scanner;
 public class GeneralHighLevelFeaturesAdder {
 
     // Input file which we want to augment with journal information from RefLexica DB.
-    private static final String INPUT_FILE = "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/"
-            + "einModell3Bibtypes/training/total/crf++/4500references/"
-            + "alignment/"
-            + "reflexica_annotations_journame_dict_pubname_year_ednum_confeventname_seriestitle/"
-            //+ "4331_train.txt";
-            + "437_test.txt";
-
+    private static final String INPUT_FILE = "C:\\Users\\Niko\\Documents\\"
+            + "Springer_Reflexica_StatistischeModelle\\einModell3Bibtypes\\training\\total\\"
+            + "crf++\\12900references\\fromSpringerDUMP\\total\\aligned_with_reflexica\\only_reflexica_annotations\\features\\"
+            //+ "test_1255.txt";
+         
+            //+ "train_12561.txt";
+            + "train_12561.txt.jt.txt.fix";
 
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-        addDataBaseFeatures(INPUT_FILE, INPUT_FILE + ".seriestit.txt", DictReader.SERIESTIT_SPRINGER, "", true);
+        
+        //String outputFile = INPUT_FILE + ".jt.txt";
+        //addDataBaseFeatures(INPUT_FILE, outputFile, DictReader.JOURTIT_SPRINGER, "", true);
+        //GeneralHighLevelFeaturesGapFiller.fillGaps(outputFile, "<isNotJT>", true);
+        
+        
+        String newOutputFile = INPUT_FILE + ".ed.txt";
+        addDataBaseFeatures(INPUT_FILE, newOutputFile, DictReader.EDNUM_SPRINGER, "", true);
+        GeneralHighLevelFeaturesGapFiller.fillGaps(newOutputFile, "C:bla", "<isNotED>", true);
+        
+        
     }
     
     

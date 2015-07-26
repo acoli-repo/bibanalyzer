@@ -10,9 +10,26 @@ import java.util.List;
  *
  */
 public class FeatureExtractor {
+    
+    
 	public static void main(String[] args) throws FileNotFoundException {
-		String filePath = "model_optimizations/testing/4500_biball_TRAIN.txt";
-		String outFilePath = "model_optimizations/testing/train4500_with_features3a.txt";
+            String DIR = "C:\\Users\\Niko\\Documents\\"
+            + "Springer_Reflexica_StatistischeModelle\\einModell3Bibtypes\\training\\total\\"
+            + "crf++\\12900references\\fromSpringerDUMP\\total\\aligned_with_reflexica\\only_reflexica_annotations\\features\\";
+            
+            String input = DIR + "train_12561.txt.jt.txt.fix.ed.txt.fix.dict.fix.year.fix";
+            String output = DIR + "train_12561.txt.jt.txt.fix.ed.txt.fix.dict.fix.year.fix.final";
+            addSumansLowLevelFeatures(input, output);
+        }
+        
+        public static void addSumansLowLevelFeatures(String inputFile, String outputFile) throws FileNotFoundException {
+		
+                //String filePath = "model_optimizations/testing/4500_biball_TRAIN.txt";
+		//String outFilePath = "model_optimizations/testing/train4500_with_features3a.txt";
+                
+            String filePath = inputFile;
+            String outFilePath = outputFile;
+            
 		List<Reference> references = CrfDataHandler.loadCRFData(filePath);
 
 		//addLowerCaseFeature(references);
