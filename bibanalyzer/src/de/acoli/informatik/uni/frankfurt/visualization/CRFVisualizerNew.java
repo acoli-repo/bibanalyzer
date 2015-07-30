@@ -58,11 +58,11 @@ public class CRFVisualizerNew {
    
    
     public static final String INPUT_CRF_FILE = 
-            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
-            + "total/crf++/4500references/alignment/reflexica_annotations_journame_dict_pubname_year_ednum/"
-            + "output_model_reflexicaannotations_journame_dict_pubname_year_ednum.txt";
-   
-   
+//            "/home/niko/Desktop/Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
+//            + "total/crf++/4500references/alignment/reflexica_annotations_journame_dict_pubname_year_ednum/"
+//            + "output_model_reflexicaannotations_journame_dict_pubname_year_ednum.txt";
+//   
+            "C:/Users/niko/Desktop/featurePipeline/output.tagged.postprocessed";
              
             
     

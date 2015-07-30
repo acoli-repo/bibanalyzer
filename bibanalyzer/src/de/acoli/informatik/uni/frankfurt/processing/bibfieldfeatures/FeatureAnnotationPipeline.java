@@ -28,12 +28,13 @@ public class FeatureAnnotationPipeline {
     
     public static String inputDir = "C:/Users/niko/Desktop/featurePipeline/";
     public static String inputFile = "test_1255.txt";
+    public static String outputFile = "test_1255_anno.txt";
     
     public static void main(String[] args) throws FileNotFoundException {
-        addFeaturesToFile(inputDir, inputFile);
+        addFeaturesToFile(inputDir, inputFile, outputFile);
     }
     
-    public static void addFeaturesToFile(String anInputDir, String anInputFileName) throws FileNotFoundException {
+    public static void addFeaturesToFile(String anInputDir, String anInputFileName, String outputFile) throws FileNotFoundException {
         
         String file = anInputDir + anInputFileName;
         

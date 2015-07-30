@@ -53,52 +53,47 @@ public class CRFOutputReader {
 
         Scanner crfOutputScan = new Scanner(new File(fileName));
 
+        
+                ArrayList<String[]> aRefToks = new ArrayList<String[]>();
         while (crfOutputScan.hasNextLine()) {
 
             String aLine = crfOutputScan.nextLine().trim();
+            //System.out.println(aLine);
 
+            
             if (aLine.length() > 0) {
-                ArrayList<String[]> aRefToks = new ArrayList<String[]>();
-                while (true) {
-                    String[] split = aLine.split("\\s");
 
-                    // Handle features.
-                    String lab = split[0];
-                    String tok = "";
+                //System.out.println(aLine);
+                String[] split = aLine.split("\\s");
 
-                    for (String item : split) {
-                        if (!(item.contains("<") && item.contains(">"))) {
-                            tok = item;
-                        }
-                    }
+                // Handle features.
+                String goldlab = split[split.length - 2];
+                String predlab = split[split.length - 1];
+                
+                String tok = split[0];
 
-                    split[0] = lab;
-                    split[1] = tok;
+                String[] arr = new String[3];
+                arr[0] = tok;
+                arr[1] = goldlab;
+                arr[2] = predlab;
 
-                    //System.out.println(split[0] + "---" + split[1]);
-                    if (split[1].equals("EOR")) {
-                        if (includeBOSandEOS) {
-                            aRefToks.add(new String[]{"<EOR>", "EOR"});
-                        }
-                        referencesPlusTokens.add(aRefToks);
-                        break;
-                    } else {
-                        if (!split[1].equals("BOR")) {
-                            aRefToks.add(split);
-                        } else {
-                            if (includeBOSandEOS) {
-                                aRefToks.add(new String[]{"<BOR>", "BOR"});
-                            }
-                        }
-                        aLine = crfOutputScan.nextLine();
-                    }
+                if (predlab.equals("<EOR>")) {
+                    arr[0] = "EOR"; arr[1] = "<EOR>"; arr[2] = "<EOR>";    aRefToks.add(arr);
+                    referencesPlusTokens.add(aRefToks);
+                    aRefToks = new ArrayList<>();
+                } else {
+                    aRefToks.add(arr);
 
                 }
+
+                
+
+                
             }
         }
         crfOutputScan.close();
 
-        //System.out.println("Read in " + referencesPlusTokens.size() + " complete references.");
+        System.out.println("Read in " + referencesPlusTokens.size() + " complete references.");
         return referencesPlusTokens;
     }
 }

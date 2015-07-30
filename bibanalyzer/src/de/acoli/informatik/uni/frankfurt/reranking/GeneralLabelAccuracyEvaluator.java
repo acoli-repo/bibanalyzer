@@ -35,12 +35,16 @@ public class GeneralLabelAccuracyEvaluator {
     static boolean MALLET = false; // false = CRF++; // 
 
     // Gold--Predicted.
-    public static final String TEST_TAGGED = "/home/niko/Desktop/"
-            //+ "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/model_output.txt";
-            + "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
-            + "total/crf++/4500references/alignment/reflexica_annotations/only_reflexica_annotations/"
-            + "output_model_onlyreflexicaannotations_mit12900ermodell.txt";
+    public static final String TEST_TAGGED = 
+            
+//            "/home/niko/Desktop/"
+//            //+ "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/total/mallet/model_output.txt";
+//            + "Springer_Reflexica_StatistischeModelle/einModell3Bibtypes/training/"
+//            + "total/crf++/4500references/alignment/reflexica_annotations/only_reflexica_annotations/"
+//            + "output_model_onlyreflexicaannotations_mit12900ermodell.txt";
 
+            "C:/Users/niko/Desktop/featurePipeline/output.tagged.postprocessed";
+            
     public static ArrayList<String> labels = new ArrayList<String>();
 
     static {
@@ -130,8 +134,8 @@ public class GeneralLabelAccuracyEvaluator {
 //                    }
                 } // CRF++ format.
                 else {
-                    predicted = items[items.length - 1];
-                    gold = items[items.length - 2];
+                    predicted = items[items.length - 1]; // last is predicted.
+                    gold = items[items.length - 2]; // pre-final is gold.
                 }
 
                 // Overall computation of accuracy!
