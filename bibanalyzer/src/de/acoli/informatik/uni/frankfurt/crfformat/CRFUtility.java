@@ -31,9 +31,9 @@ public class CRFUtility {
      */
     public static void main(String[] args) throws FileNotFoundException {
         
-                String anUnannotatedRef = "Montgomery DC (1997) Response surface methods and other approaches to process optimization. In: Montogmery DC (ed) Design and analysis of experiments. Wiley, New York, pp 427-510";
-        tokenizeSinglePlaintextRef(anUnannotatedRef);
-        
+//                String anUnannotatedRef = "Montgomery DC (1997) Response surface methods and other approaches to process optimization. In: Montogmery DC (ed) Design and analysis of experiments. Wiley, New York, pp 427-510";
+//        tokenizeSinglePlaintextRef(anUnannotatedRef);
+//        
         
         
 //        String anUnannotatedRef = "W. C. Hawkes, D. S. Kelley, "
