@@ -9,7 +9,7 @@ Version of August 5th, 2014
 Copyright (c) 2014 by Christian Chiarcos, Niko Schenk <br>
 Goethe-Universität Frankfurt am Main <br>
 Applied Computational Linguistics Lab (ACoLi) <br>
-http://acoli.cs.uni-frankfurt.de/en.html <br>
+http://acoli.cs.uni-frankfurt.de <br>
 Robert-Mayer-Straße 10 <br>
 60325 Frankfurt am Main <br>
 
